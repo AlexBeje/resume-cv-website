@@ -4,10 +4,12 @@ import LanguageToggle from "../Uitls/LanguageToggle";
 
 function Home({ t }) {
   return (
-    <>
-      <LanguageToggle />
+    <div id="Home">
+      <div className="mt-8">
+        <LanguageToggle />
+      </div>
       <h1>{t("Welcome to React")}</h1>
-    </>
+    </div>
   );
 }
 
