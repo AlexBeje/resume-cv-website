@@ -1,16 +1,9 @@
-import LanguageToggle from "./Uitls/LanguageToggle";
-
-import { DatePicker } from "element-react";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <>
-      <LanguageToggle />
-      <DatePicker
-        placeholder="Pick a week"
-        format="yyyywWW"
-        selectionMode="week"
-      />
+      <Home />
     </>
   );
 }
