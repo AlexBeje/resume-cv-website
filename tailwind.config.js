@@ -3,8 +3,10 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      'primary': '#20a0ff'
-    }
+      primary: "#20a0ff",
+      black: "#000",
+      white: "#fff",
+    },
   },
   plugins: [],
-}
+};

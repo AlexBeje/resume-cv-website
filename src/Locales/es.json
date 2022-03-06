@@ -2,6 +2,10 @@
   "header": {
     "name": "Alexandru",
     "surname": "Bejenaru",
-    "profession": "DESARROLLO DE SOFTWARE - FRONTEND"
+    "profession": "DESARROLLO DE SOFTWARE - FRONTEND",
+    "phone": "642 954 953",
+    "email": "alex.bejenaru93@gmail.com",
+    "linkedin": "alexbeje",
+    "github": "AlexBeje"
   }
 }

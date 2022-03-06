@@ -21,7 +21,7 @@
     "body": [
       "import { withTranslation } from 'react-i18next';",
       "",
-      "function ${$TM_FILENAME_BASE}({ t }) {",
+      "function $TM_FILENAME_BASE({ t }) {",
       "  return (",
       "    <>",
       "      $1",
@@ -29,7 +29,7 @@
       "  );",
       "}",
       "",
-      "export default withTranslation()(${$TM_FILENAME});",
+      "export default withTranslation()($TM_FILENAME_BASE);",
       ""
     ],
     "description": "Create a new react functional component with i18n"

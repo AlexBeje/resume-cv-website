@@ -2,9 +2,9 @@ import { withTranslation } from "react-i18next";
 
 import { Layout } from "element-react/next";
 
-import LanguageToggle from "../Uitls/LanguageToggle";
+import LanguageToggle from "/src/Uitls/LanguageToggle";
 
-import Header from "../Components/Molecules/Header";
+import Header from "/src/Components/Molecules/Header";
 
 function Home({ t }) {
   return (
