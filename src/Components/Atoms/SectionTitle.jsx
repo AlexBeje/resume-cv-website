@@ -6,7 +6,7 @@ function SectionTitle({ children }) {
   };
 
   return (
-    <div id="SectionTitle" class="flex mb-4">
+    <div id="SectionTitle" class="flex mb-4 mt-10">
       <h2 className="m-0">
         <span className="text-primary">{separateTitle(children)}</span>
         <span>{separateTitle(children, true)}</span>

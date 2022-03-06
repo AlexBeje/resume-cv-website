@@ -11,6 +11,25 @@
   "summary": {
     "section": {
       "title": "Summary"
-    }
+    },
+    "content": "Hello, my name is Alex and I am a dedicated Web Developer that participated in national projects (Banco Sabadell and BBVA), and also international projects (One Creation, Deutsche Bank, Zurich, Volkswagen, Audi, Seat and Skoda). I am continuously improving my skills because I have a clear goal in my mind, unleash the most upgraded version of myself into the world."
+  },
+  "experience": {
+    "section": {
+      "title": "Work Experience"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "GFT Technologies SE",
+        "date": "Jun. 2016 - May. 2018",
+        "role": "JUNIOR BACK-END DEVELOPER",
+        "skills": [
+          "I took part in the Implemented MiFID II Deutsche Bank adaptation.",
+          "We used Cobol mainframe language as the main programming tool.",
+          "I have also earned experience in JCL (Job Control Language)."
+        ]
+      }
+    ]
   }
 }

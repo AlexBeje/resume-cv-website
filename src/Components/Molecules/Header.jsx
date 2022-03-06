@@ -14,7 +14,7 @@ function Header({ t }) {
       <code className={`${globalClasses.center} text-[12px] text-primary`}>
         {t("header.profession")}
       </code>
-      <p className={`${globalClasses.center} text-[10px] gap-1 flex-wrap mb-10`}>
+      <p className={`${globalClasses.center} text-[10px] gap-1 flex-wrap`}>
         <Icon type="phone">{t("header.phone")}</Icon>
         <span>|</span>
         <Icon type="email">{t("header.email")}</Icon>
