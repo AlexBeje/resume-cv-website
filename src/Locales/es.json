@@ -16,7 +16,7 @@
   },
   "experience": {
     "section": {
-      "title": "Experiencia Laboral"
+      "title": "Experiencia"
     },
     "items": [
       {
@@ -28,6 +28,61 @@
           "Participé en la implementación de MiFID II en Deutsche Bank.",
           "Utilizamos el lenguaje Cobol (en la plataforma Mainframe) como principal herramienta de programación.",
           "También he adquirido experiencia con el lenguaje JCL (Lenguaje de Control de Trabajo)."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "section": {
+      "title": "Educación"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "IES Caparella",
+        "date": "Sep. 2008 - Jun. 2012",
+        "role": "DAW (Desarrollo de Aplicaciones Web)",
+        "skills": [
+          "SQL",
+          "C++",
+          "Javascript, JQuery, Wordpress"
+        ]
+      }
+    ]
+  },
+  "courses": {
+    "section": {
+      "title": "Cursos"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "Udemy, Inc.",
+        "date": "Ene. 2021",
+        "role": "CSS - The Complete Guide",
+        "skills": [
+          "CSS",
+          "SCSS"
+        ]
+      }
+    ]
+  },
+  "extracurricular": {
+    "section": {
+      "title": "Actividades extracurriculares"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "GitHub, Inc.",
+        "date": "Mar. 2022",
+        "role": "Resume / CV Website",
+        "skills": [
+          "React",
+          "i18next",
+          "React ElementUI",
+          "Tailwind",
+          "React Icons"
         ]
       }
     ]

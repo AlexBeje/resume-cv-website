@@ -6,6 +6,9 @@ import LanguageToggle from "/src/Uitls/LanguageToggle";
 import Header from "/src/Components/Molecules/Header";
 import Summary from "/src/Components/Molecules/Summary";
 import Experience from "/src/Components/Molecules/Experience";
+import Education from "/src/Components/Molecules/Education";
+import Courses from "/src/Components/Molecules/Courses";
+import Extracurricular from "/src/Components/Molecules/Extracurricular";
 
 function Home({ t }) {
   return (
@@ -21,11 +24,20 @@ function Home({ t }) {
         </Layout.Col>
       </Layout.Row>
       <Layout.Row>
-        <Layout.Col>
+        <Layout.Col className="mb-10">
           <Summary />
         </Layout.Col>
-        <Layout.Col>
+        <Layout.Col className="mb-10">
           <Experience />
+        </Layout.Col>
+        <Layout.Col className="mb-10">
+          <Education />
+        </Layout.Col>
+        <Layout.Col className="mb-10">
+          <Courses />
+        </Layout.Col>
+        <Layout.Col>
+          <Extracurricular />
         </Layout.Col>
       </Layout.Row>
     </div>

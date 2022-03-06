@@ -11,7 +11,7 @@ function Experience({ t }) {
       <SectionTitle>{t("experience.section.title")}</SectionTitle>
       {Array.isArray(experienceItems) &&
         experienceItems.map((experience) => (
-          <SectionItem key={experience.id} experience={experience} />
+          <SectionItem key={experience.id} item={experience} />
         ))}
     </>
   );

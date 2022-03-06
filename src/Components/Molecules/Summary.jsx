@@ -6,7 +6,7 @@ function Summary({ t }) {
   return (
     <>
       <SectionTitle>{t("summary.section.title")}</SectionTitle>
-      <p>{t("summary.content")}</p>
+      <p className="mb-0">{t("summary.content")}</p>
     </>
   );
 }

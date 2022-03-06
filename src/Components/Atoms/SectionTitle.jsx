@@ -6,12 +6,11 @@ function SectionTitle({ children }) {
   };
 
   return (
-    <div id="SectionTitle" className="flex mb-4">
+    <div id="SectionTitle" className="flex mb-4 w-full">
       <h2 className="m-0">
-        <span className="text-primary">{separateTitle(children)}</span>
-        <span>{separateTitle(children, true)}</span>
+        {separateTitle(children)}{separateTitle(children, true)}
       </h2>
-      <div className="bg-black flex-1 h-[2px] self-end m-[5px]"></div>
+      <div className="bg-black h-[2px] self-end m-[5px] flex-[1_1_100%]"></div>
     </div>
   );
 }
