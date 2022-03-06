@@ -1,3 +1,7 @@
 {
-  "Welcome to React": "Bienvenidos!"
+  "header": {
+    "name": "Alexandru",
+    "surname": "Bejenaru",
+    "profession": "DESARROLLO DE SOFTWARE - FRONTEND"
+  }
 }

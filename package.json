@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "scripts": {
     "serve": "vite",
+    "serve:tailwind": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch",
     "build": "vite build",
-    "preview": "vite preview",
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch"
+    "preview": "vite preview"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",

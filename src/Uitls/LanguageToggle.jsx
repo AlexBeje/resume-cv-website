@@ -4,14 +4,14 @@ import { changeLanguage } from "../../i18n";
 
 function MyComponent() {
   return (
-    <div>
-      <Button type="primary" onClick={() => changeLanguage("es")}>
+    <Button.Group>
+      <Button type="primary" size="small" onClick={() => changeLanguage("es")}>
         ES
       </Button>
-      <Button type="primary" onClick={() => changeLanguage("en")}>
+      <Button type="primary" size="small" onClick={() => changeLanguage("en")}>
         EN
       </Button>
-    </div>
+    </Button.Group>
   );
 }
 
