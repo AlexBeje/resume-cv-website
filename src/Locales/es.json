@@ -22,12 +22,12 @@
       {
         "id": "1",
         "title": "GFT Technologies SE",
-        "date": "Aug. 2016 - Mar. 2018",
-        "role": "JUNIOR BACK-END DEVELOPER",
+        "date": "Jun. 2016 - May. 2018",
+        "role": "DESARROLLADOR JUNIOR BACK-END",
         "skills": [
-          "Participé en la adaptación de Implemented MiFID II Deutsche Bank.",
-          "Utilizamos el lenguaje mainframe Cobol como principal herramienta de programación.",
-          "También he adquirido experiencia en JCL (Lenguaje de Control de Trabajo)."
+          "Participé en la implementación de MiFID II en Deutsche Bank.",
+          "Utilizamos el lenguaje Cobol (en la plataforma Mainframe) como principal herramienta de programación.",
+          "También he adquirido experiencia con el lenguaje JCL (Lenguaje de Control de Trabajo)."
         ]
       }
     ]
