@@ -1,4 +1,4 @@
-export const link = "no-underline text-black";
+export const link = "text-black";
 
 export const center = "flex justify-center content-center text-center";
 export const centerMb = `${center} mb-2`;

@@ -1,10 +1,10 @@
 import { withTranslation } from "react-i18next";
-
 import { Layout } from "element-react/next";
 
 import LanguageToggle from "/src/Uitls/LanguageToggle";
 
 import Header from "/src/Components/Molecules/Header";
+import Summary from "/src/Components/Molecules/Summary";
 
 function Home({ t }) {
   return (
@@ -15,6 +15,7 @@ function Home({ t }) {
         </Layout.Col>
         <Layout.Col>
           <Header />
+          <Summary />
         </Layout.Col>
       </Layout.Row>
     </div>
