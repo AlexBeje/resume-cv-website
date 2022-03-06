@@ -14,9 +14,17 @@ function Home({ t }) {
         <Layout.Col className="flex justify-end">
           <LanguageToggle />
         </Layout.Col>
+      </Layout.Row>
+      <Layout.Row className="my-10">
         <Layout.Col>
           <Header />
+        </Layout.Col>
+      </Layout.Row>
+      <Layout.Row>
+        <Layout.Col>
           <Summary />
+        </Layout.Col>
+        <Layout.Col>
           <Experience />
         </Layout.Col>
       </Layout.Row>

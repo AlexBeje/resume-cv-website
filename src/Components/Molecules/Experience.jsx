@@ -1,7 +1,7 @@
 import { withTranslation } from "react-i18next";
 
 import SectionTitle from "/src/Components/Atoms/SectionTitle";
-import ExperienceItem from "/src/Components/Atoms/ExperienceItem";
+import SectionItem from "/src/Components/Atoms/SectionItem";
 
 function Experience({ t }) {
   const experienceItems = t("experience.items", { returnObjects: true });
@@ -9,9 +9,10 @@ function Experience({ t }) {
   return (
     <>
       <SectionTitle>{t("experience.section.title")}</SectionTitle>
-      {Array.isArray(experienceItems) && experienceItems.map((experience) => (
-        <ExperienceItem key={experience.id} experience={experience} />
-      ))}
+      {Array.isArray(experienceItems) &&
+        experienceItems.map((experience) => (
+          <SectionItem key={experience.id} experience={experience} />
+        ))}
     </>
   );
 }

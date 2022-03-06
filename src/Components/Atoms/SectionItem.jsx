@@ -20,7 +20,7 @@ function ExperienceItem({ experience }) {
         <Layout.Col span="24">
           <ul className="my-1 pl-5">
             {Array.isArray(experience.skills) &&
-              experience.skills.map((skill) => <li>{skill}</li>)}
+              experience.skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </Layout.Col>
       </Layout.Row>
