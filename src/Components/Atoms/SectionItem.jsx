@@ -1,14 +1,10 @@
+import { useWindowSize } from "usehooks-ts";
 import { Layout, Collapse } from "element-react/next";
-import { useEffect, useRef } from "react";
 
 import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
 
 function SectionItem({ item }) {
-  const ref = useRef(null);
-
-  useEffect(() => {
-    console.log("width", ref.current.offsetWidth);
-  }, [ref.current]);
+  const { width } = useWindowSize();
 
   const renderCollapsedItems = () => {
     return (
@@ -17,7 +13,7 @@ function SectionItem({ item }) {
           {item.roles.map((role) => {
             return (
               <Collapse.Item
-                title={100 > 300 ? role.title : `Project ${role.id}`}
+                title={width > 350 ? role.title : `Project ${role.id}`}
                 key={role.id}
                 name={role.id}
               >
@@ -34,7 +30,7 @@ function SectionItem({ item }) {
   };
 
   return (
-    <div ref={ref}>
+    <>
       <Layout.Row className="mb-2">
         <Layout.Col xs="24" sm="18">
           <h3 className="my-1">{item.title}</h3>
@@ -46,7 +42,7 @@ function SectionItem({ item }) {
       <Layout.Row>
         <Layout.Col span="24">{renderCollapsedItems()}</Layout.Col>
       </Layout.Row>
-    </div>
+    </>
   );
 }
 
