@@ -36,7 +36,9 @@ function SectionItem({ item }) {
           <h3 className="my-1">{item.title}</h3>
         </Layout.Col>
         <Layout.Col xs="24" sm="6">
-          <h5 className="md:text-right my-1 font-light">{item.date}</h5>
+          <h5 className="font-light my-1 md:my-2 md:text-right">
+            {item.date}
+          </h5>
         </Layout.Col>
       </Layout.Row>
       <Layout.Row>
