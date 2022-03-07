@@ -1,5 +1,3 @@
-import React from "react";
-
 function SectionTitle({ children }) {
   const separateTitle = (title, lastPart) => {
     return lastPart ? title.slice(3) : title.slice(0, 3);
