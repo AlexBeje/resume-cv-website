@@ -26,19 +26,40 @@
         "roles": [
           {
             "id": "1",
-            "title": "Sabadell (JUNIOR FRONT-END)",
+            "title": "BBVA (Angular)",
             "skills": [
-              "Hemos creado componentes web utilizando la heramienta Stencil.js de Ionic.",
-              "Como miembro del equipo core, mi trabajo era crear los componentes base y pasarselos a los otros equipos para que lo implementen",
-              "Hemos utilizado como lenguaje base el javascript con el sintaxis JSX",
-              "Se ha tipado el codigo utilizando el lenguaje Typescript.",
+              "He participado en el refactoring de la GUI de la aplicación interna de BBVA llamada PKI.",
+              "Como rol principal Front End Team Leader, mis tareas diarias fueron encontrar mejoras (componentizar elementos, generar un ecosistema de code quality, mejorar la arquitectura de los elementos visuales, etc.) en la aplicación desarrollada.",
+              "Se ha utilizado Angular como herramienta principal, junto con el lenguaje tipado Typescript.",
+              "Se han implementado llamadas REST a partir de los servicios desarrollados por el equipo Back utilizando el lenguaje de código abierto Go.",
+              "Se ha utilizado el SCSS con la nomenclatura BEM para desarrollar los estilos de la aplicación."
+            ]
+          },
+          {
+            "id": "2",
+            "title": "One Creation (Angular)",
+            "skills": [
+              "He participado en el proyecto internacional One Creation, con los stakeholders en USA, los designers en UK y los desarrolladores en España.",
+              "El rol principal en el proyecto fue Design lead, teniendo como objetivo el desarrollo de la parte visual de la aplicación.",
+              "A partir de diseños maquetados en Figma, se utilizaron los lenguajes SCSS con la metodología BEM, el toolkit de Bootstrap y el framework de Angular (ver. 9) junto con el lenguaje tipado TypeScript, hemos deployado el MVP de la aplicación One Creation.",
+              "Se ha utilizado Notion como herramienta principal de coordinación de tareas utilizando la metodología agile como base."
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Sabadell (Stencil.js)",
+            "skills": [
+              "Hemos creado componentes web utilizando la herramienta Stencil.js de Ionic.",
+              "Como miembro del equipo core, mi trabajo era crear los componentes base a partir de un diseño realizado en Sketch y pasado a los developers a traves de la herramienta Zeplin. Una vez acabado el desarrollo, se pasaron los componentes a los otros equipos para que lo implementen",
+              "Hemos utilizado como lenguaje base el javascript con el sintaxis JSX y la metodología Atomic Design para la organización de los componentes.",
+              "Se ha tipado el código utilizando el lenguaje Typescript.",
               "Para crear el estilo de la app se ha utilizado el lenguaje SCSS con la nomenclatura BEM.",
               "Se han organizado los varios equipos mediante la metodología SAFe de Agile."
             ]
           },
           {
-            "id": "2",
-            "title": "Deutsche Bank (JUNIOR BACK-END)",
+            "id": "4",
+            "title": "Deutsche Bank (Cobol)",
             "skills": [
               "Utilizamos el lenguaje Cobol (en la plataforma Mainframe) como herramienta principal de programación para la implementación de la regla MiFID en Deutsche Bank.",
               "También he adquirido experiencia con el lenguaje JCL (Lenguaje de Control de Trabajo)."
