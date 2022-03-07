@@ -1,4 +1,3 @@
-import { withTranslation } from "react-i18next";
 import { Layout } from "element-react/next";
 
 import LanguageToggle from "/src/Uitls/LanguageToggle";
@@ -10,7 +9,7 @@ import Education from "/src/Components/Molecules/Education";
 import Courses from "/src/Components/Molecules/Courses";
 import Extracurricular from "/src/Components/Molecules/Extracurricular";
 
-function Home({ t }) {
+function Home() {
   return (
     <div id="Home">
       <Layout.Row>
@@ -30,18 +29,12 @@ function Home({ t }) {
         <Layout.Col className="mb-10">
           <Experience />
         </Layout.Col>
-        <Layout.Col className="mb-10">
-          <Education />
-        </Layout.Col>
-        <Layout.Col className="mb-10">
-          <Courses />
-        </Layout.Col>
-        <Layout.Col>
-          <Extracurricular />
-        </Layout.Col>
+        <Layout.Col className="mb-10">{/* <Education /> */}</Layout.Col>
+        <Layout.Col className="mb-10">{/* <Courses /> */}</Layout.Col>
+        <Layout.Col>{/* <Extracurricular /> */}</Layout.Col>
       </Layout.Row>
     </div>
   );
 }
 
-export default withTranslation()(Home);
+export default Home;

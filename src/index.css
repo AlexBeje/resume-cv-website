@@ -10,10 +10,6 @@
   margin: 5px;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -32,10 +28,6 @@
   margin-bottom: 1rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .mt-0 {
   margin-top: 0px;
 }
@@ -46,10 +38,6 @@
 
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .flex {
@@ -64,60 +52,16 @@
   height: 2px;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-min {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-}
-
-.w-max {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.min-w-fit {
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-}
-
 .max-w-4xl {
   max-width: 56rem;
-}
-
-.max-w-fit {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
 }
 
 .flex-1 {
   flex: 1 1 0%;
 }
 
-.flex-auto {
-  flex: 1 1 auto;
-}
-
-.flex-\[1_1_100\%\] {
-  flex: 1 1 100%;
-}
-
-.flex-grow {
-  flex-grow: 1;
-}
-
-.flex-col {
-  flex-direction: column;
+.resize {
+  resize: both;
 }
 
 .flex-wrap {
@@ -142,10 +86,6 @@
 
 .self-end {
   align-self: flex-end;
-}
-
-.break-words {
-  overflow-wrap: break-word;
 }
 
 .bg-black {
@@ -173,6 +113,16 @@
   font-size: 12px;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -189,6 +139,7 @@
 
 body {
   margin: 0;
+  overflow-y: scroll;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;

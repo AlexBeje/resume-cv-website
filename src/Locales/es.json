@@ -2,7 +2,7 @@
   "header": {
     "name": "Alexandru",
     "surname": "Bejenaru",
-    "profession": "DESARROLLO DE SOFTWARE - FRONTEND",
+    "profession": "DESARROLLADOR DE APLICACIONES WEB",
     "phone": "642 954 953",
     "email": "alex.bejenaru93@gmail.com",
     "linkedin": "alexbeje",
@@ -12,7 +12,7 @@
     "section": {
       "title": "Resumen"
     },
-    "content": "Hola, mi nombre es Alex y soy un desarrollador web que participó en proyectos nacionales (Banco Sabadell y BBVA), y también en proyectos internacionales (One Creation, Deutsche Bank, Zurich, Volkswagen, Audi, Seat y Skoda). Estoy mejorando continuamente mis habilidades porque tengo un objetivo claro en mente: sacar lo mejor de mi y mostrar al mundo lo que valgo."
+    "content": "Desarrollador de aplicaciones web con más de 5 años de experiencia trabajando con tecnologías agile para entregar productos de la mejor calidad. Diplomático, amable y experto en el manejo de situaciones delicadas. Altamente organizado, motivado y competente con las nuevas tecnologías. Grado en Multimedia."
   },
   "experience": {
     "section": {
@@ -22,12 +22,28 @@
       {
         "id": "1",
         "title": "GFT Technologies SE",
-        "date": "Jun. 2016 - May. 2018",
-        "role": "DESARROLLADOR JUNIOR BACK-END",
-        "skills": [
-          "Participé en la implementación de MiFID II en Deutsche Bank.",
-          "Utilizamos el lenguaje Cobol (en la plataforma Mainframe) como principal herramienta de programación.",
-          "También he adquirido experiencia con el lenguaje JCL (Lenguaje de Control de Trabajo)."
+        "date": "Jun. 2016 - Jun. 2021",
+        "roles": [
+          {
+            "id": "1",
+            "title": "Sabadell (JUNIOR FRONT-END)",
+            "skills": [
+              "Hemos creado componentes web utilizando la heramienta Stencil.js de Ionic.",
+              "Como miembro del equipo core, mi trabajo era crear los componentes base y pasarselos a los otros equipos para que lo implementen",
+              "Hemos utilizado como lenguaje base el javascript con el sintaxis JSX",
+              "Se ha tipado el codigo utilizando el lenguaje Typescript.",
+              "Para crear el estilo de la app se ha utilizado el lenguaje SCSS con la nomenclatura BEM.",
+              "Se han organizado los varios equipos mediante la metodología SAFe de Agile."
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Deutsche Bank (JUNIOR BACK-END)",
+            "skills": [
+              "Utilizamos el lenguaje Cobol (en la plataforma Mainframe) como herramienta principal de programación para la implementación de la regla MiFID en Deutsche Bank.",
+              "También he adquirido experiencia con el lenguaje JCL (Lenguaje de Control de Trabajo)."
+            ]
+          }
         ]
       }
     ]
