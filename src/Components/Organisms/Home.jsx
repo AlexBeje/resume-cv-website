@@ -29,7 +29,9 @@ function Home() {
         <Layout.Col className="mb-10">
           <Experience />
         </Layout.Col>
-        <Layout.Col className="mb-10">{/* <Education /> */}</Layout.Col>
+        <Layout.Col className="mb-10">
+          <Education />
+        </Layout.Col>
         <Layout.Col className="mb-10">{/* <Courses /> */}</Layout.Col>
         <Layout.Col>{/* <Extracurricular /> */}</Layout.Col>
       </Layout.Row>

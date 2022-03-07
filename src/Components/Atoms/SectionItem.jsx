@@ -8,12 +8,12 @@ function SectionItem({ item }) {
 
   const renderCollapsedItems = () => {
     return (
-      hasValueAndIsArray(item.roles) && (
+      hasValueAndIsArray(item.projects) && (
         <Collapse value="0">
-          {item.roles.map((role) => {
+          {item.projects.map((role) => {
             return (
               <Collapse.Item
-                title={width > 350 ? role.title : `Project ${role.id}`}
+                title={width > 360 ? role.title : `Project ${role.id}`}
                 key={role.id}
                 name={role.id}
               >
@@ -31,7 +31,7 @@ function SectionItem({ item }) {
 
   return (
     <>
-      <Layout.Row className="mb-2">
+      <Layout.Row className="mb-2 mt-4">
         <Layout.Col xs="24" sm="18">
           <h3 className="my-1">{item.title}</h3>
         </Layout.Col>

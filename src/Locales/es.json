@@ -21,9 +21,62 @@
     "items": [
       {
         "id": "1",
+        "title": "Accenture PLC",
+        "date": "Jun. 2021 - Present",
+        "projects": [
+          {
+            "id": "1",
+            "title": "Nueva Zona Zurich (Vue)",
+            "skills": [
+              "Zurich",
+              "Volkswagen brand",
+              "Agencias / Brokers",
+              "Basic knowledge of:",
+              "Vue 2 class component library",
+              "Typescript",
+              "Backend",
+              "Data dictionary (connection with COBOL services)",
+              "Design System",
+              "Element UI",
+              "SCSS / BEM",
+              "Jest",
+              "Jira",
+              "Vue Test Utils",
+              "Scrum Agile",
+              "Gitlab",
+              "Design Team Lead / Responsive design"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Web Component (Vue)",
+            "skills": [
+              "Zurich",
+              "Zurich worker / client portal packages",
+              "Component driven mindset",
+              "Advanced knowledge of:",
+              "Vue 2 class component library",
+              "Typescript",
+              "Backend",
+              "Data dictionary (connection with COBOL services)",
+              "Design System",
+              "Element UI",
+              "SCSS / BEM",
+              "Jest",
+              "Jira",
+              "Vue Test Utils",
+              "Scrum Agile",
+              "Gitlab",
+              "Design Team Lead / Responsive design"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
         "title": "GFT Technologies SE",
         "date": "Jun. 2016 - Jun. 2021",
-        "roles": [
+        "projects": [
           {
             "id": "1",
             "title": "BBVA (Angular)",
@@ -78,11 +131,16 @@
         "id": "1",
         "title": "IES Caparella",
         "date": "Sep. 2008 - Jun. 2012",
-        "role": "DAW (Desarrollo de Aplicaciones Web)",
-        "skills": [
-          "SQL",
-          "C++",
-          "Javascript, JQuery, Wordpress"
+        "projects": [
+          {
+            "id": "1",
+            "title": "DAW (Desarrollo de Aplicaciones Web)",
+            "skills": [
+              "SQL",
+              "C++",
+              "Javascript, JQuery, Wordpress"
+            ]
+          }
         ]
       }
     ]

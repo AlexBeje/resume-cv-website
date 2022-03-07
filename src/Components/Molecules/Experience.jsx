@@ -8,17 +8,19 @@ import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
 function Experience({ t }) {
   const experienceItems = t("experience.items", { returnObjects: true });
 
-  const renderSesctionItems = () => {
-    return hasValueAndIsArray(experienceItems) &&
+  const renderSectionItems = () => {
+    return (
+      hasValueAndIsArray(experienceItems) &&
       experienceItems.map((experience) => (
         <SectionItem key={experience.id} item={experience} />
-      ));
+      ))
+    );
   };
 
   return (
     <>
       <SectionTitle>{t("experience.section.title")}</SectionTitle>
-      {renderSesctionItems()}
+      {renderSectionItems()}
     </>
   );
 }
