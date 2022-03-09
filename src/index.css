@@ -87,7 +87,6 @@
 
 .self-end {
   align-self: flex-end;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -114,12 +113,10 @@
 
 .text-\[10px\] {
   font-size: 10px;
-  line-height: 2.5rem;
 }
 
 .text-\[12px\] {
   font-size: 12px;
-  line-height: 1rem;
 }
 
 .text-4xl {
@@ -134,7 +131,6 @@
 
 .font-light {
   font-weight: 300;
-  color: rgb(32 160 255 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -161,11 +157,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-  }
 
 p, li {
   font-weight: 300;
-  }
 }
 
 @media (min-width: 768px) {
@@ -173,3 +167,8 @@ p, li {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
+
+  .md\:text-right {
+    text-align: right;
+  }
+}
