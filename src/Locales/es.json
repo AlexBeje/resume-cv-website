@@ -28,46 +28,31 @@
             "id": "1",
             "title": "Nueva Zona Zurich (Vue)",
             "skills": [
-              "Zurich",
-              "Volkswagen brand",
-              "Agencias / Brokers",
-              "Basic knowledge of:",
-              "Vue 2 class component library",
-              "Typescript",
-              "Backend",
-              "Data dictionary (connection with COBOL services)",
-              "Design System",
-              "Element UI",
-              "SCSS / BEM",
-              "Jest",
-              "Jira",
-              "Vue Test Utils",
-              "Scrum Agile",
-              "Gitlab",
-              "Design Team Lead / Responsive design"
+              "He formado parte del equipo Front en la implementación del nuevo portal de cliente de Zurich.",
+              "Utilizando los conocimientos de la arquitectura Zurich previamente adquiridos, he podido llevar a cabo las tareas enfrentadas de una manera mucho más ágil e efectiva.",
+              "Junto con el  equipo, hemos implementado una arquitectura enfocada en la distribución adecuada de los componentes creados para su reutilización dentro de la aplicación.",
+              "Como herramienta principal de desarrollo se ha utilizado la librería Vue 2 con la extensión class components.",
+              "Se ha tipado el código utilizando el lenguaje Typescript.",
+              "He creado diccionarios de datos, utilizado los SWAGGERS generados en un entorno FIB (Front In Back) y he adaptado los servicios creados en la parte Front.",
+              "Se ha seguido un design system basado en la librería Element UI, utilizando el framework SCSS con la metodología BEM.",
+              "He aprendido a hacer testing utilizando las librerías Jest y Vue Test Utils.",
+              "He manejado Gitlab como herramienta principal de gestión de versiones.",
+              "He trabajado en un entorno Scrum de Agile utilizando Jira como herramienta principal de asignación de tareas."
             ]
           },
           {
             "id": "2",
             "title": "Web Component (Vue)",
             "skills": [
-              "Zurich",
-              "Zurich worker / client portal packages",
-              "Component driven mindset",
-              "Advanced knowledge of:",
-              "Vue 2 class component library",
-              "Typescript",
-              "Backend",
-              "Data dictionary (connection with COBOL services)",
-              "Design System",
-              "Element UI",
-              "SCSS / BEM",
-              "Jest",
-              "Jira",
-              "Vue Test Utils",
-              "Scrum Agile",
-              "Gitlab",
-              "Design Team Lead / Responsive design"
+              "Como Design Lead, mis tareas principales en el proyecto han sido el rediseño completo de la aplicación de contratación de pólizas llamada Web Component de Zurich para Volkswagen, la adaptación del componente al branding de Volkswagen (Seat, Skoda, Audi), y la adaptación del componente a los agentes de Zurich.",
+              "Se han adquirido conocimientos de la arquitectura Zurich.",
+              "Como herramienta principal de desarrollo se ha utilizado la librería Vue 2 con la extensión class components.",
+              "Se ha tipado el código utilizando el lenguaje Typescript.",
+              "He creado diccionarios de datos, utilizado los SWAGGERS generados en un entorno FIB (Front In Back) y he adaptado los servicios creados en la parte Front.",
+              "Se ha seguido un design system basado en la librería Element UI, utilizando el framework SCSS con la metodología BEM.",
+              "He aprendido a hacer testing utilizando las librerías Jest y Vue Test Utils.",
+              "He manejado Gitlab como herramienta principal de gestión de versiones.",
+              "He trabajado en un entorno Scrum de Agile utilizando Jira como herramienta principal de asignación de tareas."
             ]
           }
         ]
@@ -136,9 +121,10 @@
             "id": "1",
             "title": "DAW (Desarrollo de Aplicaciones Web)",
             "skills": [
-              "SQL",
-              "C++",
-              "Javascript, JQuery, Wordpress"
+              "He aprendido a arreglar y mantener sistemas informáticos.",
+              "He adquirido conocimientos básicos del lenguaje SQL.",
+              "He hecho la introducción a la programación mediante la herramienta C++.",
+              "Se me ha introducido el lenguaje Javascript, el framework JQuery y he desarrollado blogs y paginas web mediante Wordpress."
             ]
           }
         ]
