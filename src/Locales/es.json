@@ -114,6 +114,24 @@
     "items": [
       {
         "id": "1",
+        "title": "UOC (Universitat oberta de Catalunya)",
+        "date": "Sep. 2018 - Present",
+        "projects": [
+          {
+            "id": "1",
+            "title": "Interacción Digital y Multimedia",
+            "skills": [
+              "He aprendido los conceptos básicos de diseño gráfico (teoría de los colores, tipografia, layout, etc.).",
+              "He aprendido como realizar / editar videos de manera avanzada siguiendo los patrones de la regla de los tercios y otras técnicas.",
+              "He utilizado la herramienta SketchUp para transformar objetos 2d en objetos 3d.",
+              "He hecho una introducción a fondo sobre la base de los lenguajes HTML y CSS y Javascript.",
+              "He desarrollado una app de podcast siguiendo los principios del diseño de la interacción (des del research hasta el producto interactivo maquetado en figma)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
         "title": "IES Caparella",
         "date": "Sep. 2008 - Jun. 2012",
         "projects": [
