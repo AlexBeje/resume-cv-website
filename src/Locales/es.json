@@ -179,6 +179,106 @@
       }
     ]
   },
+  "skills": {
+    "section": {
+      "title": "Habilidades"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "Javascript",
+        "blocks": [
+          {
+            "id": "1",
+            "type": "primary",
+            "description": "Text 1 <br/> Text 1.1"
+          },
+          {
+            "id": "2",
+            "type": "primary",
+            "description": "Text 2 <br/> Text 2.1"
+          },
+          {
+            "id": "3",
+            "type": "primary",
+            "description": "Text 3 <br/> Text 3.1"
+          },
+          {
+            "id": "4",
+            "type": "primary",
+            "description": "Text 4 <br/> Text 4.1"
+          },
+          {
+            "id": "5",
+            "type": "secondary",
+            "description": "Text 5 <br/> Text 5.1"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "CSS",
+        "blocks": [
+          {
+            "id": "1",
+            "type": "primary",
+            "description": "Text 1 <br/> Text 1.1"
+          },
+          {
+            "id": "2",
+            "type": "primary",
+            "description": "Text 2 <br/> Text 2.1"
+          },
+          {
+            "id": "3",
+            "type": "primary",
+            "description": "Text 3 <br/> Text 3.1"
+          },
+          {
+            "id": "4",
+            "type": "primary",
+            "description": "Text 4 <br/> Text 4.1"
+          },
+          {
+            "id": "5",
+            "type": "secondary",
+            "description": "Text 5 <br/> Text 5.1"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Design",
+        "blocks": [
+          {
+            "id": "1",
+            "type": "primary",
+            "description": "Text 1 <br/> Text 1.1"
+          },
+          {
+            "id": "2",
+            "type": "primary",
+            "description": "Text 2 <br/> Text 2.1"
+          },
+          {
+            "id": "3",
+            "type": "primary",
+            "description": "Text 3 <br/> Text 3.1"
+          },
+          {
+            "id": "4",
+            "type": "secondary",
+            "description": "Text 4 <br/> Text 4.1"
+          },
+          {
+            "id": "5",
+            "type": "secondary",
+            "description": "Text 5 <br/> Text 5.1"
+          }
+        ]
+      }
+    ]
+  },
   "education": {
     "section": {
       "title": "Educación"
