@@ -26,33 +26,71 @@
         "projects": [
           {
             "id": "1",
-            "title": "Nueva Zona Zurich (Vue)",
+            "title": "Nueva Zona Zurich (Vue & Jest)",
             "skills": [
-              "He formado parte del equipo Front en la implementación del nuevo portal de cliente de Zurich.",
-              "Utilizando los conocimientos de la arquitectura Zurich previamente adquiridos, he podido llevar a cabo las tareas enfrentadas de una manera mucho más ágil e efectiva.",
-              "Junto con el  equipo, hemos implementado una arquitectura enfocada en la distribución adecuada de los componentes creados para su reutilización dentro de la aplicación.",
-              "Como herramienta principal de desarrollo se ha utilizado la librería Vue 2 con la extensión class components.",
-              "Se ha tipado el código utilizando el lenguaje Typescript.",
-              "He creado diccionarios de datos, utilizado los SWAGGERS generados en un entorno FIB (Front In Back) y he adaptado los servicios creados en la parte Front.",
-              "Se ha seguido un design system basado en la librería Element UI, utilizando el framework SCSS con la metodología BEM.",
-              "He aprendido a hacer testing utilizando las librerías Jest y Vue Test Utils.",
-              "He manejado Gitlab como herramienta principal de gestión de versiones.",
-              "He trabajado en un entorno Scrum de Agile utilizando Jira como herramienta principal de asignación de tareas."
+              {
+                "title": "He formado parte del equipo Front en la implementación del nuevo portal de cliente de Zurich."
+              },
+              {
+                "title": "Utilizando los conocimientos de la arquitectura Zurich previamente adquiridos, he podido llevar a cabo las tareas enfrentadas de una manera mucho más ágil e efectiva."
+              },
+              {
+                "title": "Junto con el  equipo, hemos implementado una arquitectura enfocada en la distribución adecuada de los componentes creados para su reutilización dentro de la aplicación."
+              },
+              {
+                "title": "Como herramienta principal de desarrollo se ha utilizado la librería Vue 2 con la extensión class components."
+              },
+              {
+                "title": "Se ha tipado el código utilizando el lenguaje Typescript."
+              },
+              {
+                "title": "He creado diccionarios de datos, utilizado los SWAGGERS generados en un entorno FIB (Front In Back) y he adaptado los servicios creados en la parte Front."
+              },
+              {
+                "title": "Se ha seguido un design system basado en la librería Element UI, utilizando el framework SCSS con la metodología BEM."
+              },
+              {
+                "title": "He aprendido a hacer testing utilizando las librerías Jest y Vue Test Utils."
+              },
+              {
+                "title": "He manejado Gitlab como herramienta principal de gestión de versiones."
+              },
+              {
+                "title": "He trabajado en un entorno Scrum de Agile utilizando Jira como herramienta principal de asignación de tareas."
+              }
             ]
           },
           {
             "id": "2",
-            "title": "Web Component (Vue)",
+            "title": "Web Component (Vue & Jest)",
             "skills": [
-              "Como Design Lead, mis tareas principales en el proyecto han sido el rediseño completo de la aplicación de contratación de pólizas llamada Web Component de Zurich para Volkswagen, la adaptación del componente al branding de Volkswagen (Seat, Skoda, Audi), y la adaptación del componente a los agentes de Zurich.",
-              "Se han adquirido conocimientos de la arquitectura Zurich.",
-              "Como herramienta principal de desarrollo se ha utilizado la librería Vue 2 con la extensión class components.",
-              "Se ha tipado el código utilizando el lenguaje Typescript.",
-              "He creado diccionarios de datos, utilizado los SWAGGERS generados en un entorno FIB (Front In Back) y he adaptado los servicios creados en la parte Front.",
-              "Se ha seguido un design system basado en la librería Element UI, utilizando el framework SCSS con la metodología BEM.",
-              "He aprendido a hacer testing utilizando las librerías Jest y Vue Test Utils.",
-              "He manejado Gitlab como herramienta principal de gestión de versiones.",
-              "He trabajado en un entorno Scrum de Agile utilizando Jira como herramienta principal de asignación de tareas."
+              {
+                "title": "Como Design Lead, mis tareas principales en el proyecto han sido el rediseño completo de la aplicación de contratación de pólizas llamada Web Component de Zurich para Volkswagen, la adaptación del componente al branding de Volkswagen (Seat, Skoda, Audi), y la adaptación del componente a los agentes de Zurich."
+              },
+              {
+                "title": "Se han adquirido conocimientos de la arquitectura Zurich."
+              },
+              {
+                "title": "Como herramienta principal de desarrollo se ha utilizado la librería Vue 2 con la extensión class components."
+              },
+              {
+                "title": "Se ha tipado el código utilizando el lenguaje Typescript."
+              },
+              {
+                "title": "He creado diccionarios de datos, utilizado los SWAGGERS generados en un entorno FIB (Front In Back) y he adaptado los servicios creados en la parte Front."
+              },
+              {
+                "title": "Se ha seguido un design system basado en la librería Element UI, utilizando el framework SCSS con la metodología BEM."
+              },
+              {
+                "title": "He aprendido a hacer testing utilizando las librerías Jest y Vue Test Utils."
+              },
+              {
+                "title": "He manejado Gitlab como herramienta principal de gestión de versiones."
+              },
+              {
+                "title": "He trabajado en un entorno Scrum de Agile utilizando Jira como herramienta principal de asignación de tareas."
+              }
             ]
           }
         ]
@@ -66,41 +104,75 @@
             "id": "1",
             "title": "BBVA (Angular)",
             "skills": [
-              "He participado en el refactoring de la GUI de la aplicación interna de BBVA llamada PKI.",
-              "Como rol principal Front End Team Leader, mis tareas diarias fueron encontrar mejoras (componentizar elementos, generar un ecosistema de code quality, mejorar la arquitectura de los elementos visuales, etc.) en la aplicación desarrollada.",
-              "Se ha utilizado Angular como herramienta principal, junto con el lenguaje tipado Typescript.",
-              "Se han implementado llamadas REST a partir de los servicios desarrollados por el equipo Back utilizando el lenguaje de código abierto Go.",
-              "Se ha utilizado el SCSS con la nomenclatura BEM para desarrollar los estilos de la aplicación."
+              {
+                "title": "He participado en el refactoring de la GUI de la aplicación interna de BBVA llamada PKI."
+              },
+              {
+                "title": "Como rol principal Front End Team Leader, mis tareas diarias fueron encontrar mejoras (componentizar elementos, generar un ecosistema de code quality, mejorar la arquitectura de los elementos visuales, etc.) en la aplicación desarrollada."
+              },
+              {
+                "title": "Se ha utilizado Angular como herramienta principal, junto con el lenguaje tipado Typescript."
+              },
+              {
+                "title": "Implemente llamadas REST a partir de los servicios desarrollados por el equipo Back utilizando el lenguaje de código abierto Go."
+              },
+              {
+                "title": "He utilizado el SCSS con la nomenclatura BEM para desarrollar los estilos de la aplicación."
+              }
             ]
           },
           {
             "id": "2",
             "title": "One Creation (Angular)",
             "skills": [
-              "He participado en el proyecto internacional One Creation, con los stakeholders en USA, los designers en UK y los desarrolladores en España.",
-              "El rol principal en el proyecto fue Design lead, teniendo como objetivo el desarrollo de la parte visual de la aplicación.",
-              "A partir de diseños maquetados en Figma, se utilizaron los lenguajes SCSS con la metodología BEM, el toolkit de Bootstrap y el framework de Angular (ver. 9) junto con el lenguaje tipado TypeScript, hemos deployado el MVP de la aplicación One Creation.",
-              "Se ha utilizado Notion como herramienta principal de coordinación de tareas utilizando la metodología agile como base."
+              {
+                "title": "He participado en el proyecto internacional One Creation, con los stakeholders en USA, los designers en UK y los desarrolladores en España."
+              },
+              {
+                "title": "El rol principal en el proyecto fue Design lead, teniendo como objetivo el desarrollo de la parte visual de la aplicación."
+              },
+              {
+                "title": "A partir de diseños maquetados en Figma, se utilizaron los lenguajes SCSS con la metodología BEM, el toolkit de Bootstrap y el framework de Angular (ver. 9) junto con el lenguaje tipado TypeScript, hemos deployado el MVP de la aplicación One Creation."
+              },
+              {
+                "title": "Hemos utilizado Notion como herramienta principal de coordinación de tareas utilizando la metodología agile como base."
+              }
             ]
           },
           {
             "id": "3",
             "title": "Sabadell (Stencil.js)",
             "skills": [
-              "Hemos creado componentes web utilizando la herramienta Stencil.js de Ionic.",
-              "Como miembro del equipo core, mi trabajo era crear los componentes base a partir de un diseño realizado en Sketch y pasado a los developers a traves de la herramienta Zeplin. Una vez acabado el desarrollo, se pasaron los componentes a los otros equipos para que lo implementen",
-              "Hemos utilizado como lenguaje base el javascript con el sintaxis JSX y la metodología Atomic Design para la organización de los componentes.",
-              "Se ha tipado el código utilizando el lenguaje Typescript.",
-              "Para crear el estilo de la app se ha utilizado el lenguaje SCSS con la nomenclatura BEM.",
-              "Se han organizado los varios equipos mediante la metodología SAFe de Agile."
+              {
+                "title": "Hemos creado componentes web utilizando la herramienta Stencil.js de Ionic."
+              },
+              {
+                "title": "Como miembro del equipo core, mi trabajo era crear los componentes base a partir de un diseño realizado en Sketch y pasado a los developers a traves de la herramienta Zeplin. Una vez acabado el desarrollo, se pasaron los componentes a los otros equipos para que lo implementen"
+              },
+              {
+                "title": "Hemos utilizado como lenguaje base el javascript con el sintaxis JSX y la metodología Atomic Design para la organización de los componentes."
+              },
+              {
+                "title": "Se ha tipado el código utilizando el lenguaje Typescript."
+              },
+              {
+                "title": "Para crear el estilo de la app se ha utilizado el lenguaje SCSS con la nomenclatura BEM."
+              },
+              {
+                "title": "Se han organizado los varios equipos mediante la metodología SAFe de Agile."
+              }
             ]
           },
           {
             "id": "4",
             "title": "Deutsche Bank (Cobol)",
             "skills": [
-              "Utilizamos el lenguaje Cobol (en la plataforma Mainframe) como herramienta principal de programación para la implementación de la regla MiFID en Deutsche Bank.",
-              "También he adquirido experiencia con el lenguaje JCL (Lenguaje de Control de Trabajo)."
+              {
+                "title": "Utilizamos el lenguaje Cobol (en la plataforma Mainframe) como herramienta principal de programación para la implementación de la regla MiFID en Deutsche Bank."
+              },
+              {
+                "title": "También he adquirido experiencia con el lenguaje JCL (Lenguaje de Control de Trabajo)."
+              }
             ]
           }
         ]
@@ -121,11 +193,21 @@
             "id": "1",
             "title": "Interacción Digital y Multimedia",
             "skills": [
-              "He aprendido los conceptos básicos de diseño gráfico (teoría de los colores, tipografia, layout, etc.).",
-              "He aprendido como realizar / editar videos de manera avanzada siguiendo los patrones de la regla de los tercios y otras técnicas.",
-              "He utilizado la herramienta SketchUp para transformar objetos 2d en objetos 3d.",
-              "He hecho una introducción a fondo sobre la base de los lenguajes HTML y CSS y Javascript.",
-              "He desarrollado una app de podcast siguiendo los principios del diseño de la interacción (des del research hasta el producto interactivo maquetado en figma)."
+              {
+                "title": "He aprendido los conceptos básicos de diseño gráfico (teoría de los colores, tipografia, layout, etc.)."
+              },
+              {
+                "title": "He aprendido como realizar / editar videos de manera avanzada siguiendo los patrones de la regla de los tercios y otras técnicas."
+              },
+              {
+                "title": "He utilizado la herramienta SketchUp para transformar objetos 2d en objetos 3d."
+              },
+              {
+                "title": "He hecho una introducción a fondo sobre la base de los lenguajes HTML y CSS y Javascript."
+              },
+              {
+                "title": "He desarrollado una app de podcast siguiendo los principios del diseño de la interacción (des del research hasta el producto interactivo maquetado en figma)."
+              }
             ]
           }
         ]
@@ -139,49 +221,118 @@
             "id": "1",
             "title": "DAW (Desarrollo de Aplicaciones Web)",
             "skills": [
-              "He aprendido a arreglar y mantener sistemas informáticos.",
-              "He adquirido conocimientos básicos del lenguaje SQL.",
-              "He hecho la introducción a la programación mediante la herramienta C++.",
-              "Se me ha introducido el lenguaje Javascript, el framework JQuery y he desarrollado blogs y paginas web mediante Wordpress."
+              {
+                "title": "He aprendido a arreglar y mantener sistemas informáticos."
+              },
+              {
+                "title": "He adquirido conocimientos básicos del lenguaje SQL."
+              },
+              {
+                "title": "He hecho la introducción a la programación mediante la herramienta C++."
+              },
+              {
+                "title": "Se me ha introducido el lenguaje Javascript, el framework JQuery y he desarrollado blogs y paginas web mediante Wordpress."
+              }
             ]
           }
         ]
       }
     ]
   },
-  "courses": {
-    "section": {
-      "title": "Cursos"
-    },
-    "items": [
-      {
-        "id": "1",
-        "title": "Udemy, Inc.",
-        "date": "Ene. 2021",
-        "role": "CSS - The Complete Guide",
-        "skills": [
-          "CSS",
-          "SCSS"
-        ]
-      }
-    ]
-  },
   "extracurricular": {
     "section": {
-      "title": "Actividades extracurriculares"
+      "title": "Extracurricular"
     },
     "items": [
       {
         "id": "1",
-        "title": "GitHub, Inc.",
-        "date": "Mar. 2022",
-        "role": "Resume / CV Website",
-        "skills": [
-          "React",
-          "i18next",
-          "React ElementUI",
-          "Tailwind",
-          "React Icons"
+        "title": "Udemy",
+        "projects": [
+          {
+            "id": "1",
+            "title": "Desarrollo Web",
+            "skills": [
+              {
+                "title": "Modern JavaScript (Complete guide, from Novice to Ninja)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-25955b55-0cb8-4d43-ace1-d2628548cec6.pdf"
+              },
+              {
+                "title": "Build Data Visualizations with D3.js & Firebase",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-1fadcda0-d80e-4b7a-95fa-5fec982d2c7b.pdf"
+              },
+              {
+                "title": "Angular - The Complete Guide (2022 Edition)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-f2b6b313-ddd1-4b71-a90f-ad6a77945752.pdf"
+              },
+              {
+                "title": "CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-9000c9c0-a879-47be-b0ce-656c0d3a7bd7.pdf"
+              },
+              {
+                "title": "Angular Testing Masterclass (with FREE E-Book)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a26124fc-480a-4fbd-ae8a-38151043d837.pdf"
+              },
+              {
+                "title": "Understanding TypeScript - 2022 Edition",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-81ff333d-2f60-4c13-8df1-96231de7e852.pdf"
+              },
+              {
+                "title": "Complete Vue Mastery 2022 (w/ Vuex, Composition API, Router)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a6625772-35d3-430c-b4b3-c62d18d23680.pdf"
+              },
+              {
+                "title": "The Complete Node.js Developer Course (3rd Edition)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-4a92a6ae-3e34-45cd-91f1-9b2de4d2839d.pdf"
+              },
+              {
+                "title": "Cursando actualmente: JavaScript: The Advanced Concepts (2022 Update)"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Diseño",
+            "skills": [
+              {
+                "title": "Sketching for UX Designers - Boost UX work with pen & paper!",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-3768bd27-dcb4-4d37-a7cc-710cbeb2c74d.pdf"
+              },
+              {
+                "title": "Learn Figma - UI/UX Design Essential Training",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-5d7dde08-06ce-4c66-b212-dc3fce66005b.pdf"
+              },
+              {
+                "title": "The Complete Graphic Design Theory for Beginners Course",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-339a768e-a07a-4cac-8b5e-df87475d7d8d.pdf"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Desarrollo Personal",
+            "skills": [
+              {
+                "title": "Learning to Learn [Efficient Learning]: Zero to Mastery",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-757212c0-00fb-4461-a42b-854dade0191b.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "GitHub",
+        "projects": [
+          {
+            "id": "1",
+            "title": "Next JS",
+            "skills": [
+              {
+                "title": "alex-beje-cv",
+                "link": "https://github.com/AlexBeje/alex-beje-cv"
+              }
+            ]
+          }
         ]
       }
     ]
