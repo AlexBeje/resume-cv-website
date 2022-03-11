@@ -285,7 +285,8 @@
                 "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-4a92a6ae-3e34-45cd-91f1-9b2de4d2839d.pdf"
               },
               {
-                "title": "Cursando actualmente: JavaScript: The Advanced Concepts (2022 Update)"
+                "title": "Cursando actualmente: JavaScript: The Advanced Concepts (2022 Update)",
+                "link": "https://www.udemy.com/course/advanced-javascript-concepts/"
               }
             ]
           },
@@ -325,11 +326,37 @@
         "projects": [
           {
             "id": "1",
-            "title": "Next JS",
+            "title": "Next.js",
             "skills": [
               {
-                "title": "alex-beje-cv",
+                "title": "Trabajando actualmente en: alex-beje-cv",
                 "link": "https://github.com/AlexBeje/alex-beje-cv"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "React",
+            "skills": [
+              {
+                "title": "resume-cv-website",
+                "link": "https://github.com/AlexBeje/resume-cv-website"
+              },
+              {
+                "title": "pomodoro",
+                "link": "https://github.com/AlexBeje/pomodoro"
+              },
+              {
+                "title": "virtual-piano",
+                "link": "https://github.com/AlexBeje/virtual-piano"
+              },
+              {
+                "title": "calculator",
+                "link": "https://github.com/AlexBeje/calculator"
+              },
+              {
+                "title": "random-quote-machine",
+                "link": "https://github.com/AlexBeje/random-quote-machine"
               }
             ]
           }
