@@ -1,11 +1,10 @@
 import { Layout } from "element-react/next";
 
-import LanguageToggle from "/src/Uitls/LanguageToggle";
-
 import Header from "/src/Components/Molecules/Header";
 import Summary from "/src/Components/Molecules/Summary";
 import Experience from "/src/Components/Molecules/Experience";
 import Education from "/src/Components/Molecules/Education";
+import Skills from "/src/Components/Molecules/Skills";
 import Extracurricular from "/src/Components/Molecules/Extracurricular";
 
 function Home() {
@@ -30,6 +29,9 @@ function Home() {
         </Layout.Col>
         <Layout.Col className="mb-10">
           <Education />
+        </Layout.Col>
+        <Layout.Col className="mb-10">
+          <Skills />
         </Layout.Col>
         <Layout.Col>
           <Extracurricular />
