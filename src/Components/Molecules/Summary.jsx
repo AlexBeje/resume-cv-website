@@ -6,7 +6,9 @@ function Summary({ t }) {
   return (
     <>
       <SectionTitle>{t("summary.section.title")}</SectionTitle>
-      <p className="mb-0">{t("summary.content")}</p>
+      {t("summary.content") !== "summary.content" && (
+        <p className="mb-0">{t("summary.content")}</p>
+      )}
     </>
   );
 }
