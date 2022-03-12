@@ -14,14 +14,14 @@ function SectionItem({ item }) {
         <a
           href={skill.link}
           target="_blank"
-          className="text-black no-underline"
+          className="text-black no-underline hover:text-hover"
         >
-          <span className="flex items-center">
-            <span className={skill.mark && "text-primary"}>{skill.title}</span>
+          <span className={skill.mark && "text-primary"}>
+            {skill.title}
             {skill.mark ? (
-              <AiOutlineLink className="h-4 ml-1 text-primary" />
+              <AiOutlineLink className="ml-1 mb-[.1rem] align-text-bottom text-primary" />
             ) : (
-              <AiOutlineLink className="h-4 ml-1" />
+              <AiOutlineLink className="ml-1 mb-[.1rem] align-text-bottom" />
             )}
           </span>
         </a>
