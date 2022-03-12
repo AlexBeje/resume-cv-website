@@ -15,6 +15,18 @@ code {
     monospace;
 }
 
-p, li {
+p,
+li {
   font-weight: 300;
+}
+
+.popover-style {
+  color: white;
+  background: #22465c !important;
+  border-color: #22465c !important;
+  font-weight: normal;
+}
+
+.popover-style div {
+  color: white;
 }

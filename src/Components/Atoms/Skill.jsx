@@ -1,4 +1,4 @@
-import { Button, Tooltip } from "element-react";
+import { Button, Popover } from "element-react";
 
 function Skill({ skill }) {
   function createMarkup(block) {
@@ -8,46 +8,56 @@ function Skill({ skill }) {
   const renderButtons = () => {
     return skill.blocks.map((block) => {
       return (
-        <Tooltip
-          className="w-full text-center"
-          content={<div dangerouslySetInnerHTML={createMarkup(block)} />}
-          effect="dark"
-          key={block.id}
-          placement="top"
-          manual={!block.description}
-        >
-          <Button
-            type={block.type}
-            style={
-              (block.id === "1" && {
-                borderRight: 0,
-                borderRadius: ".25rem 0 0 .25rem",
-                borderColor: "#dfe6eb",
-              }) ||
-              (block.id === "2" && {
-                borderLeft: 0,
-                borderRight: 0,
-                borderColor: "#dfe6eb",
-              }) ||
-              (block.id === "3" && {
-                borderLeft: 0,
-                borderRight: 0,
-                borderColor: "#dfe6eb",
-              }) ||
-              (block.id === "4" && {
-                borderLeft: 0,
-                borderRight: 0,
-                borderColor: "#dfe6eb",
-              }) ||
-              (block.id === "5" && {
-                borderLeft: 0,
-                borderRadius: "0 .25rem .25rem 0",
-                borderColor: "#dfe6eb",
-              })
+        <div className="w-full">
+          <Popover
+            className={
+              block.type === "primary"
+                ? "popover-style"
+                : "hidden"
             }
-            className="w-full h-7"
-          ></Button>
-        </Tooltip>
+            content={<div dangerouslySetInnerHTML={createMarkup(block)} />}
+            key={block.id}
+            placement="top"
+            width="300"
+            visibleArrow={false}
+            title={block.title}
+          >
+            <div className="w-full flex">
+              <Button
+                type={block.type}
+                style={
+                  (block.id === "1" && {
+                    borderRight: 0,
+                    borderRadius: ".25rem 0 0 .25rem",
+                    borderColor: "#dfe6eb",
+                    width: "100%",
+                  }) ||
+                  (block.id === "2" && {
+                    borderLeft: 0,
+                    borderRight: 0,
+                    borderColor: "#dfe6eb",
+                  }) ||
+                  (block.id === "3" && {
+                    borderLeft: 0,
+                    borderRight: 0,
+                    borderColor: "#dfe6eb",
+                  }) ||
+                  (block.id === "4" && {
+                    borderLeft: 0,
+                    borderRight: 0,
+                    borderColor: "#dfe6eb",
+                  }) ||
+                  (block.id === "5" && {
+                    borderLeft: 0,
+                    borderRadius: "0 .25rem .25rem 0",
+                    borderColor: "#dfe6eb",
+                  })
+                }
+                className="w-full h-7"
+              ></Button>
+            </div>
+          </Popover>
+        </div>
       );
     });
   };

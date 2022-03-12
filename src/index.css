@@ -1,7 +1,3 @@
-.visible {
-  visibility: visible;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -61,12 +57,12 @@
   display: block;
 }
 
-.\!block {
-  display: block !important;
-}
-
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-full {
@@ -83,10 +79,6 @@
 
 .w-full {
   width: 100%;
-}
-
-.min-w-\[200px\] {
-  min-width: 200px;
 }
 
 .max-w-4xl {
@@ -178,11 +170,6 @@
   color: rgb(32 160 255 / var(--tw-text-opacity));
 }
 
-.text-hover {
-  --tw-text-opacity: 1;
-  color: rgb(77 179 255 / var(--tw-text-opacity));
-}
-
 .no-underline {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
@@ -203,8 +190,20 @@ code {
     monospace;
 }
 
-p, li {
+p,
+li {
   font-weight: 300;
+}
+
+.popover-style {
+  color: white;
+  background: #22465c !important;
+  border-color: #22465c !important;
+  font-weight: normal;
+}
+
+.popover-style div {
+  color: white;
 }
 
 .hover\:text-hover:hover {

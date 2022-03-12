@@ -190,23 +190,27 @@
         "blocks": [
           {
             "id": "1",
+            "title": "LEVEL 1",
             "type": "primary",
-            "description": "Knowledge of the Javascript Engine, Runtime and JIT Compiler. <br/><br/> Knowledge of concepts such as Call Stack, Stack Overflow, Execution Context and Lexical Environment."
+            "description": "- Knowledge of the Javascript Engine, Runtime and JIT Compiler. <br/><br/> - Knowledge of concepts such as Call Stack, Stack Overflow, Execution Context and Lexical Environment."
           },
           {
             "id": "2",
+            "title": "LEVEL 2",
             "type": "primary",
-            "description": "Master concepts such as Chain Scope, Hoisting, Function Scope and Block Scope, <br/> difference between Dynamic and Lexical Scope. <br/><br/> Also know Javascript data types well <br/ > (primitives, objects, functions), Function Closures, Type Coercion, <br/> Javascript's concept of being static and dynamically typed."
+            "description": "- Master concepts such as Chain Scope, Hoisting, Function Scope and Block Scope, know the difference between Dynamic and Lexical Scope. <br/><br/> - Good understandig of Javascript data types (primitives, objects, functions), know what a Function Closures is, and what Type Coercion means. <br/><br/> - Knowladge that Javascript is a being static language and dynamically typed."
           },
           {
             "id": "3",
+            "title": "LEVEL 3",
             "type": "primary",
-            "description": "Knowledge about OOP and Functional Programming. <br/><br/> Knowledge about the word this and new, which is a pipe, <br/> ES6 concepts (arrow functions, let and const, destructuring , etc.), <br/> and also understand what Web APIs are, how to create and implement them."
+            "description": "- Knowledge about OOP and Functional Programming. <br/><br/> - Knowledge about the word this and new. <br/><br/> - ES6 concepts (arrow functions, let and const, destructuring , etc.). <br/><br/> - Understand what Web APIs are, how to create and implement them."
           },
           {
             "id": "4",
+            "title": "LEVEL 4",
             "type": "primary",
-            "description": "Advanced knowledge of functional <br/> programming or object oriented programming <br/> using the three major frameworks <br/> (React, Angular, Vue). <br/><br/> Knowledge of WebPack, know how to start <br/> and configure an application <br/> from scratch (configuration of package.json, i18n, CI, vite, vercel, etc.) <br/><br/> Know how to type the code using the Typescript language. Create clean and performance-based code from the Javascript Engine. <br/><br/> Knowledge of Node.js with Express."
+            "description": "- Advanced knowledge of functional programming or object oriented programming using the three major frameworks (React, Angular, Vue). <br/><br/> - Knowledge of WebPack, know how to start and configure an application from scratch (configuration of package.json, i18n, CI, vite, vercel, etc.). <br/><br/> - Know how to type the code using the Typescript language. <br/><br/> - Create clean and performance-based code from the Javascript Engine. <br/><br/> - Knowledge of Node.js with Express."
           },
           {
             "id": "5",
@@ -220,23 +224,27 @@
         "blocks": [
           {
             "id": "1",
+            "title": "LEVEL 1",
             "type": "primary",
-            "description": "Know what the Box Model is for the Selectors and what the CSS C word (cascade) means."
+            "description": "- Know what the Box Model is for the Selectors and what the CSS C word (cascade) means."
           },
           {
             "id": "2",
+            "title": "LEVEL 2",
             "type": "primary",
-            "description": "Understand the concepts of Specificity, Inheritance Spacing and <br/> know how to create a Layout using Flexbox."
+            "description": "- Understand the concepts of Specificity, Inheritance Spacing and know how to create a Layout using Flexbox."
           },
           {
             "id": "3",
+            "title": "LEVEL 3",
             "type": "primary",
-            "description": "Know the different types of Sizing Units,<br/> know the difference between Pseudo-elements and Pseudo-classes, <br/> as well as be able to put them into practice. <br/><br/> Knowledge about Gradients, <br/> the SCSS processing language and the BEM methodology"
+            "description": "- Know the different types of Sizing Units know the difference between Pseudo-elements and Pseudo-classes, as well as be able to put them into practice. <br/><br/> - Knowledge about Gradients, the SCSS processing language and the BEM methodology"
           },
           {
             "id": "4",
+            "title": "LEVEL 4",
             "type": "primary",
-            "description": "Knowledge about the <br/> design of a Layout using the Grid. <br/><br/> Knowledge about Animations and <br/> handling of css frameworks <br/> Tailwind CSS, Styled Components.<br/><br/> Knowledge of Bootstrap componentized <br/> frameworks, <br/> Material UI, Element UI, Mantis, etc."
+            "description": "- Knowledge about the design of a Layout using the Grid. <br/><br/> - Knowledge about Animations and handling of css frameworks Tailwind CSS, Styled Components. <br/><br/> - Knowledge of Bootstrap componentized frameworks, Material UI, Element UI, Mantis, etc."
           },
           {
             "id": "5",
@@ -250,18 +258,21 @@
         "blocks": [
           {
             "id": "1",
+            "title": "LEVEL 1",
             "type": "primary",
-            "description": "Know the basic concepts of design <br/> such as Color, which is a Line, Shape, and what Typography is."
+            "description": "- Know the basic concepts of design such as Color, which is a Line, Shape, and what Typography is."
           },
           {
             "id": "2",
+            "title": "LEVEL 2",
             "type": "primary",
-            "description": "Keep in mind the design principles: <br/> Emphasis, Balance and alignment, Contrast, Repetition, Proportion , Movement, White Space."
+            "description": "- Keep in mind the design principles: Emphasis, Balance and alignment, Contrast, Repetition, Proportion , Movement, White Space."
           },
           {
             "id": "3",
+            "title": "LEVEL 3",
             "type": "primary",
-            "description": "Understand the difference between UX and UI. <br/><br/> Know how to carry out an Investigation to do a Research. <br/><br/> Create Wireframes in Figma using a design system <br/> and dynamic components."
+            "description": "- Understand the difference between UX and UI. Know how to carry out an Investigation to do a Research. <br/><br/> - Create Wireframes in Figma using a design system and dynamic components."
           },
           {
             "id": "4",
