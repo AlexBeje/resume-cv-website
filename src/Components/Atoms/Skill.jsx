@@ -19,7 +19,7 @@ function Skill({ skill }) {
             key={block.id}
             placement="top"
             width="300"
-            visibleArrow={false}
+            visibleArrow={true}
             title={block.title}
           >
             <div className="w-full flex">
