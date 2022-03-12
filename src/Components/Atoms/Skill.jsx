@@ -9,7 +9,7 @@ function Skill({ skill }) {
     return skill.blocks.map((block) => {
       return (
         <Tooltip
-          className="w-full"
+          className="w-full text-center"
           content={<div dangerouslySetInnerHTML={createMarkup(block)} />}
           effect="dark"
           key={block.id}

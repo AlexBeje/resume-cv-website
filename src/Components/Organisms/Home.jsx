@@ -14,7 +14,7 @@ function Home() {
     <div id="Home">
       <Layout.Row>
         <Layout.Col className="flex justify-end">
-          {/* <LanguageToggle /> */}
+          <LanguageToggle />
         </Layout.Col>
       </Layout.Row>
       <Layout.Row className="my-10">

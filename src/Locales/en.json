@@ -1,1 +1,465 @@
-{}
+{
+  "header": {
+    "name": "Alexandru",
+    "surnames": "Bejenaru",
+    "profession": "WEB APPLICATION DEVELOPERWEB",
+    "phone": "642 954 953",
+    "email": "alex.bejenaru93@gmail.com",
+    "linkedin": "alexbeje",
+    "github": "AlexBeje"
+  },
+  "summary": {
+    "section": {
+      "title": "Summary"
+    },
+    "content": "Web application developer with more than 5 years of experience working with agile technologies to deliver the best quality products. Diplomatic, friendly and expert in handling delicate situations. Highly organized, motivated and competent with the new technologies. Degree in Digital Interaction and Multimedia"
+  },
+  "experience": {
+    "section": {
+      "title": "Experience"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "Accenture PLC",
+        "date": "Jun. 2021 - Present",
+        "projects": [
+          {
+            "id": "1",
+            "title": "New Zurich Area (Vue & Jest)",
+            "skills": [
+              {
+                "title": "I have been part of the Front team in the implementation of the new Zurich customer portal."
+              },
+              {
+                "title": "Using the previously acquired knowledge of Zurich architecture, I have been able to carry out the tasks in a much more agile and effective way."
+              },
+              {
+                "title": "Together with the team, we have implemented an architecture focused on the proper distribution of the components created for reuse within the application."
+              },
+              {
+                "title": "As the main development tool, we used the Vue 2 library with the class components extension."
+              },
+              {
+                "title": "The code has been typed using the Typescript language."
+              },
+              {
+                "title": "I have created data dictionaries, I have used the SWAGGERS generated in a FIB (Front In Back) environment and I have adapted the created services in the Front part."
+              },
+              {
+                "title": "A design system based on the Element UI library has been followed, using the SCSS framework with the BEM methodology."
+              },
+              {
+                "title": "I have learned how to test using the Jest and Vue Test Utils libraries."
+              },
+              {
+                "title": "I have used Gitlab as my main release management tool."
+              },
+              {
+                "title": "I have worked in an Agile Scrum environment using Jira as the primary task assignment tool."
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Web Component (Vue & Jest)",
+            "skills": [
+              {
+                "title": "As Design Lead, my main tasks in the project have been the complete redesign of the policy contracting application called Zurich Web Component for Volkswagen, the adaptation of the component to the branding of Volkswagen (Seat, Skoda, Audi), and the adaptation of the component to the Zurich agents."
+              },
+              {
+                "title": "Knowledge of Zurich architecture has been gained."
+              },
+              {
+                "title": "As the main development tool, we used the Vue 2 library with the class components extension."
+              },
+              {
+                "title": "The code has been typed using the Typescript language."
+              },
+              {
+                "title": "I have created data dictionaries, used the SWAGGERS generated in a FIB (Front In Back) environment and I have adapted the services created in the Front part."
+              },
+              {
+                "title": "A design system based on the Element UI library has been followed, using the SCSS framework with the BEM methodology."
+              },
+              {
+                "title": "He aprendido a hacer testing utilizando las librerías Jest y Vue Test Utils."
+              },
+              {
+                "title": "I have learned how to test using the Jest and Vue Test Utils libraries."
+              },
+              {
+                "title": "I have used Gitlab as my main release management tool."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "GFT Technologies SE",
+        "date": "Jun. 2016 - Jun. 2021",
+        "projects": [
+          {
+            "id": "1",
+            "title": "BBVA (Angular 2)",
+            "skills": [
+              {
+                "title": "I have participated in the refactoring of the GUI of BBVA's internal application called PKI."
+              },
+              {
+                "title": "As the main Front End Team Leader role, my daily tasks were to find improvements (componentize elements, generate an ecosystem of code quality, improve the architecture of visual elements, etc.)."
+              },
+              {
+                "title": "Angular 2 has been used as the main programming tool, together with the Typescript typing language."
+              },
+              {
+                "title": "I have implement REST calls from services developed by the Back team using the open source Go language."
+              },
+              {
+                "title": "I have used the SCSS with the BEM nomenclature to develop the styles of the application."
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "One Creation (Angular 2)",
+            "skills": [
+              {
+                "title": "I have participated in the One Creation international project, with the stakeholders in the USA, the designers in the UK and the developers in Spain."
+              },
+              {
+                "title": "The main role in the project was Design lead, with the objective of developing the visual part of the application."
+              },
+              {
+                "title": "Based on designs laid out in Figma, the SCSS languages ​​were used with the BEM methodology, the Bootstrap toolkit and the Angular 2 framework. Together with the TypeScript typed language, we have deployed the MVP of the OneCreation app."
+              },
+              {
+                "title": "We have used Notion as the main task coordination tool using the agile methodology as a base."
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Sabadell (Stencil.js)",
+            "skills": [
+              {
+                "title": "We created web components using Ionic's Stencil.js tool."
+              },
+              {
+                "title": "As a member of the core team, my job was to create the base components from a design made in Sketch and passed to the developers through the Zeplin tool. Once the development was finished, the components were passed to the developers of the other teams to implement them."
+              },
+              {
+                "title": "We have used javascript with the JSX syntax and the Atomic Design methodology for the organization of the components as the base language."
+              },
+              {
+                "title": "The code has been typed using the Typescript language."
+              },
+              {
+                "title": "To create the style of the app, the SCSS language with the BEM nomenclature has been used."
+              },
+              {
+                "title": "The various teams have been organized using the Agile SAFe methodology."
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "title": "Deutsche Bank (Cobol)",
+            "skills": [
+              {
+                "title": "We use the Cobol language (on the Mainframe platform) as the main programming tool for the implementation of the MiFID rule at Deutsche Bank."
+              },
+              {
+                "title": "I have also gained experience with JCL (Job Control Language)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "section": {
+      "title": "Skills"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "Javascript",
+        "blocks": [
+          {
+            "id": "1",
+            "type": "primary",
+            "description": "Knowledge of the Javascript Engine, Runtime and JIT Compiler. <br/><br/> Knowledge of concepts such as Call Stack, Stack Overflow, Execution Context and Lexical Environment."
+          },
+          {
+            "id": "2",
+            "type": "primary",
+            "description": "Master concepts such as Chain Scope, Hoisting, Function Scope and Block Scope, <br/> difference between Dynamic and Lexical Scope. <br/><br/> Also know Javascript data types well <br/ > (primitives, objects, functions), Function Closures, Type Coercion, <br/> Javascript's concept of being static and dynamically typed."
+          },
+          {
+            "id": "3",
+            "type": "primary",
+            "description": "Knowledge about OOP and Functional Programming. <br/><br/> Knowledge about the word this and new, which is a pipe, <br/> ES6 concepts (arrow functions, let and const, destructuring , etc.), <br/> and also understand what Web APIs are, how to create and implement them."
+          },
+          {
+            "id": "4",
+            "type": "primary",
+            "description": "Advanced knowledge of functional <br/> programming or object oriented programming <br/> using the three major frameworks <br/> (React, Angular, Vue). <br/><br/> Knowledge of WebPack, know how to start <br/> and configure an application <br/> from scratch (configuration of package.json, i18n, CI, vite, vercel, etc.) <br/><br/> Know how to type the code using the Typescript language. Create clean and performance-based code from the Javascript Engine. <br/><br/> Knowledge of Node.js with Express."
+          },
+          {
+            "id": "5",
+            "type": "secondary"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "CSS",
+        "blocks": [
+          {
+            "id": "1",
+            "type": "primary",
+            "description": "Know what the Box Model is for the Selectors and what the CSS C word (cascade) means."
+          },
+          {
+            "id": "2",
+            "type": "primary",
+            "description": "Understand the concepts of Specificity, Inheritance Spacing and <br/> know how to create a Layout using Flexbox."
+          },
+          {
+            "id": "3",
+            "type": "primary",
+            "description": "Know the different types of Sizing Units,<br/> know the difference between Pseudo-elements and Pseudo-classes, <br/> as well as be able to put them into practice. <br/><br/> Knowledge about Gradients, <br/> the SCSS processing language and the BEM methodology"
+          },
+          {
+            "id": "4",
+            "type": "primary",
+            "description": "Knowledge about the <br/> design of a Layout using the Grid. <br/><br/> Knowledge about Animations and <br/> handling of css frameworks <br/> Tailwind CSS, Styled Components.<br/><br/> Knowledge of Bootstrap componentized <br/> frameworks, <br/> Material UI, Element UI, Mantis, etc."
+          },
+          {
+            "id": "5",
+            "type": "secondary"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Design",
+        "blocks": [
+          {
+            "id": "1",
+            "type": "primary",
+            "description": "Know the basic concepts of design <br/> such as Color, which is a Line, Shape, and what Typography is."
+          },
+          {
+            "id": "2",
+            "type": "primary",
+            "description": "Keep in mind the design principles: <br/> Emphasis, Balance and alignment, Contrast, Repetition, Proportion , Movement, White Space."
+          },
+          {
+            "id": "3",
+            "type": "primary",
+            "description": "Understand the difference between UX and UI. <br/><br/> Know how to carry out an Investigation to do a Research. <br/><br/> Create Wireframes in Figma using a design system <br/> and dynamic components."
+          },
+          {
+            "id": "4",
+            "type": "secondary"
+          },
+          {
+            "id": "5",
+            "type": "secondary"
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "section": {
+      "title": "Education"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "UOC (Open University of Catalonia)",
+        "date": "Sep. 2018 - Present",
+        "projects": [
+          {
+            "id": "1",
+            "title": "Digital and Multimedia Interaction",
+            "skills": [
+              {
+                "title": "I have learned the basics of graphic design (color theory, typography, layout, etc.)."
+              },
+              {
+                "title": "I have learned how to make / edit videos in an advanced way following the patterns of the rule of thirds and other techniques."
+              },
+              {
+                "title": "I have used the SketchUp tool to transform 2d objects into 3d objects."
+              },
+              {
+                "title": "I have made an in-depth introduction based on the HTML and CSS and Javascript languages."
+              },
+              {
+                "title": "I have developed a podcast app following the principles of interaction design (from research to the interactive product modeled in figma)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "IES Caparella",
+        "date": "Sep. 2008 - Jun. 2012",
+        "projects": [
+          {
+            "id": "1",
+            "title": "DAW (Web Application Development)",
+            "skills": [
+              {
+                "title": "I have learned to fix and maintain computer systems."
+              },
+              {
+                "title": "I have acquired basic knowledge of the SQL language."
+              },
+              {
+                "title": "I have done the introduction to programming using the C++ tool."
+              },
+              {
+                "title": "I have been introduced to the Javascript language, the JQuery framework and I have developed blogs and web pages using Wordpress."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "extracurricular": {
+    "section": {
+      "title": "Extracurricular"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "Udemy",
+        "projects": [
+          {
+            "id": "1",
+            "title": "Web Development",
+            "skills": [
+              {
+                "title": "Currently studying: JavaScript: The Advanced Concepts (2022 Update)",
+                "link": "https://www.udemy.com/course/advanced-javascript-concepts/",
+                "mark": "true"
+              },
+              {
+                "title": "The Complete Node.js Developer Course (3rd Edition)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-4a92a6ae-3e34-45cd-91f1-9b2de4d2839d.pdf"
+              },
+              {
+                "title": "Complete Vue Mastery 2022 (w/ Vuex, Composition API, Router)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a6625772-35d3-430c-b4b3-c62d18d23680.pdf"
+              },
+              {
+                "title": "Understanding TypeScript - 2022 Edition",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-81ff333d-2f60-4c13-8df1-96231de7e852.pdf"
+              },
+              {
+                "title": "Angular Testing Masterclass (with FREE E-Book)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a26124fc-480a-4fbd-ae8a-38151043d837.pdf"
+              },
+              {
+                "title": "CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-9000c9c0-a879-47be-b0ce-656c0d3a7bd7.pdf"
+              },
+              {
+                "title": "Angular - The Complete Guide (2022 Edition)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-f2b6b313-ddd1-4b71-a90f-ad6a77945752.pdf"
+              },
+              {
+                "title": "Build Data Visualizations with D3.js & Firebase",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-1fadcda0-d80e-4b7a-95fa-5fec982d2c7b.pdf"
+              },
+              {
+                "title": "Modern JavaScript (Complete guide, from Novice to Ninja)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-25955b55-0cb8-4d43-ace1-d2628548cec6.pdf"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Design",
+            "skills": [
+              {
+                "title": "Sketching for UX Designers - Boost UX work with pen & paper!",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-3768bd27-dcb4-4d37-a7cc-710cbeb2c74d.pdf"
+              },
+              {
+                "title": "Learn Figma - UI/UX Design Essential Training",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-5d7dde08-06ce-4c66-b212-dc3fce66005b.pdf"
+              },
+              {
+                "title": "The Complete Graphic Design Theory for Beginners Course",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-339a768e-a07a-4cac-8b5e-df87475d7d8d.pdf"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Personal Development",
+            "skills": [
+              {
+                "title": "Learning to Learn [Efficient Learning]: Zero to Mastery",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-757212c0-00fb-4461-a42b-854dade0191b.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "GitHub",
+        "projects": [
+          {
+            "id": "1",
+            "title": "Next.js",
+            "skills": [
+              {
+                "title": "Currently working on: alex-beje-cv",
+                "link": "https://github.com/AlexBeje/alex-beje-cv",
+                "mark": "true"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "React",
+            "skills": [
+              {
+                "title": "resume-cv-website",
+                "link": "https://github.com/AlexBeje/resume-cv-website"
+              },
+              {
+                "title": "pomodoro",
+                "link": "https://github.com/AlexBeje/pomodoro"
+              },
+              {
+                "title": "virtual-piano",
+                "link": "https://github.com/AlexBeje/virtual-piano"
+              },
+              {
+                "title": "calculator",
+                "link": "https://github.com/AlexBeje/calculator"
+              },
+              {
+                "title": "random-quote-machine",
+                "link": "https://github.com/AlexBeje/random-quote-machine"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
