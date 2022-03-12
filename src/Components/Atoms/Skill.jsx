@@ -10,12 +10,7 @@ function Skill({ skill }) {
       return (
         <Tooltip
           className="w-full"
-          content={
-            <div
-              className="text-center"
-              dangerouslySetInnerHTML={createMarkup(block)}
-            />
-          }
+          content={<div dangerouslySetInnerHTML={createMarkup(block)} />}
           effect="dark"
           key={block.id}
           openDelay={100}
