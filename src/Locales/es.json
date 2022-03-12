@@ -353,40 +353,41 @@
             "title": "Desarrollo Web",
             "skills": [
               {
-                "title": "Modern JavaScript (Complete guide, from Novice to Ninja)",
-                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-25955b55-0cb8-4d43-ace1-d2628548cec6.pdf"
-              },
-              {
-                "title": "Build Data Visualizations with D3.js & Firebase",
-                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-1fadcda0-d80e-4b7a-95fa-5fec982d2c7b.pdf"
-              },
-              {
-                "title": "Angular - The Complete Guide (2022 Edition)",
-                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-f2b6b313-ddd1-4b71-a90f-ad6a77945752.pdf"
-              },
-              {
-                "title": "CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)",
-                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-9000c9c0-a879-47be-b0ce-656c0d3a7bd7.pdf"
-              },
-              {
-                "title": "Angular Testing Masterclass (with FREE E-Book)",
-                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a26124fc-480a-4fbd-ae8a-38151043d837.pdf"
-              },
-              {
-                "title": "Understanding TypeScript - 2022 Edition",
-                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-81ff333d-2f60-4c13-8df1-96231de7e852.pdf"
-              },
-              {
-                "title": "Complete Vue Mastery 2022 (w/ Vuex, Composition API, Router)",
-                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a6625772-35d3-430c-b4b3-c62d18d23680.pdf"
+                "title": "Cursando actualmente: JavaScript: The Advanced Concepts (2022 Update)",
+                "link": "https://www.udemy.com/course/advanced-javascript-concepts/",
+                "mark": "true"
               },
               {
                 "title": "The Complete Node.js Developer Course (3rd Edition)",
                 "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-4a92a6ae-3e34-45cd-91f1-9b2de4d2839d.pdf"
               },
               {
-                "title": "Cursando actualmente: JavaScript: The Advanced Concepts (2022 Update)",
-                "link": "https://www.udemy.com/course/advanced-javascript-concepts/"
+                "title": "Complete Vue Mastery 2022 (w/ Vuex, Composition API, Router)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a6625772-35d3-430c-b4b3-c62d18d23680.pdf"
+              },
+              {
+                "title": "Understanding TypeScript - 2022 Edition",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-81ff333d-2f60-4c13-8df1-96231de7e852.pdf"
+              },
+              {
+                "title": "Angular Testing Masterclass (with FREE E-Book)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a26124fc-480a-4fbd-ae8a-38151043d837.pdf"
+              },
+              {
+                "title": "CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-9000c9c0-a879-47be-b0ce-656c0d3a7bd7.pdf"
+              },
+              {
+                "title": "Angular - The Complete Guide (2022 Edition)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-f2b6b313-ddd1-4b71-a90f-ad6a77945752.pdf"
+              },
+              {
+                "title": "Build Data Visualizations with D3.js & Firebase",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-1fadcda0-d80e-4b7a-95fa-5fec982d2c7b.pdf"
+              },
+              {
+                "title": "Modern JavaScript (Complete guide, from Novice to Ninja)",
+                "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-25955b55-0cb8-4d43-ace1-d2628548cec6.pdf"
               }
             ]
           },
@@ -430,7 +431,8 @@
             "skills": [
               {
                 "title": "Trabajando actualmente en: alex-beje-cv",
-                "link": "https://github.com/AlexBeje/alex-beje-cv"
+                "link": "https://github.com/AlexBeje/alex-beje-cv",
+                "mark": "true"
               }
             ]
           },

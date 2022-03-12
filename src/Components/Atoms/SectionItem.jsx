@@ -1,6 +1,8 @@
 import { useWindowSize } from "usehooks-ts";
 import { Layout, Collapse } from "element-react/next";
 
+import { AiOutlineLink } from "react-icons/ai";
+
 import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
 
 function SectionItem({ item }) {
@@ -12,9 +14,16 @@ function SectionItem({ item }) {
         <a
           href={skill.link}
           target="_blank"
-          className="font-bold text-primary no-underline"
+          className="text-black no-underline"
         >
-          {skill.title}
+          <span className="flex items-center">
+            <span className={skill.mark && "text-primary"}>{skill.title}</span>
+            {skill.mark ? (
+              <AiOutlineLink className="h-4 ml-1 text-primary" />
+            ) : (
+              <AiOutlineLink className="h-4 ml-1" />
+            )}
+          </span>
         </a>
       );
     } else {
