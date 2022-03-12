@@ -13,8 +13,8 @@ function Skill({ skill }) {
           content={<div dangerouslySetInnerHTML={createMarkup(block)} />}
           effect="dark"
           key={block.id}
-          openDelay={100}
           placement="top"
+          manual={!block.description}
         >
           <Button
             type={block.type}

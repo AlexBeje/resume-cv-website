@@ -1,3 +1,7 @@
+.visible {
+  visibility: visible;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -57,6 +61,10 @@
   display: block;
 }
 
+.\!block {
+  display: block !important;
+}
+
 .flex {
   display: flex;
 }
@@ -75,6 +83,10 @@
 
 .w-full {
   width: 100%;
+}
+
+.min-w-\[200px\] {
+  min-width: 200px;
 }
 
 .max-w-4xl {

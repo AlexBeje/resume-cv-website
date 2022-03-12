@@ -191,27 +191,26 @@
           {
             "id": "1",
             "type": "primary",
-            "description": "Text 1 <br/> Text 1.1"
+            "description": "· Javascript Engine <br/> · Javascript Runtime <br/> · Interpreter/ Compiler/ JIT Compiler <br/> · Call Stack + Memory Heap <br/> · Stack Overflow + Memory Leaks <br/> · Execution Context <br/> · Lexical Environment <br/> · Scope Chain <br/>"
           },
           {
             "id": "2",
             "type": "primary",
-            "description": "Text 2 <br/> Text 2.1"
+            "description": "· Hoisting <br/> · Function Invocation <br/> · Function Scope vs Block Scope <br/> · Dynamic Vs Lexical Scope <br/> · IIFE <br/> · Static vs Dynamically Typed <br/> · Primitive Types <br/> · Type Coercion <br/> · Arrays, Functions, Objects <br/> · Closures"
           },
           {
             "id": "3",
             "type": "primary",
-            "description": "Text 3 <br/> Text 3.1"
+            "description": "· Prototypal Inheritance <br/> · Higher Order Functions <br/> · Functions vs Objects <br/> · Scheme + Java <br/> · this keyword <br/> · new keyword <br/> · Prototype <br/> · ES6 Classes <br/> · Inheritance"
           },
           {
             "id": "4",
             "type": "primary",
-            "description": "Text 4 <br/> Text 4.1"
+            "description": "· Object.create() <br/> · Private vs Public <br/> · The 4 Principles of OOP <br/> · Composition vs Inheritance <br/> · Curry <br/> · Partial Application <br/> · Pure Functions <br/> · Referential Transparency Compose <br/> · Pipe <br/> · Web APIs"
           },
           {
             "id": "5",
-            "type": "secondary",
-            "description": "Text 5 <br/> Text 5.1"
+            "type": "secondary"
           }
         ]
       },
@@ -222,17 +221,17 @@
           {
             "id": "1",
             "type": "primary",
-            "description": "· Box Model<br/> · Selectors<br/> · The cascade<br/>"
+            "description": "· Box Model <br/> · Selectors <br/> · The cascade <br/>"
           },
           {
             "id": "2",
             "type": "primary",
-            "description": "· Specificity<br/> · Inheritance<br/> · Spacing elements<br/> · Layout (Flexbox)"
+            "description": "· Specificity <br/> · Inheritance <br/> · Spacing elements <br/> · Layout (Flexbox)"
           },
           {
             "id": "3",
             "type": "primary",
-            "description": "· Sizing Units<br/> · Pseudo-elements and Pseudo-classes<br/> · Gradients <br/> · SCSS </br> · BEM"
+            "description": "· Sizing Units <br/> · Pseudo-elements and Pseudo-classes <br/> · Gradients <br/> · SCSS </br> · BEM"
           },
           {
             "id": "4",
@@ -241,8 +240,7 @@
           },
           {
             "id": "5",
-            "type": "secondary",
-            "description": "· Transitions (advanced animations) <br/> · Three.js </br>"
+            "type": "secondary"
           }
         ]
       },
@@ -253,27 +251,25 @@
           {
             "id": "1",
             "type": "primary",
-            "description": "Text 1 <br/> Text 1.1"
+            "description": "· Colour <br /> · Line <br /> · Shape <br /> · Typography"
           },
           {
             "id": "2",
             "type": "primary",
-            "description": "Text 2 <br/> Text 2.1"
+            "description": "· Emphasis <br /> · Balance and alignment <br /> · Contrast <br /> · Repetition <br /> · Proportion  <br /> · Movment <br /> · White space"
           },
           {
             "id": "3",
             "type": "primary",
-            "description": "Text 3 <br/> Text 3.1"
+            "description": ". Investigation <br /> · Research <br /> · Wireframe creation <br /> · Figma"
           },
           {
             "id": "4",
-            "type": "secondary",
-            "description": "Text 4 <br/> Text 4.1"
+            "type": "secondary"
           },
           {
             "id": "5",
-            "type": "secondary",
-            "description": "Text 5 <br/> Text 5.1"
+            "type": "secondary"
           }
         ]
       }
