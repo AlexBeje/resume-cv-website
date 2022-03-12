@@ -11,11 +11,10 @@ function Skill({ skill }) {
   const renderButtons = () => {
     return skill.blocks.map((block) => {
       return (
-        <div className="w-full">
+        <div className="w-full" key={block.id}>
           <Popover
             className={block.type === "primary" ? "popover-style" : "hidden"}
             content={<div dangerouslySetInnerHTML={createMarkup(block)} />}
-            key={block.id}
             placement="top"
             width={width > 450 ? 400 : 200}
             visibleArrow={false}
