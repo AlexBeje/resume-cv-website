@@ -191,22 +191,22 @@
           {
             "id": "1",
             "type": "primary",
-            "description": "· Javascript Engine <br/> · Javascript Runtime <br/> · Interpreter/ Compiler/ JIT Compiler <br/> · Call Stack + Memory Heap <br/> · Stack Overflow + Memory Leaks <br/> · Execution Context <br/> · Lexical Environment <br/> · Scope Chain <br/>"
+            "description": "Conocimiento sobre el Engiene, Runtime y el JIT Compiler de Javascript. <br/><br/> Conocimiento sobre conceptos como Call Stack, Stack Overflow, Execution Context y Lexical Environment."
           },
           {
             "id": "2",
             "type": "primary",
-            "description": "· Hoisting <br/> · Function Invocation <br/> · Function Scope vs Block Scope <br/> · Dynamic Vs Lexical Scope <br/> · IIFE <br/> · Static vs Dynamically Typed <br/> · Primitive Types <br/> · Type Coercion <br/> · Arrays, Functions, Objects <br/> · Closures"
+            "description": "Dominar conceptos como Scope Chain, Hoisting, Function Scope y Block Scope, <br/> diferencia entre Dynamic y Lexical Scope. <br/><br/> Tambíen conocer bien los tipos de datos de Javascript <br/> (primitivos, objetos, functions), Function Closures, Type Coercion, <br/> concepto de que Javascript tiene es estatico y tiene un tipado dynamico."
           },
           {
             "id": "3",
             "type": "primary",
-            "description": "· Prototypal Inheritance <br/> · Higher Order Functions <br/> · Functions vs Objects <br/> · Scheme + Java <br/> · this keyword <br/> · new keyword <br/> · Prototype <br/> · ES6 Classes <br/> · Inheritance"
+            "description": "Conocimiento sobre la OOP y Functional Programming. <br/><br/> Conocimiento sobre la palabra this y new, que es una pipe, <br/> conceptos del ES6 (arrow functions, let y const, destructuring, etc.), <br/> y también entender que son los Web APIs, como crear e implementarlas."
           },
           {
             "id": "4",
             "type": "primary",
-            "description": "· Object.create() <br/> · Private vs Public <br/> · The 4 Principles of OOP <br/> · Composition vs Inheritance <br/> · Curry <br/> · Partial Application <br/> · Pure Functions <br/> · Referential Transparency Compose <br/> · Pipe <br/> · Web APIs"
+            "description": "Conocimiento avanzado de la programación <br/> funcional o object orriented programming <br/> utilizando los tres grandes frameworks <br/> (React, Angular, Vue). <br/><br/> Conocimiento sobre WebPack, saber arrancar <br/> y configurar una applicación <br/> desde zero (configuración del package.json, i18n, CI, vite, vercel, etc.). <br/><br/> Saber tipar el codigo utilizando el lenguaje Typescript. Crear codigo limpio y basado en el rendimiento del Engiene de Javascript. <br/><br/> Conocimientos de Node.js con Express."
           },
           {
             "id": "5",
@@ -221,22 +221,22 @@
           {
             "id": "1",
             "type": "primary",
-            "description": "· Box Model <br/> · Selectors <br/> · The cascade <br/>"
+            "description": "Saber lo que es el Box Model los Selectors y que significa la palabra C (cascade) de CSS.<br/>"
           },
           {
             "id": "2",
             "type": "primary",
-            "description": "· Specificity <br/> · Inheritance <br/> · Spacing elements <br/> · Layout (Flexbox)"
+            "description": "Entender los conceptos de Specificity, Inheritance Spacing y <br/> saber crear un Layout manejando Flexbox."
           },
           {
             "id": "3",
             "type": "primary",
-            "description": "· Sizing Units <br/> · Pseudo-elements and Pseudo-classes <br/> · Gradients <br/> · SCSS </br> · BEM"
+            "description": "Tener conocimientos sobre los diferentes tipos de Sizing Units,<br/> saber la diferencia entre Pseudo-elements y Pseudo-classes, <br/> como tambíen poder ponerlos en practica. <br/><br/> Concimiento sobre los Gradients, <br/> el lenguaje prprocesado SCSS y la metodología BEM"
           },
           {
             "id": "4",
             "type": "primary",
-            "description": "· Layout (Grid) <br/> · Animations </br> · Tailwind CSS </br> · Styled Components"
+            "description": "Conocimientos sobre el diseño <br/> de un Layout utilizando el Grid. <br/><br/> Conocimientos sobre las Animations y <br/> manejo de los frameworks de css <br/> Tailwind CSS, Styled Components. <br/><br/> Conocimiento sobre los frameworks <br/> componentizados Bootstrap, <br/> Material UI, Element UI, Mantis, etc."
           },
           {
             "id": "5",
@@ -251,17 +251,17 @@
           {
             "id": "1",
             "type": "primary",
-            "description": "· Colour <br /> · Line <br /> · Shape <br /> · Typography"
+            "description": "Conocer los conceptos básicos del diseño <br/> como el Colour que es una Line, Shape y que es la Typography."
           },
           {
             "id": "2",
             "type": "primary",
-            "description": "· Emphasis <br /> · Balance and alignment <br /> · Contrast <br /> · Repetition <br /> · Proportion  <br /> · Movment <br /> · White space"
+            "description": "Tener presente los principios del diseño: <br/> Emphasis, Balance and alignment, Contrast, Repetition, Proportion , Movment, White Space."
           },
           {
             "id": "3",
             "type": "primary",
-            "description": ". Investigation <br /> · Research <br /> · Wireframe creation <br /> · Figma"
+            "description": "Entender la diferencia entre UX y UI. <br/><br/> Saber llevar acabo una Investigation hacer un Research. <br/><br/> Crear Wireframes en Figma utilizando un design system <br/> y componentes dinamicos."
           },
           {
             "id": "4",
