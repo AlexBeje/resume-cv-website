@@ -12,7 +12,7 @@
     "section": {
       "title": "Resumen"
     },
-    "content": "Desarrollador de aplicaciones web con más de 5 años de experiencia trabajando con tecnologías agile para entregar productos de la mejor calidad. Diplomático, amable y experto en el manejo de situaciones delicadas. Altamente organizado, motivado y competente con las nuevas tecnologías. Grado en Multimedia."
+    "content": "Desarrollador de aplicaciones web con más de 5 años de experiencia trabajando con tecnologías agile para entregar productos de la mejor calidad. Diplomático, amable y experto en el manejo de situaciones delicadas. Altamente organizado, motivado y competente con las nuevas tecnologías. Grado en Interacción Digital y Multimedia."
   },
   "experience": {
     "section": {
@@ -22,7 +22,7 @@
       {
         "id": "1",
         "title": "Accenture PLC",
-        "date": "Jun. 2021 - Present",
+        "date": "Jun. 2021 - Presente",
         "projects": [
           {
             "id": "1",
@@ -44,7 +44,7 @@
                 "title": "Se ha tipado el código utilizando el lenguaje Typescript."
               },
               {
-                "title": "He creado diccionarios de datos, utilizado los SWAGGERS generados en un entorno FIB (Front In Back) y he adaptado los servicios creados en la parte Front."
+                "title": "He creado diccionarios de datos, he utilizado los SWAGGERS generados en un entorno FIB (Front In Back) y he adaptado los servicios creados en la parte Front."
               },
               {
                 "title": "Se ha seguido un design system basado en la librería Element UI, utilizando el framework SCSS con la metodología BEM."
@@ -102,7 +102,7 @@
         "projects": [
           {
             "id": "1",
-            "title": "BBVA (Angular)",
+            "title": "BBVA (Angular 2)",
             "skills": [
               {
                 "title": "He participado en el refactoring de la GUI de la aplicación interna de BBVA llamada PKI."
@@ -111,10 +111,10 @@
                 "title": "Como rol principal Front End Team Leader, mis tareas diarias fueron encontrar mejoras (componentizar elementos, generar un ecosistema de code quality, mejorar la arquitectura de los elementos visuales, etc.) en la aplicación desarrollada."
               },
               {
-                "title": "Se ha utilizado Angular como herramienta principal, junto con el lenguaje tipado Typescript."
+                "title": "Se ha utilizado Angular 2 como herramienta principal, junto con el lenguaje tipado Typescript."
               },
               {
-                "title": "Implemente llamadas REST a partir de los servicios desarrollados por el equipo Back utilizando el lenguaje de código abierto Go."
+                "title": "He implementado llamadas REST a partir de los servicios desarrollados por el equipo Back utilizando el lenguaje de código abierto Go."
               },
               {
                 "title": "He utilizado el SCSS con la nomenclatura BEM para desarrollar los estilos de la aplicación."
@@ -123,7 +123,7 @@
           },
           {
             "id": "2",
-            "title": "One Creation (Angular)",
+            "title": "One Creation (Angular 2)",
             "skills": [
               {
                 "title": "He participado en el proyecto internacional One Creation, con los stakeholders en USA, los designers en UK y los desarrolladores en España."
@@ -132,7 +132,7 @@
                 "title": "El rol principal en el proyecto fue Design lead, teniendo como objetivo el desarrollo de la parte visual de la aplicación."
               },
               {
-                "title": "A partir de diseños maquetados en Figma, se utilizaron los lenguajes SCSS con la metodología BEM, el toolkit de Bootstrap y el framework de Angular (ver. 9) junto con el lenguaje tipado TypeScript, hemos deployado el MVP de la aplicación One Creation."
+                "title": "A partir de diseños maquetados en Figma, se utilizaron los lenguajes SCSS con la metodología BEM, el toolkit de Bootstrap y el framework de Angular 2 junto con el lenguaje tipado TypeScript, hemos deployado el MVP de la aplicación One Creation."
               },
               {
                 "title": "Hemos utilizado Notion como herramienta principal de coordinación de tareas utilizando la metodología agile como base."
@@ -221,7 +221,7 @@
           {
             "id": "1",
             "type": "primary",
-            "description": "Saber lo que es el Box Model los Selectors y que significa la palabra C (cascade) de CSS.<br/>"
+            "description": "Saber lo que es el Box Model los Selectors y que significa la palabra C (cascade) de CSS."
           },
           {
             "id": "2",
@@ -283,7 +283,7 @@
       {
         "id": "1",
         "title": "UOC (Universitat oberta de Catalunya)",
-        "date": "Sep. 2018 - Present",
+        "date": "Sep. 2018 - Presente",
         "projects": [
           {
             "id": "1",
