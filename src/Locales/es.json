@@ -222,33 +222,33 @@
           {
             "id": "1",
             "type": "primary",
-            "description": "Text 1 <br/> Text 1.1"
+            "description": "· Box Model<br/> · Selectors<br/> · The cascade<br/>"
           },
           {
             "id": "2",
             "type": "primary",
-            "description": "Text 2 <br/> Text 2.1"
+            "description": "· Specificity<br/> · Inheritance<br/> · Spacing elements<br/> · Layout (Flexbox)"
           },
           {
             "id": "3",
             "type": "primary",
-            "description": "Text 3 <br/> Text 3.1"
+            "description": "· Sizing Units<br/> · Pseudo-elements and Pseudo-classes<br/> · Gradients <br/> · SCSS </br> · BEM"
           },
           {
             "id": "4",
             "type": "primary",
-            "description": "Text 4 <br/> Text 4.1"
+            "description": "· Layout (Grid) <br/> · Animations </br> · Tailwind CSS </br> · Styled Components"
           },
           {
             "id": "5",
             "type": "secondary",
-            "description": "Text 5 <br/> Text 5.1"
+            "description": "· Transitions (advanced animations) <br/> · Three.js </br>"
           }
         ]
       },
       {
         "id": "3",
-        "title": "Design",
+        "title": "Diseño",
         "blocks": [
           {
             "id": "1",
