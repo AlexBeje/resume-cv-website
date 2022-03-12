@@ -1,6 +1,9 @@
+import { useWindowSize } from "usehooks-ts";
 import { Button, Popover } from "element-react";
 
 function Skill({ skill }) {
+  const { width } = useWindowSize();
+
   function createMarkup(block) {
     return { __html: block.description };
   }
@@ -14,7 +17,7 @@ function Skill({ skill }) {
             content={<div dangerouslySetInnerHTML={createMarkup(block)} />}
             key={block.id}
             placement="top"
-            width="300"
+            width={width > 450 ? 400 : 200}
             visibleArrow={false}
             title={block.title}
           >
