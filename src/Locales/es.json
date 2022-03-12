@@ -198,7 +198,7 @@
             "id": "2",
             "title": "NIVEL 2",
             "type": "primary",
-            "description": "- Dominar conceptos como Scope Chain, Hoisting, Function Scope y Block Scope, saber la diferencia entre Dynamic y Lexical Scope. <br/><br/> - Tambíen conocer bien los tipos de datos de Javascript (primitivos, objetos, functions), las Function Closures, y el Type Coercion. <br/><br/> - Conocimiento de que Javascript es un lenguaje estatico y tiene un tipado dynamico."
+            "description": "- Dominar conceptos como Scope Chain, Hoisting, Function Scope y Block Scope, saber la diferencia entre Dynamic y Lexical Scope. <br/><br/> - Tambíen conocer bien los tipos de datos de Javascript (primitivos, objetos, functions), las Function Closures, y el Type Coercion. <br/><br/> - Conocimiento de que Javascript es un lenguaje estático y tiene un tipado dinámico."
           },
           {
             "id": "3",
@@ -210,7 +210,7 @@
             "id": "4",
             "title": "NIVEL 4",
             "type": "primary",
-            "description": "- Conocimiento avanzado de la programación funcional o object orriented programming utilizando los tres grandes frameworks (React, Angular, Vue). <br/><br/> - Conocimiento sobre WebPack, saber arrancar y configurar una applicación desde zero (configuración del package.json, i18n, CI, vite, vercel, etc.). <br/><br/> - Saber tipar el codigo utilizando el lenguaje Typescript. <br/><br/> - Crear codigo limpio y basado en el rendimiento del Engiene de Javascript. <br/><br/> - Conocimientos de Node.js con Express."
+            "description": "- Conocimiento avanzado de la programación funcional o object orriented programming utilizando los tres grandes frameworks (React, Angular, Vue). <br/><br/> - Conocimiento sobre WebPack, saber arrancar y configurar una aplicación desde zero (configuración del package.json, i18n, CI, vite, vercel, etc.). <br/><br/> - Saber tipar el código utilizando el lenguaje Typescript. <br/><br/> - Crear código limpio y basado en el rendimiento del Engiene de Javascript. <br/><br/> - Conocimientos de Node.js con Express."
           },
           {
             "id": "5",
@@ -238,7 +238,7 @@
             "id": "3",
             "title": "NIVEL 3",
             "type": "primary",
-            "description": "- Tener conocimientos sobre los diferentes tipos de Sizing Units saber la diferencia entre Pseudo-elements y Pseudo-classes, como tambíen poder ponerlos en practica. <br/><br/> - Concimiento sobre los Gradients, el lenguaje prprocesado SCSS y la metodología BEM"
+            "description": "- Tener conocimientos sobre los diferentes tipos de Sizing Units saber la diferencia entre Pseudo-elements y Pseudo-classes, como también poder ponerlos en práctica. <br/><br/> - Conocimiento sobre los Gradients, el lenguaje preprocesado SCSS y la metodología BEM"
           },
           {
             "id": "4",
@@ -272,7 +272,7 @@
             "id": "3",
             "title": "NIVEL 3",
             "type": "primary",
-            "description": "- Entender la diferencia entre UX y UI. Saber llevar acabo una Investigation hacer un Research. <br/><br/> - Crear Wireframes en Figma utilizando un design system y componentes dinamicos."
+            "description": "- Entender la diferencia entre UX y UI. Saber llevar acabo una Investigation hacer un Research. <br/><br/> - Crear Wireframes en Figma utilizando un design system y componentes dinámicos."
           },
           {
             "id": "4",

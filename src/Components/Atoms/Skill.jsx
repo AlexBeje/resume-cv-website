@@ -10,11 +10,7 @@ function Skill({ skill }) {
       return (
         <div className="w-full">
           <Popover
-            className={
-              block.type === "primary"
-                ? "popover-style"
-                : "hidden"
-            }
+            className={block.type === "primary" ? "popover-style" : "hidden"}
             content={<div dangerouslySetInnerHTML={createMarkup(block)} />}
             key={block.id}
             placement="top"
