@@ -27,7 +27,7 @@ function Experience({ experience }) {
                   "
                 >
                   <h2 className="m-0 mb-2 sm:m-0">{experience.title}</h2>
-                  <p className="m-0">{experience.date}</p>
+                  <p className="m-0 text-sm">{experience.date}</p>
                 </span>
               }
               key={id}
