@@ -4,7 +4,7 @@ function SectionTitle({ children }) {
   };
 
   return (
-    <div id="SectionTitle" className="flex mb-4">
+    <div className="flex mb-4">
       {!children.includes(".section.title") && (
         <>
           <h2 className="m-0">

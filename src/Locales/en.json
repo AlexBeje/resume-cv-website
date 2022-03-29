@@ -2,7 +2,7 @@
   "header": {
     "name": "Alexandru",
     "surnames": "Bejenaru",
-    "profession": "WEB APPLICATION DEVELOPERWEB",
+    "profession": "WEB APPLICATION DEVELOPER",
     "phone": "642 954 953",
     "email": "alex.bejenaru93@gmail.com",
     "linkedin": "alexbeje",
@@ -20,12 +20,10 @@
     },
     "items": [
       {
-        "id": "1",
         "title": "Accenture PLC",
         "date": "Jun. 2021 - Present",
         "projects": [
           {
-            "id": "1",
             "title": "New Zurich Area (Vue & Jest)",
             "skills": [
               {
@@ -61,7 +59,6 @@
             ]
           },
           {
-            "id": "2",
             "title": "Web Component (Vue & Jest)",
             "skills": [
               {
@@ -96,12 +93,10 @@
         ]
       },
       {
-        "id": "2",
         "title": "GFT Technologies SE",
         "date": "Jun. 2016 - Jun. 2021",
         "projects": [
           {
-            "id": "1",
             "title": "BBVA (Angular 2)",
             "skills": [
               {
@@ -122,7 +117,6 @@
             ]
           },
           {
-            "id": "2",
             "title": "One Creation (Angular 2)",
             "skills": [
               {
@@ -140,7 +134,6 @@
             ]
           },
           {
-            "id": "3",
             "title": "Sabadell (Stencil.js)",
             "skills": [
               {
@@ -164,7 +157,6 @@
             ]
           },
           {
-            "id": "4",
             "title": "Deutsche Bank (Cobol)",
             "skills": [
               {

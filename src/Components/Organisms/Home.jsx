@@ -1,7 +1,10 @@
-import { Layout } from "element-react/next";
+// i18n
+import { useTranslation } from "react-i18next";
 
+// Utils
 import LanguageToggle from "/src/Uitls/LanguageToggle";
 
+// Components [Molecules]
 import Header from "/src/Components/Molecules/Header";
 import Summary from "/src/Components/Molecules/Summary";
 import Experience from "/src/Components/Molecules/Experience";
@@ -9,37 +12,45 @@ import Education from "/src/Components/Molecules/Education";
 import Skills from "/src/Components/Molecules/Skills";
 import Extracurricular from "/src/Components/Molecules/Extracurricular";
 
+// Mantine Components
+import { Grid } from "@mantine/core";
+
 function Home() {
+  const { t } = useTranslation();
+  const experience = t("experience", { returnObjects: true });
+
   return (
-    <div id="Home">
-      <Layout.Row>
-        <Layout.Col className="flex justify-end">
+    <>
+      <Grid gutter={0}>
+        <Grid.Col className="flex justify-end">
           <LanguageToggle />
-        </Layout.Col>
-      </Layout.Row>
-      <Layout.Row className="my-10">
-        <Layout.Col>
+        </Grid.Col>
+      </Grid>
+
+      <Grid gutter={0} className="my-10">
+        <Grid.Col>
           <Header />
-        </Layout.Col>
-      </Layout.Row>
-      <Layout.Row>
-        <Layout.Col className="mb-10">
+        </Grid.Col>
+      </Grid>
+
+      <Grid gutter={36}>
+        <Grid.Col>
           <Summary />
-        </Layout.Col>
-        <Layout.Col className="mb-10">
-          <Experience />
-        </Layout.Col>
-        <Layout.Col className="mb-10">
+        </Grid.Col>
+        <Grid.Col>
+          <Experience experience={experience} />
+        </Grid.Col>
+        <Grid.Col>
           <Education />
-        </Layout.Col>
-        <Layout.Col className="mb-10">
+        </Grid.Col>
+        <Grid.Col>
           <Skills />
-        </Layout.Col>
-        <Layout.Col>
+        </Grid.Col>
+        <Grid.Col>
           <Extracurricular />
-        </Layout.Col>
-      </Layout.Row>
-    </div>
+        </Grid.Col>
+      </Grid>
+    </>
   );
 }
 

@@ -1,10 +1,14 @@
+// Components [Organisms]
 import Home from "/src/Components/Organisms/Home";
+
+// Mantine Components
+import { Container } from "@mantine/core";
 
 function App() {
   return (
-    <div id="App" className="m-auto max-w-4xl p-8">
+    <Container my={32}>
       <Home />
-    </div>
+    </Container>
   );
 }
 
