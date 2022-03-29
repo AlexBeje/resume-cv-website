@@ -1,37 +1,24 @@
-import i18next from "i18next";
+import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import languageDetector from "i18next-browser-languagedetector";
 
-import { i18n } from "element-react";
-import en from "element-react/src/locale/lang/en";
-import es from "element-react/src/locale/lang/es";
-
-import resourcesEN from "./src/Locales/en";
-import resourcesES from "./src/Locales/es";
+import en from "/src/Locales/en";
+import es from "/src/Locales/es";
 
 const resources = {
-  es: {
-    translation: resourcesES,
-  },
-  en: {
-    translation: resourcesEN,
-  },
+  es: { translation: es },
+  en: { translation: en },
 };
 
-i18next
+i18n
   .use(initReactI18next)
+  .use(languageDetector)
   .init({
     resources,
-    lng: "en",
+    fallbackLng: "en",
     interpolation: {
       escapeValue: false,
     },
   });
 
-i18n.use(es);
-
-export const changeLanguage = (lng) => {
-  i18next.changeLanguage(lng);
-  lng === "es" ? i18n.use(es) : i18n.use(en);
-};
-
-export default i18next;
+export default i18n;

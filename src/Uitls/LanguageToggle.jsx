@@ -1,35 +1,29 @@
-import { Button } from "element-react";
-import i18next from "i18next";
+
+// React
 import { useState } from "react";
 
-import { changeLanguage } from "../../i18n";
+// i18n
+import { useTranslation } from "react-i18next";
 
-function MyComponent() {
-  const [currentLanguage, setCurrentLanguage] = useState(i18next.language);
+// Mantine Components
+import { Button } from "@mantine/core";
 
-  const updateLanguage = (language) => {
-    setCurrentLanguage(language);
-    changeLanguage(language);
+function LanguageToggle() {
+  const { i18n } = useTranslation();
+  const [language, changeLanguage] = useState(i18n.language);
+
+  const handleChangeLanguage = (lang) => {
+    changeLanguage(lang);
+    i18n.changeLanguage(lang);
   };
 
   return (
-    <Button.Group>
-      <Button
-        type={currentLanguage === "en" ? "primary" : "secondary"}
-        size="small"
-        onClick={() => updateLanguage("en")}
-      >
-        EN
-      </Button>
-      <Button
-        type={currentLanguage === "es" ? "primary" : "secondary"}
-        size="small"
-        onClick={() => updateLanguage("es")}
-      >
-        ES
-      </Button>
-    </Button.Group>
+    <Button
+      onClick={() => handleChangeLanguage(language === "es" ? "en" : "es")}
+    >
+      {language === "es" ? "ES" : "EN"}
+    </Button>
   );
 }
 
-export default MyComponent;
+export default LanguageToggle;
