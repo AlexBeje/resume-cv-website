@@ -1,5 +1,3 @@
-
-
 import SectionTitle from "/src/Components/Atoms/SectionTitle";
 
 import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
@@ -34,12 +32,25 @@ function Experience({ experience }) {
             >
               <Accordion>
                 {experience.projects.map((project, id) => (
-                  <Accordion.Item label={project.title} key={id}>
-                    <ul className="-mt-1 -mb-1 -ml-6">
-                      {project.skills.map((skill, id) => (
-                        <li key={id}>{skill.title}</li>
-                      ))}
-                    </ul>
+                  <Accordion.Item
+                    className="accordion-item"
+                    label={project.title}
+                    key={id}
+                  >
+                    <div className="
+                      border-solid
+                      border-t-[1px]
+                      border-r-0
+                      border-b-0
+                      border-l-0
+                      border-gray
+                    ">
+                      <ul className="m-0 ml-8 my-4">
+                        {project.skills.map((skill, id) => (
+                          <li key={id}>{skill.title}</li>
+                        ))}
+                      </ul>
+                    </div>
                   </Accordion.Item>
                 ))}
               </Accordion>

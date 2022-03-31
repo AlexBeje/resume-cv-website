@@ -30,3 +30,7 @@ li {
 .popover-style div {
   color: white;
 }
+
+.accordion-item > div * {
+  padding: 0;
+}

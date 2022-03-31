@@ -6,6 +6,7 @@ module.exports = {
       primary: "#1c7ed6",
       hover: "#4db3ff",
       black: "#000",
+      gray: "#dee2e6",
       white: "#fff",
     },
   },

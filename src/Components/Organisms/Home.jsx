@@ -27,7 +27,7 @@ function Home() {
         </Grid.Col>
       </Grid>
 
-      <Grid gutter={0} className="my-10">
+      <Grid gutter={0} className="mt-4 mb-8">
         <Grid.Col>
           <Header />
         </Grid.Col>
