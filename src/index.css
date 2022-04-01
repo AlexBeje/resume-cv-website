@@ -120,6 +120,14 @@
   border-left-width: 0px;
 }
 
+.border-r-\[1px\] {
+  border-right-width: 1px;
+}
+
+.border-l-\[1px\] {
+  border-left-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
 }

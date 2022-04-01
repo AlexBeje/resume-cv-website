@@ -37,15 +37,17 @@ function Experience({ experience }) {
                     label={project.title}
                     key={id}
                   >
-                    <div className="
+                    <div
+                      className="
                       border-solid
                       border-t-[1px]
-                      border-r-0
+                      border-r-[1px]
                       border-b-0
-                      border-l-0
+                      border-l-[1px]
                       border-gray
                       bg-lightGray
-                    ">
+                    "
+                    >
                       <ul className="accordion__ul">
                         {project.skills.map((skill, id) => (
                           <li key={id}>{skill.title}</li>

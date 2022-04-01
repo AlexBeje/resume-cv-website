@@ -6,7 +6,7 @@ import { Container } from "@mantine/core";
 
 function App() {
   return (
-    <Container my={16}>
+    <Container mt={16} mb={32}>
       <Home />
     </Container>
   );
