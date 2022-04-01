@@ -11,19 +11,9 @@
   margin-bottom: 0.25rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .mb-2 {
@@ -46,20 +36,12 @@
   margin-bottom: 1rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
-}
-
 .mb-0 {
   margin-bottom: 0px;
 }
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.mt-0 {
-  margin-top: 0px;
 }
 
 .block {
@@ -152,6 +134,11 @@
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-lightGray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 249 250 / var(--tw-bg-opacity));
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -237,8 +224,19 @@ li {
   color: white;
 }
 
-.accordion-item > div * {
+.accordion__item > div * {
   padding: 0;
+}
+
+.accordion__ul {
+  margin: 0;
+  padding: .5rem .5rem .5rem 2rem !important;
+}
+
+@media (min-width: 640px) {
+  .accordion__ul {
+    padding: 1.5rem 1.5rem 1.5rem 3rem !important;
+  }
 }
 
 .hover\:text-hover:hover {

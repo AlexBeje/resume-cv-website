@@ -7,6 +7,7 @@ module.exports = {
       hover: "#4db3ff",
       black: "#000",
       gray: "#dee2e6",
+      lightGray: "#f8f9fa",
       white: "#fff",
     },
   },

@@ -33,7 +33,7 @@ function Experience({ experience }) {
               <Accordion>
                 {experience.projects.map((project, id) => (
                   <Accordion.Item
-                    className="accordion-item"
+                    className="accordion__item"
                     label={project.title}
                     key={id}
                   >
@@ -44,8 +44,9 @@ function Experience({ experience }) {
                       border-b-0
                       border-l-0
                       border-gray
+                      bg-lightGray
                     ">
-                      <ul className="m-0 ml-8 my-4">
+                      <ul className="accordion__ul">
                         {project.skills.map((skill, id) => (
                           <li key={id}>{skill.title}</li>
                         ))}

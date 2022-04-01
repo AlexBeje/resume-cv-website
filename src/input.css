@@ -31,6 +31,18 @@ li {
   color: white;
 }
 
-.accordion-item > div * {
+.accordion__item > div * {
   padding: 0;
+}
+
+.accordion__ul {
+  margin: 0;
+  padding: .5rem .5rem .5rem 2rem !important;
+
+}
+
+@media (min-width: 640px) {
+  .accordion__ul {
+    padding: 1.5rem 1.5rem 1.5rem 3rem !important;
+  }
 }
