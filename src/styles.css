@@ -1,9 +1,8 @@
 @tailwind utilities;
 
 .popover-style {
-  color: white;
-  background: #22465c !important;
-  border-color: #22465c !important;
+  background: #1fa0ff !important;
+  border-color: #1fa0ff !important;
   font-weight: normal;
 }
 
