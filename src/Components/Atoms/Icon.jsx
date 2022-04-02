@@ -1,45 +1,48 @@
 import * as AiIcons from "react-icons/ai";
 
-import * as globalClasses from "/src/Uitls/GlobalClasses";
+import { Text } from "@mantine/core";
 
 function Icon({ children, type }) {
   const renderChildren = () => {
     switch (type) {
       case "phone":
         return (
-          <a className={globalClasses.link} href={`tel:${children}/`}>
+          <Text component="a" underline href={`tel:${children}/`}>
             {children}
-          </a>
+          </Text>
         );
       case "email":
         return (
-          <a
-            className={globalClasses.link}
+          <Text
+            component="a"
+            underline
             href={`mailto:${children}/`}
             target="_blank"
           >
             {children}
-          </a>
+          </Text>
         );
       case "linkedin":
         return (
-          <a
-            className={globalClasses.link}
+          <Text
+            component="a"
+            underline
             href={`https://www.linkedin.com/in/${children}/ `}
             target="_blank"
           >
             {children}
-          </a>
+          </Text>
         );
       case "github":
         return (
-          <a
-            className={globalClasses.link}
+          <Text
+            component="a"
+            underline
             href={`https://github.com/${children}`}
             target="_blank"
           >
             {children}
-          </a>
+          </Text>
         );
       default:
         return children;

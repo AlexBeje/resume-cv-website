@@ -4,9 +4,15 @@ import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
 
 import { Timeline, Accordion } from "@mantine/core";
 
+// Mantine hooks
+import { useMantineTheme } from "@mantine/core";
+
 import * as MdIcons from "react-icons/md";
 
 function Experience({ experience }) {
+  const theme = useMantineTheme();
+  const dark = theme.colorScheme === "dark";
+
   const renderExperienceTimeline = () => {
     return (
       <Timeline active={0} bulletSize={24} lineWidth={2}>
@@ -38,15 +44,15 @@ function Experience({ experience }) {
                     key={id}
                   >
                     <div
-                      className="
+                      className={`
                       border-solid
                       border-t-[1px]
                       border-r-[1px]
                       border-b-0
                       border-l-[1px]
-                      border-gray
-                      bg-lightGray
-                    "
+                      ${dark ? "border-darkGray" : "border-lightGray"}
+                      ${dark ? "bg-darkGray" : "bg-lightGray"}
+                    `}
                     >
                       <ul className="accordion__ul">
                         {project.skills.map((skill, id) => (

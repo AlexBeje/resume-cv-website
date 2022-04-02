@@ -1,6 +1,9 @@
 import { useWindowSize } from "usehooks-ts";
 import { Button, Popover } from "element-react";
 
+// Mantine hooks
+import { useMantineTheme } from "@mantine/core";
+
 function Skill({ skill }) {
   const { width } = useWindowSize();
 
@@ -9,6 +12,9 @@ function Skill({ skill }) {
   }
 
   const renderButtons = () => {
+    const theme = useMantineTheme();
+    const dark = theme.colorScheme === "dark";
+
     return skill.blocks.map((block) => {
       return (
         <div className="w-full" key={block.id}>
@@ -25,30 +31,41 @@ function Skill({ skill }) {
                 type={block.type}
                 style={
                   (block.id === "1" && {
+                    borderTop: dark && 0,
                     borderRight: 0,
+                    borderBottom: dark && 0,
+                    borderLeft: dark && 0,
                     borderRadius: ".25rem 0 0 .25rem",
-                    borderColor: "#dfe6eb",
-                    width: "100%",
+                    borderColor: !dark && "#dfe6eb",
                   }) ||
                   (block.id === "2" && {
-                    borderLeft: 0,
+                    borderTop: dark && 0,
                     borderRight: 0,
-                    borderColor: "#dfe6eb",
+                    borderBottom: dark && 0,
+                    borderLeft: 0,
+                    borderColor: !dark && "#dfe6eb",
                   }) ||
                   (block.id === "3" && {
-                    borderLeft: 0,
+                    borderTop: dark && 0,
                     borderRight: 0,
-                    borderColor: "#dfe6eb",
+                    borderBottom: dark && 0,
+                    borderLeft: 0,
+                    borderColor: !dark && "#dfe6eb",
                   }) ||
                   (block.id === "4" && {
-                    borderLeft: 0,
+                    borderTop: dark && 0,
                     borderRight: 0,
-                    borderColor: "#dfe6eb",
+                    borderBottom: dark && 0,
+                    borderLeft: 0,
+                    borderColor: !dark && "#dfe6eb",
                   }) ||
                   (block.id === "5" && {
+                    borderTop: dark && 0,
+                    borderRight: dark && 0,
+                    borderBottom: dark && 0,
                     borderLeft: 0,
                     borderRadius: "0 .25rem .25rem 0",
-                    borderColor: "#dfe6eb",
+                    borderColor: !dark && "#dfe6eb",
                   })
                 }
                 className="w-full h-7"

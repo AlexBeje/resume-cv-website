@@ -1,0 +1,28 @@
+@tailwind utilities;
+
+.popover-style {
+  color: white;
+  background: #22465c !important;
+  border-color: #22465c !important;
+  font-weight: normal;
+}
+
+.popover-style div {
+  color: white;
+}
+
+.accordion__item > div * {
+  padding: 0;
+}
+
+.accordion__ul {
+  margin: 0;
+  padding: .5rem .5rem .5rem 2rem !important;
+
+}
+
+@media (min-width: 640px) {
+  .accordion__ul {
+    padding: 1.5rem 1.5rem 1.5rem 3rem !important;
+  }
+}

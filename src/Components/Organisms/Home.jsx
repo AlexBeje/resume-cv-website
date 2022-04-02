@@ -2,6 +2,7 @@
 import { useTranslation } from "react-i18next";
 
 // Utils
+import ThemeSwitcher from "/src/Uitls/ThemeSwitcher";
 import LanguageToggle from "/src/Uitls/LanguageToggle";
 
 // Components [Molecules]
@@ -21,19 +22,20 @@ function Home() {
 
   return (
     <>
-      <Grid gutter={0}>
-        <Grid.Col className="flex justify-end">
+      <Grid gutter="x">
+        <Grid.Col className="flex justify-between">
+          <ThemeSwitcher />
           <LanguageToggle />
         </Grid.Col>
       </Grid>
 
-      <Grid gutter={0} className="mt-4 mb-8">
+      <Grid gutter="x" mt="sm" mb="lg">
         <Grid.Col>
           <Header />
         </Grid.Col>
       </Grid>
 
-      <Grid gutter={36}>
+      <Grid gutter="lg">
         <Grid.Col>
           <Summary />
         </Grid.Col>

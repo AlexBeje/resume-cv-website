@@ -1,17 +1,27 @@
+// React Icons
 import { AiOutlineLink } from "react-icons/ai";
 
-import { Accordion, Grid } from "@mantine/core";
+// Mantine Components
+import { Text, Accordion, Grid } from "@mantine/core";
 
+// Mantine hooks
+import { useMantineTheme } from "@mantine/core";
+
+// Utils
 import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
 
 function SectionItem({ item }) {
+  const theme = useMantineTheme();
+  const dark = theme.colorScheme === "dark";
+
   const renderLinkOrParagraph = (skill) => {
     if (skill.link) {
       return (
-        <a
+        <Text
+          component="a"
           href={skill.link}
           target="_blank"
-          className="text-black no-underline hover:text-hover"
+          className={`no-underline hover:text-hover`}
         >
           <span className={skill.mark && "text-primary"}>
             {skill.title}
@@ -21,7 +31,7 @@ function SectionItem({ item }) {
               <AiOutlineLink className="ml-1 mb-[.1rem] align-text-bottom" />
             )}
           </span>
-        </a>
+        </Text>
       );
     } else {
       return skill.title;
@@ -48,15 +58,15 @@ function SectionItem({ item }) {
               key={id}
             >
               <div
-                className="
-                border-solid
-                border-t-[1px]
-                border-r-[1px]
-                border-b-0
-                border-l-[1px]
-                border-gray
-                bg-lightGray
-              "
+                className={`
+                  border-solid
+                  border-t-[1px]
+                  border-r-[1px]
+                  border-b-0
+                  border-l-[1px]
+                  ${dark ? "border-darkGray" : "border-lightGray"}
+                  ${dark ? "bg-darkGray" : "bg-lightGray"}
+                  `}
               >
                 <ul className="accordion__ul">{checkForLinks(project)}</ul>
               </div>
