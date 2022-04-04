@@ -434,22 +434,12 @@
         "projects": [
           {
             "id": "1",
-            "title": "Next.js",
-            "skills": [
-              {
-                "title": "Trabajando actualmente en: alex-beje-cv",
-                "link": "https://github.com/AlexBeje/alex-beje-cv",
-                "mark": "true"
-              }
-            ]
-          },
-          {
-            "id": "2",
             "title": "React",
             "skills": [
               {
                 "title": "resume-cv-website",
-                "link": "https://github.com/AlexBeje/resume-cv-website"
+                "link": "https://github.com/AlexBeje/resume-cv-website",
+                "mark": "true"
               },
               {
                 "title": "pomodoro",
