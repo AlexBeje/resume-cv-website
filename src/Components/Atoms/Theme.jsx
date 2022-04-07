@@ -6,7 +6,7 @@ import {
   Affix,
   Transition,
   ActionIcon,
-  useMantineTheme
+  useMantineTheme,
 } from "@mantine/core";
 
 // Mantine Hooks
@@ -14,7 +14,7 @@ import {
   useColorScheme,
   useLocalStorage,
   useHotkeys,
-  useWindowScroll
+  useWindowScroll,
 } from "@mantine/hooks";
 
 // React Icons
@@ -59,7 +59,7 @@ function Theme({ children }) {
         withNormalizeCSS
         withCSSVariables
       >
-        <Container mt={16} mb={32}>
+        <Container mt={16} mb={32} px="sm">
           {children}
           <Affix position={{ bottom: 20, right: 20 }}>
             <Transition transition="slide-up" mounted={scroll.y > 0}>

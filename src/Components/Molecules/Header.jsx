@@ -3,9 +3,11 @@ import * as globalClasses from "/src/Uitls/GlobalClasses";
 
 import Icon from "/src/Components/Atoms/Icon";
 
-import { Grid, Title, Text, Code } from "@mantine/core";
+import { useMantineTheme, Grid, Title, Text, Code } from "@mantine/core";
 
 function Header({ t }) {
+  const theme = useMantineTheme();
+
   const checkIfFieldHasValue = (field) => {
     return !t(`header.${field}`).includes("header.");
   };
@@ -25,7 +27,11 @@ function Header({ t }) {
       <Grid.Col my="xs" className="flex justify-center">
         {checkIfFieldHasValue("profession") && (
           <Code
-            className={`${globalClasses.center} text-primary w-fit` }
+            className={`${globalClasses.center} w-fit px-2 py-1 ${
+              theme.colorScheme === "dark"
+                ? "bg-darkBackgroundGray"
+                : "bg-lightBorderGray"
+            }`}
           >
             {t("header.profession")}
           </Code>

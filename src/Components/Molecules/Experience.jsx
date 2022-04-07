@@ -50,8 +50,16 @@ function Experience({ experience }) {
                       border-r-0
                       border-b-0
                       border-l-0
-                      ${dark ? "border-darkGray" : "border-gray"}
-                      ${dark ? "bg-darkGray" : "bg-lightGray"}
+                      ${
+                        dark
+                          ? "border-darkBorderGray"
+                          : "border-lightBorderGray"
+                      }
+                      ${
+                        dark
+                          ? "bg-darkBackgroundGray"
+                          : "bg-lightBackgroundGray"
+                      }
                     `}
                     >
                       <ul className="accordion__ul">

@@ -192,25 +192,43 @@
             "id": "1",
             "title": "NIVEL 1",
             "type": "primary",
-            "description": "- Conocimiento sobre el Engiene, Runtime y el JIT Compiler de Javascript. <br/><br/> - Conocimiento sobre conceptos como Call Stack, Stack Overflow, Execution Context y Lexical Environment."
+            "descriptions": [
+              "Conocimiento sobre el Engiene, Runtime y el JIT Compiler de Javascript.",
+              "Conocimiento sobre conceptos como Call Stack, Stack Overflow, Execution Context y Lexical Environment."
+            ]
           },
           {
             "id": "2",
             "title": "NIVEL 2",
             "type": "primary",
-            "description": "- Dominar conceptos como Scope Chain, Hoisting, Function Scope y Block Scope, saber la diferencia entre Dynamic y Lexical Scope. <br/><br/> - Tambíen conocer bien los tipos de datos de Javascript (primitivos, objetos, functions), las Function Closures, y el Type Coercion. <br/><br/> - Conocimiento de que Javascript es un lenguaje estático y tiene un tipado dinámico."
+            "descriptions": [
+              "Dominar conceptos como Scope Chain, Hoisting, Function Scope y Block Scope, saber la diferencia entre Dynamic y Lexical Scope.",
+              "Tambíen conocer bien los tipos de datos de Javascript (primitivos, objetos, functions), las Function Closures, y el Type Coercion.",
+              "Conocimiento de que Javascript es un lenguaje estático y tiene un tipado dinámico."
+            ]
           },
           {
             "id": "3",
             "title": "NIVEL 3",
             "type": "primary",
-            "description": "- Conocimiento sobre la OOP y Functional Programming. <br/><br/> - Conocimiento sobre la palabra this y new <br/><br/> - Conceptos del ES6 (arrow functions, let y const, destructuring, etc.). <br/><br/> - Entender que son los Web APIs, como crear e implementarlos."
+            "descriptions": [
+              "Conocimiento sobre la OOP y Functional Programming.",
+              "Conocimiento sobre la palabra this y new",
+              "Conceptos del ES6 (arrow functions, let y const, destructuring, etc.).",
+              "Entender que son los Web APIs, como crear e implementarlos."
+            ]
           },
           {
             "id": "4",
             "title": "NIVEL 4",
             "type": "primary",
-            "description": "- Conocimiento avanzado de la programación funcional o object orriented programming utilizando los tres grandes frameworks (React, Angular, Vue). <br/><br/> - Conocimiento sobre WebPack, saber arrancar y configurar una aplicación desde zero (configuración del package.json, i18n, CI, vite, vercel, etc.). <br/><br/> - Saber tipar el código utilizando el lenguaje Typescript. <br/><br/> - Crear código limpio y basado en el rendimiento del Engiene de Javascript. <br/><br/> - Conocimientos de Node.js con Express."
+            "descriptions": [
+              "Conocimiento avanzado de la programación funcional o object orriented programming utilizando los tres grandes frameworks (React, Angular, Vue).",
+              "Conocimiento sobre WebPack, saber arrancar y configurar una aplicación desde zero (configuración del package.json, i18n, CI, vite, vercel, etc.).",
+              "Saber tipar el código utilizando el lenguaje Typescript.",
+              "Crear código limpio y basado en el rendimiento del Engiene de Javascript.",
+              "Conocimientos de Node.js con Express."
+            ]
           },
           {
             "id": "5",
@@ -226,25 +244,36 @@
             "id": "1",
             "title": "NIVEL 1",
             "type": "primary",
-            "description": "- Saber lo que es el Box Model los Selectors y que significa la palabra C (cascade) de CSS."
+            "descriptions": [
+              "Saber lo que es el Box Model los Selectors y que significa la palabra C (cascade) de CSS."
+            ]
           },
           {
             "id": "2",
             "title": "NIVEL 2",
             "type": "primary",
-            "description": "- Entender los conceptos de Specificity, Inheritance Spacing y saber crear un Layout manejando Flexbox."
+            "descriptions": [
+              "Entender los conceptos de Specificity, Inheritance Spacing y saber crear un Layout manejando Flexbox."
+            ]
           },
           {
             "id": "3",
             "title": "NIVEL 3",
             "type": "primary",
-            "description": "- Tener conocimientos sobre los diferentes tipos de Sizing Units saber la diferencia entre Pseudo-elements y Pseudo-classes, como también poder ponerlos en práctica. <br/><br/> - Conocimiento sobre los Gradients, el lenguaje preprocesado SCSS y la metodología BEM"
+            "descriptions": [
+              "Tener conocimientos sobre los diferentes tipos de Sizing Units saber la diferencia entre Pseudo-elements y Pseudo-classes, como también poder ponerlos en práctica.",
+              "Conocimiento sobre los Gradients, el lenguaje preprocesado SCSS y la metodología BEM"
+            ]
           },
           {
             "id": "4",
             "title": "NIVEL 4",
             "type": "primary",
-            "description": "- Conocimientos sobre el diseño de un Layout utilizando el Grid. <br/><br/> - Conocimientos sobre las Animations y manejo de los frameworks de css Tailwind CSS, Styled Components. <br/><br/> - Conocimiento sobre los frameworks componentizados Bootstrap, Material UI, Element UI, Mantis, etc."
+            "descriptions": [
+              "Conocimientos sobre el diseño de un Layout utilizando el Grid.",
+              "Conocimientos sobre las Animations y manejo de los frameworks de css Tailwind CSS, Styled Components.",
+              "Conocimiento sobre los frameworks componentizados Bootstrap, Material UI, Element UI, Mantis, etc."
+            ]
           },
           {
             "id": "5",
@@ -260,19 +289,26 @@
             "id": "1",
             "title": "NIVEL 1",
             "type": "primary",
-            "description": "- Conocer los conceptos básicos del diseño como el Colour que es una Line, Shape y que es la Typography."
+            "descriptions": [
+              "Conocer los conceptos básicos del diseño como el Colour que es una Line, Shape y que es la Typography."
+            ]
           },
           {
             "id": "2",
             "title": "NIVEL 2",
             "type": "primary",
-            "description": "- Tener presente los principios del diseño: Emphasis, Balance and alignment, Contrast, Repetition, Proportion , Movment, White Space."
+            "descriptions": [
+              "Tener presente los principios del diseño: Emphasis, Balance and alignment, Contrast, Repetition, Proportion , Movment, White Space."
+            ]
           },
           {
             "id": "3",
             "title": "NIVEL 3",
             "type": "primary",
-            "description": "- Entender la diferencia entre UX y UI. Saber llevar acabo una Investigation hacer un Research. <br/><br/> - Crear Wireframes en Figma utilizando un design system y componentes dinámicos."
+            "descriptions": [
+              "Entender la diferencia entre UX y UI. Saber llevar acabo una Investigation hacer un Research.",
+              "Crear Wireframes en Figma utilizando un design system y componentes dinámicos."
+            ]
           },
           {
             "id": "4",
