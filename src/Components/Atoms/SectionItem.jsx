@@ -59,13 +59,13 @@ function SectionItem({ item }) {
             >
               <div
                 className={`
-                  border-solid
-                  border-t-[1px]
-                  border-r-[1px]
-                  border-b-0
-                  border-l-[1px]
-                  ${dark ? "border-darkGray" : "border-lightGray"}
-                  ${dark ? "bg-darkGray" : "bg-lightGray"}
+                      border-solid
+                      border-t-[1px]
+                      border-r-0
+                      border-b-0
+                      border-l-0
+                      ${dark ? "border-darkGray" : "border-gray"}
+                      ${dark ? "bg-darkGray" : "bg-lightGray"}
                   `}
               >
                 <ul className="accordion__ul">{checkForLinks(project)}</ul>

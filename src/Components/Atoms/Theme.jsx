@@ -1,13 +1,27 @@
-// React Hooks
-import { useState } from "react";
-
 // Mantine Components
-import { MantineProvider, ColorSchemeProvider, Container } from "@mantine/core";
+import {
+  MantineProvider,
+  ColorSchemeProvider,
+  Container,
+  Affix,
+  Transition,
+  ActionIcon,
+  useMantineTheme
+} from "@mantine/core";
 
 // Mantine Hooks
-import { useColorScheme, useLocalStorage, useHotkeys } from "@mantine/hooks";
+import {
+  useColorScheme,
+  useLocalStorage,
+  useHotkeys,
+  useWindowScroll
+} from "@mantine/hooks";
+
+// React Icons
+import { ArrowUpIcon } from "@modulz/radix-icons";
 
 function Theme({ children }) {
+  const theme = useMantineTheme();
   const preferredColorScheme = useColorScheme();
 
   const [colorScheme, setColorScheme] = useLocalStorage({
@@ -19,6 +33,8 @@ function Theme({ children }) {
     setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
 
   useHotkeys([["mod+J", () => toggleColorScheme()]]);
+
+  const [scroll, scrollTo] = useWindowScroll();
 
   return (
     <ColorSchemeProvider
@@ -45,6 +61,21 @@ function Theme({ children }) {
       >
         <Container mt={16} mb={32}>
           {children}
+          <Affix position={{ bottom: 20, right: 20 }}>
+            <Transition transition="slide-up" mounted={scroll.y > 0}>
+              {(transitionStyles) => (
+                <ActionIcon
+                  style={transitionStyles}
+                  variant="filled"
+                  size="lg"
+                  color={theme.primaryColor}
+                  onClick={() => scrollTo({ y: 0 })}
+                >
+                  <ArrowUpIcon />
+                </ActionIcon>
+              )}
+            </Transition>
+          </Affix>
         </Container>
       </MantineProvider>
     </ColorSchemeProvider>

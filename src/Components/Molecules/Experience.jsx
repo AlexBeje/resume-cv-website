@@ -47,10 +47,10 @@ function Experience({ experience }) {
                       className={`
                       border-solid
                       border-t-[1px]
-                      border-r-[1px]
+                      border-r-0
                       border-b-0
-                      border-l-[1px]
-                      ${dark ? "border-darkGray" : "border-lightGray"}
+                      border-l-0
+                      ${dark ? "border-darkGray" : "border-gray"}
                       ${dark ? "bg-darkGray" : "bg-lightGray"}
                     `}
                     >
