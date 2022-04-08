@@ -14,7 +14,6 @@ import {
 import {
   useColorScheme,
   useLocalStorage,
-  useHotkeys,
   useWindowScroll,
 } from "@mantine/hooks";
 
@@ -32,8 +31,6 @@ function Theme({ children }) {
 
   const toggleColorScheme = (value) =>
     setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
-
-  useHotkeys([["mod+J", () => toggleColorScheme()]]);
 
   const [scroll, scrollTo] = useWindowScroll();
 

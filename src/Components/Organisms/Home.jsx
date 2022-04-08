@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 // Components [Atoms]
 import ThemeSwitcher from "/src/Components/Atoms/ThemeSwitcher";
-import LanguageToggle from "/src/Components/Atoms/LanguageToggle";
+import LanguageSwitcher from "/src/Components/Atoms/LanguageSwitcher";
 
 // Components [Molecules]
 import Header from "/src/Components/Molecules/Header";
@@ -25,7 +25,7 @@ function Home() {
       <Grid gutter="x">
         <Grid.Col className="flex justify-between">
           <ThemeSwitcher />
-          <LanguageToggle />
+          <LanguageSwitcher />
         </Grid.Col>
       </Grid>
 
