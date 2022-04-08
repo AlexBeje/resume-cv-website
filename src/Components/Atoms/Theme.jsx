@@ -15,6 +15,7 @@ import {
   useColorScheme,
   useLocalStorage,
   useWindowScroll,
+  useHotkeys
 } from "@mantine/hooks";
 
 // React Icons
@@ -34,6 +35,8 @@ function Theme({ children }) {
 
   const [scroll, scrollTo] = useWindowScroll();
 
+  useHotkeys([["mod+I", () => scrollTo({ y: 0 })]]);
+  
   return (
     <ColorSchemeProvider
       colorScheme={colorScheme}
@@ -90,6 +93,7 @@ function Theme({ children }) {
                   size="lg"
                   color={theme.primaryColor}
                   onClick={() => scrollTo({ y: 0 })}
+                  title="Use the shortcut Ctrl + I to go to the top of the page"
                 >
                   <ArrowUpIcon />
                 </ActionIcon>
