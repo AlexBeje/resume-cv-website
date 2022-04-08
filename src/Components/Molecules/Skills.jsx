@@ -1,8 +1,11 @@
+// i18n
 import { withTranslation } from "react-i18next";
 
+// Components [Atoms]
 import SectionTitle from "/src/Components/Atoms/SectionTitle";
 import Skill from "/src/Components/Atoms/Skill";
 
+// Utils
 import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
 
 function Skills({ t }) {

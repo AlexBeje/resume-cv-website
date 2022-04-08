@@ -1,5 +1,4 @@
 import { withTranslation } from "react-i18next";
-import * as globalClasses from "/src/Uitls/GlobalClasses";
 
 import Icon from "/src/Components/Atoms/Icon";
 
@@ -27,7 +26,7 @@ function Header({ t }) {
       <Grid.Col my="xs" className="flex justify-center">
         {checkIfFieldHasValue("profession") && (
           <Code
-            className={`${globalClasses.center} w-fit px-2 py-1 ${
+            className={`flex justify-center content-center text-center w-fit px-2 py-1 ${
               theme.colorScheme === "dark"
                 ? "bg-darkBackgroundGray"
                 : "bg-lightBorderGray"
@@ -38,7 +37,9 @@ function Header({ t }) {
         )}
       </Grid.Col>
       <Grid.Col>
-        <p className={`${globalClasses.center} text-xs gap-1 flex-wrap m-0`}>
+        <p
+          className={`flex justify-center content-center text-center text-xs gap-1 flex-wrap m-0`}
+        >
           {checkIfFieldHasValue("phone") && (
             <>
               <Icon type="phone">{t("header.phone")}</Icon>

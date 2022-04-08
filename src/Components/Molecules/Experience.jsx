@@ -1,11 +1,11 @@
+// Components [Atoms]
 import SectionTitle from "/src/Components/Atoms/SectionTitle";
 
+// Mantine Components
+import { useMantineTheme, Timeline, Accordion } from "@mantine/core";
+
+// Utils
 import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
-
-import { Timeline, Accordion } from "@mantine/core";
-
-// Mantine hooks
-import { useMantineTheme } from "@mantine/core";
 
 import * as MdIcons from "react-icons/md";
 

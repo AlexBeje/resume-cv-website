@@ -1,5 +1,6 @@
 // Mantine Components
 import {
+  Global,
   MantineProvider,
   ColorSchemeProvider,
   Container,
@@ -59,7 +60,29 @@ function Theme({ children }) {
         withNormalizeCSS
         withCSSVariables
       >
-        <Container mt={16} mb={32} px="sm">
+        <Global
+          styles={(theme) => ({
+            body: {
+              backgroundColor:
+                theme.colorScheme === "dark"
+                  ? theme.colors.dark[8]
+                  : theme.colors.gray[1],
+            },
+          })}
+        />
+        <Container
+          sx={(theme) => ({
+            backgroundColor:
+              theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.white,
+            boxShadow: theme.shadows.xl,
+            paddingTop: theme.spacing.md,
+            [`@media (min-width: ${theme.breakpoints.md}px)`]: {
+              marginTop: theme.spacing.xl,
+              marginBottom: theme.spacing.xl,
+              padding: `${theme.spacing.xl}px ${theme.spacing.xxl}px !important`,
+            },
+          })}
+        >
           {children}
           <Affix position={{ bottom: 20, right: 20 }}>
             <Transition transition="slide-up" mounted={scroll.y > 0}>

@@ -1,9 +1,9 @@
 // i18n
 import { useTranslation } from "react-i18next";
 
-// Utils
-import ThemeSwitcher from "/src/Uitls/ThemeSwitcher";
-import LanguageToggle from "/src/Uitls/LanguageToggle";
+// Components [Atoms]
+import ThemeSwitcher from "/src/Components/Atoms/ThemeSwitcher";
+import LanguageToggle from "/src/Components/Atoms/LanguageToggle";
 
 // Components [Molecules]
 import Header from "/src/Components/Molecules/Header";
