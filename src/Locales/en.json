@@ -175,7 +175,7 @@
     "section": {
       "title": "Skills"
     },
-    "items": [
+    "skill": [
       {
         "id": "1",
         "title": "Javascript",

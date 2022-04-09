@@ -1,7 +1,7 @@
 // React Hooks
 import { useState } from "react";
 
-// Mantine Hooks
+// Mantine Components
 import {
   useMantineTheme,
   Popover,
@@ -11,21 +11,42 @@ import {
   List,
 } from "@mantine/core";
 
+// Mantine Hooks
+import { useViewportSize } from '@mantine/hooks';
+
 function Skill({ skill }) {
+  const {width} = useViewportSize();
   const theme = useMantineTheme();
 
+  console.log('👨‍🎤', width)
+  console.log('👂', theme.breakpoints.sm)
+
+  const transform = "unset";
+  const border = {
+    radiusLeft: {
+      borderRadius: ".25rem 0 0 .25rem",
+      transform,
+    },
+    radiusRight: {
+      borderRadius: "0 .25rem .25rem 0",
+      transform,
+    },
+    noRadius: {
+      borderRadius: "0",
+      transform,
+    },
+  };
+
   const renderButtons = () => {
-    return skill.blocks.map((block, i) => {
+    return skill.blocks.map((block, id) => {
       const [opened, setOpened] = useState(false);
       return (
         <Popover
-          opened={opened}
-          onClose={() => setOpened(false)}
           className="flex-1"
-          key={i}
-          width={320}
+          key={id}
+          onClose={() => setOpened(false)}
+          opened={opened}
           position="top"
-          withArrow
           styles={{
             body: {
               background:
@@ -58,29 +79,16 @@ function Skill({ skill }) {
               fullWidth
               variant={block.descriptions ? "filled" : "light"}
               style={
-                (block.id === "1" && {
-                  borderRadius: ".25rem 0 0 .25rem",
-                  transform: "unset",
-                }) ||
-                (block.id === "2" && {
-                  borderRadius: "0",
-                  transform: "unset",
-                }) ||
-                (block.id === "3" && {
-                  borderRadius: "0",
-                  transform: "unset",
-                }) ||
-                (block.id === "4" && {
-                  borderRadius: "0",
-                  transform: "unset",
-                }) ||
-                (block.id === "5" && {
-                  borderRadius: "0 .25rem .25rem 0",
-                  transform: "unset",
-                })
+                (id === 0 && border.radiusLeft) ||
+                (id === 1 && border.noRadius) ||
+                (id === 2 && border.noRadius) ||
+                (id === 3 && border.noRadius) ||
+                (id === 4 && border.radiusRight)
               }
             ></Button>
           }
+          width={320}
+          withArrow={width > theme.breakpoints.md}
         >
           <Title order={3}>{block.title}</Title>
           <Space h="xs" />

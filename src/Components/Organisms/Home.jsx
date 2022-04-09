@@ -6,7 +6,7 @@ import ThemeSwitcher from "/src/Components/Atoms/ThemeSwitcher";
 import LanguageSwitcher from "/src/Components/Atoms/LanguageSwitcher";
 
 // Components [Molecules]
-import Header from "/src/Components/Molecules/Header";
+import Header from "/src/Components/Molecules/Header/Header";
 import Summary from "/src/Components/Molecules/Summary";
 import Experience from "/src/Components/Molecules/Experience";
 import Education from "/src/Components/Molecules/Education";
@@ -17,8 +17,13 @@ import Extracurricular from "/src/Components/Molecules/Extracurricular";
 import { Grid } from "@mantine/core";
 
 function Home() {
-  const { t } = useTranslation();
-  const experience = t("experience", { returnObjects: true });
+  let { t } = useTranslation();
+
+  t =  {
+    summary: t("summary", { returnObjects: true }),
+    experience: t("experience", { returnObjects: true }),
+    skills: t("skills", { returnObjects: true }),
+  }
 
   return (
     <>
@@ -37,16 +42,16 @@ function Home() {
 
       <Grid gutter="lg">
         <Grid.Col>
-          <Summary />
+          <Summary summary={t.summary} />
         </Grid.Col>
         <Grid.Col>
-          <Experience experience={experience} />
+          <Experience experience={t.experience} />
         </Grid.Col>
         <Grid.Col>
           <Education />
         </Grid.Col>
         <Grid.Col>
-          <Skills />
+          <Skills skills={t.skills}/>
         </Grid.Col>
         <Grid.Col>
           <Extracurricular />

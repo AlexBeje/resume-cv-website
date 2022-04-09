@@ -1,6 +1,6 @@
 import { withTranslation } from "react-i18next";
 
-import Icon from "/src/Components/Atoms/Icon";
+import HeaderIcon from "/src/Components/Molecules/Header/HeaderIcon";
 
 import { useMantineTheme, Grid, Title, Text, Code } from "@mantine/core";
 
@@ -42,25 +42,25 @@ function Header({ t }) {
         >
           {checkIfFieldHasValue("phone") && (
             <>
-              <Icon type="phone">{t("header.phone")}</Icon>
+              <HeaderIcon type="phone">{t("header.phone")}</HeaderIcon>
               <Text component="span">|</Text>
             </>
           )}
           {checkIfFieldHasValue("email") && (
             <>
-              <Icon type="email">{t("header.email")}</Icon>
+              <HeaderIcon type="email">{t("header.email")}</HeaderIcon>
               <Text component="span">|</Text>
             </>
           )}
           {checkIfFieldHasValue("linkedin") && (
             <>
-              <Icon type="linkedin">{t("header.linkedin")}</Icon>
+              <HeaderIcon type="linkedin">{t("header.linkedin")}</HeaderIcon>
               <Text component="span">|</Text>
             </>
           )}
           {checkIfFieldHasValue("github") && (
             <>
-              <Icon type="github">{t("header.github")}</Icon>
+              <HeaderIcon type="github">{t("header.github")}</HeaderIcon>
             </>
           )}
         </p>

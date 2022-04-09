@@ -1,5 +1,7 @@
-import * as AiIcons from "react-icons/ai";
+// Icons
+import * as Icons from "react-icons/ai";
 
+// Mantine Components
 import { Text } from "@mantine/core";
 
 function Icon({ children, type }) {
@@ -51,10 +53,10 @@ function Icon({ children, type }) {
 
   return (
     <span className="flex gap-1">
-      {type === "phone" && <AiIcons.AiOutlineMobile className="h-full" />}
-      {type === "email" && <AiIcons.AiOutlineMail className="h-full" />}
-      {type === "linkedin" && <AiIcons.AiFillLinkedin className="h-full" />}
-      {type === "github" && <AiIcons.AiFillGithub className="h-full" />}
+      {type === "phone" && <Icons.AiFillPhone className="h-full" />}
+      {type === "email" && <Icons.AiOutlineMail className="h-full" />}
+      {type === "linkedin" && <Icons.AiFillLinkedin className="h-full" />}
+      {type === "github" && <Icons.AiFillGithub className="h-full" />}
       {renderChildren()}
     </span>
   );

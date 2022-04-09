@@ -2,11 +2,8 @@
 import { withTranslation } from "react-i18next";
 
 // Components [Atoms]
-import SectionTitle from "/src/Components/Atoms/SectionTitle";
-import SectionItem from "/src/Components/Atoms/SectionItem";
-
-// Utils
-import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
+import SectionTitle from "/src/Components/Atoms/Section/SectionTitle";
+import SectionAccordionItem from "/src/Components/Atoms/Section/SectionAccordionItem";
 
 function Extracurricular({ t }) {
   const extracurricularItems = t("extracurricular.items", {
@@ -16,10 +13,9 @@ function Extracurricular({ t }) {
   return (
     <>
       <SectionTitle>{t("extracurricular.section.title")}</SectionTitle>
-      {hasValueAndIsArray(extracurricularItems) &&
-        extracurricularItems.map((extracurricular) => (
-          <SectionItem key={extracurricular.id} item={extracurricular} />
-        ))}
+      {extracurricularItems.map((extracurricular) => (
+        <SectionAccordionItem key={extracurricular.id} item={extracurricular} />
+      ))}
     </>
   );
 }

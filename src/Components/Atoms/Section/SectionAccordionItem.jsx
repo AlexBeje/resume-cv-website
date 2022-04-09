@@ -1,14 +1,11 @@
 // React Icons
-import { AiOutlineLink } from "react-icons/ai";
+import * as Icons from "react-icons/ai";
 
 // Mantine Components
-import { Text, Accordion, Grid } from "@mantine/core";
+import { Text, Title, Accordion, Grid } from "@mantine/core";
 
 // Mantine hooks
 import { useMantineTheme } from "@mantine/core";
-
-// Utils
-import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
 
 function SectionItem({ item }) {
   const theme = useMantineTheme();
@@ -26,9 +23,9 @@ function SectionItem({ item }) {
           <span className={skill.mark && "text-primary"}>
             {skill.title}
             {skill.mark ? (
-              <AiOutlineLink className="ml-1 mb-[.1rem] align-text-bottom text-primary" />
+              <Icons.AiOutlineLink className="ml-1 mb-[.1rem] align-text-bottom text-primary" />
             ) : (
-              <AiOutlineLink className="ml-1 mb-[.1rem] align-text-bottom" />
+              <Icons.AiOutlineLink className="ml-1 mb-[.1rem] align-text-bottom" />
             )}
           </span>
         </Text>
@@ -49,16 +46,15 @@ function SectionItem({ item }) {
 
   const renderCollapsedItems = () => {
     return (
-      hasValueAndIsArray(item.projects) && (
-        <Accordion>
-          {item.projects.map((project, id) => (
-            <Accordion.Item
-              className="accordion__item"
-              label={project.title}
-              key={id}
-            >
-              <div
-                className={`
+      <Accordion>
+        {item.projects.map((project, id) => (
+          <Accordion.Item
+            className="accordion__item"
+            label={project.title}
+            key={id}
+          >
+            <div
+              className={`
                       border-solid
                       border-t-[1px]
                       border-r-0
@@ -75,18 +71,17 @@ function SectionItem({ item }) {
                           : "bg-lightBackgroundGray"
                       }
                   `}
-              >
-                <ul className="accordion__ul">{checkForLinks(project)}</ul>
-              </div>
-            </Accordion.Item>
-          ))}
-        </Accordion>
-      )
+            >
+              <ul className="accordion__ul">{checkForLinks(project)}</ul>
+            </div>
+          </Accordion.Item>
+        ))}
+      </Accordion>
     );
   };
 
   return (
-    <Grid className="mb-2 mt-4">
+    <Grid mt="sm" mb="sm" gutter="sm">
       <Grid.Col
         className="
           flex
@@ -96,10 +91,10 @@ function SectionItem({ item }) {
           sm:justify-between
         "
       >
-        <h2 className="m-0 mb-2 sm:m-0">{item.title}</h2>
-        <p className="m-0 text-sm">{item.date}</p>
+        <Title order={2}> {item.title}</Title>
+        <Text size="sm">{item.date}</Text>
       </Grid.Col>
-      <Grid.Col span={12}>{renderCollapsedItems()}</Grid.Col>
+      <Grid.Col>{renderCollapsedItems()}</Grid.Col>
     </Grid>
   );
 }

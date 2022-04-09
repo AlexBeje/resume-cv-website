@@ -1,16 +1,16 @@
-import { withTranslation } from "react-i18next";
+// Components [Atoms]
+import SectionTitle from "/src/Components/Atoms/Section/SectionTitle";
 
-import SectionTitle from "/src/Components/Atoms/SectionTitle";
+// Mantine Components
+import { Text } from "@mantine/core";
 
-function Summary({ t }) {
+function Summary({ summary }) {
   return (
     <>
-      <SectionTitle>{t("summary.section.title")}</SectionTitle>
-      {t("summary.content") !== "summary.content" && (
-        <p className="mb-0">{t("summary.content")}</p>
-      )}
+      <SectionTitle>{summary.section.title}</SectionTitle>
+      <Text>{summary.content}</Text>
     </>
   );
 }
 
-export default withTranslation()(Summary);
+export default Summary;

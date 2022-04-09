@@ -1,29 +1,18 @@
-// i18n
-import { withTranslation } from "react-i18next";
-
 // Components [Atoms]
-import SectionTitle from "/src/Components/Atoms/SectionTitle";
+import SectionTitle from "/src/Components/Atoms/Section/SectionTitle";
 import Skill from "/src/Components/Atoms/Skill";
 
-// Utils
-import { hasValueAndIsArray } from "/src/Uitls/DataFunctions";
-
-function Skills({ t }) {
-  const skills = t("skills.items", { returnObjects: true });
-
+function Skills({skills}) {
   const renderSkill = () => {
-    return (
-      hasValueAndIsArray(skills) &&
-      skills.map((skill) => <Skill skill={skill} key={skill.id} />)
-    );
+    return skills.skill.map((skill) => <Skill skill={skill} key={skill.id} />);
   };
 
   return (
     <>
-      <SectionTitle>{t("skills.section.title")}</SectionTitle>
+      <SectionTitle>{skills.section.title}</SectionTitle>
       {renderSkill()}
     </>
   );
 }
 
-export default withTranslation()(Skills);
+export default Skills;
