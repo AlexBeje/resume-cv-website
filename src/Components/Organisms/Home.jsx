@@ -19,11 +19,14 @@ import { Grid } from "@mantine/core";
 function Home() {
   let { t } = useTranslation();
 
-  t =  {
+  t = {
+    header: t("header", { returnObjects: true }),
     summary: t("summary", { returnObjects: true }),
     experience: t("experience", { returnObjects: true }),
+    education: t("education", { returnObjects: true }),
     skills: t("skills", { returnObjects: true }),
-  }
+    extracurricular: t("extracurricular", { returnObjects: true }),
+  };
 
   return (
     <>
@@ -36,7 +39,7 @@ function Home() {
 
       <Grid gutter="x" mt="sm" mb="lg">
         <Grid.Col>
-          <Header />
+          <Header header={t.header} />
         </Grid.Col>
       </Grid>
 
@@ -48,13 +51,13 @@ function Home() {
           <Experience experience={t.experience} />
         </Grid.Col>
         <Grid.Col>
-          <Education />
+          <Education education={t.education} />
         </Grid.Col>
         <Grid.Col>
-          <Skills skills={t.skills}/>
+          <Skills skills={t.skills} />
         </Grid.Col>
         <Grid.Col>
-          <Extracurricular />
+          <Extracurricular extracurricular={t.extracurricular} />
         </Grid.Col>
       </Grid>
     </>

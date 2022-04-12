@@ -1,27 +1,20 @@
-// i18n
-import { withTranslation } from "react-i18next";
-
 // Components [Atoms]
 import SectionTitle from "/src/Components/Atoms/Section/SectionTitle";
-import SectionAccordionItem from "/src/Components/Atoms/Section/SectionAccordionItem";
+import SectionItem from "/src/Components/Atoms/Section/SectionItem";
 
-// Utils
-
-function Education({ t }) {
-  const educationItems = t("education.items", { returnObjects: true });
-
-  const renderSectionAccordionItems = () => {
-    return educationItems.map((experience) => (
-      <SectionAccordionItem key={experience.id} item={experience} />
+function Education({ education }) {
+  const renderSectionItems = () => {
+    return education.items.map((education) => (
+      <SectionItem key={education.id} item={education} renderHeader />
     ));
   };
 
   return (
     <>
-      <SectionTitle>{t("education.section.title")}</SectionTitle>
-      {renderSectionAccordionItems()}
+      <SectionTitle>{education.section.title}</SectionTitle>
+      {renderSectionItems()}
     </>
   );
 }
 
-export default withTranslation()(Education);
+export default Education;

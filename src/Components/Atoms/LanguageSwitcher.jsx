@@ -1,4 +1,4 @@
-// React
+// React Hooks
 import { useState } from "react";
 
 // i18n

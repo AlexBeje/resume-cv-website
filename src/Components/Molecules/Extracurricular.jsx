@@ -1,23 +1,20 @@
-// i18n
-import { withTranslation } from "react-i18next";
-
 // Components [Atoms]
 import SectionTitle from "/src/Components/Atoms/Section/SectionTitle";
-import SectionAccordionItem from "/src/Components/Atoms/Section/SectionAccordionItem";
+import SectionItem from "/src/Components/Atoms/Section/SectionItem";
 
-function Extracurricular({ t }) {
-  const extracurricularItems = t("extracurricular.items", {
-    returnObjects: true,
-  });
-
+function Extracurricular({ extracurricular }) {
   return (
     <>
-      <SectionTitle>{t("extracurricular.section.title")}</SectionTitle>
-      {extracurricularItems.map((extracurricular) => (
-        <SectionAccordionItem key={extracurricular.id} item={extracurricular} />
+      <SectionTitle>{extracurricular.section.title}</SectionTitle>
+      {extracurricular.items.map((extracurricular) => (
+        <SectionItem
+          key={extracurricular.id}
+          item={extracurricular}
+          renderHeader
+        />
       ))}
     </>
   );
 }
 
-export default withTranslation()(Extracurricular);
+export default Extracurricular;

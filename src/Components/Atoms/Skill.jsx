@@ -1,6 +1,9 @@
 // React Hooks
 import { useState } from "react";
 
+// Components [Utils]
+import useMobile from "/src/Components/Utils/useMobile";
+
 // Mantine Components
 import {
   useMantineTheme,
@@ -11,31 +14,31 @@ import {
   List,
 } from "@mantine/core";
 
-// Mantine Hooks
-import { useViewportSize } from '@mantine/hooks';
-
 function Skill({ skill }) {
-  const {width} = useViewportSize();
   const theme = useMantineTheme();
+  const isMobile = useMobile();
 
-  console.log('👨‍🎤', width)
-  console.log('👂', theme.breakpoints.sm)
-
-  const transform = "unset";
-  const border = {
-    radiusLeft: {
-      borderRadius: ".25rem 0 0 .25rem",
-      transform,
-    },
-    radiusRight: {
-      borderRadius: "0 .25rem .25rem 0",
-      transform,
-    },
-    noRadius: {
-      borderRadius: "0",
-      transform,
-    },
+  const borderHOF = () => {
+    const transform = "unset";
+    return () => {
+      return {
+        radiusLeft: {
+          borderRadius: ".25rem 0 0 .25rem",
+          transform,
+        },
+        radiusRight: {
+          borderRadius: "0 .25rem .25rem 0",
+          transform,
+        },
+        noRadius: {
+          borderRadius: "0",
+          transform,
+        },
+      };
+    };
   };
+
+  const border = borderHOF()();
 
   const renderButtons = () => {
     return skill.blocks.map((block, id) => {
@@ -88,7 +91,7 @@ function Skill({ skill }) {
             ></Button>
           }
           width={320}
-          withArrow={width > theme.breakpoints.md}
+          withArrow={isMobile}
         >
           <Title order={3}>{block.title}</Title>
           <Space h="xs" />

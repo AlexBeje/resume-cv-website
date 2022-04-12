@@ -7,4 +7,3 @@
 - [Mantine](https://mantine.dev/)
 - [Tailwind](https://tailwindcss.com/docs/installation)
 - [React Icons](https://react-icons.github.io/react-icons/)
-- [usehooks-ts](https://usehooks-ts.com/)

@@ -5,7 +5,7 @@ import { ActionIcon, useMantineColorScheme } from "@mantine/core";
 import { useHotkeys } from "@mantine/hooks";
 
 // Icons
-import { Sun, MoonStars } from "tabler-icons-react";
+import * as Icons from "react-icons/ri";
 
 function ThemeSwitcher() {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
@@ -20,7 +20,7 @@ function ThemeSwitcher() {
       onClick={() => toggleColorScheme()}
       title="Use the shortcut Ctrl + J to toggle the theme"
     >
-      {dark ? <Sun size={18} /> : <MoonStars size={18} />}
+      {dark ? <Icons.RiSunLine /> : <Icons.RiMoonFill />}
     </ActionIcon>
   );
 }

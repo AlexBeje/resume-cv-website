@@ -1,5 +1,5 @@
 // Icons
-import * as Icons from "react-icons/ai";
+import * as Icons from "react-icons/ri";
 
 // Mantine Components
 import { Text } from "@mantine/core";
@@ -9,7 +9,11 @@ function Icon({ children, type }) {
     switch (type) {
       case "phone":
         return (
-          <Text component="a" underline href={`tel:${children}/`}>
+          <Text
+            component="a"
+            className={`hover:text-hover`}
+            href={`tel:${children}/`}
+          >
             {children}
           </Text>
         );
@@ -17,7 +21,7 @@ function Icon({ children, type }) {
         return (
           <Text
             component="a"
-            underline
+            className={`hover:text-hover`}
             href={`mailto:${children}/`}
             target="_blank"
           >
@@ -28,7 +32,7 @@ function Icon({ children, type }) {
         return (
           <Text
             component="a"
-            underline
+            className={`hover:text-hover`}
             href={`https://www.linkedin.com/in/${children}/ `}
             target="_blank"
           >
@@ -39,7 +43,7 @@ function Icon({ children, type }) {
         return (
           <Text
             component="a"
-            underline
+            className={`hover:text-hover`}
             href={`https://github.com/${children}`}
             target="_blank"
           >
@@ -53,10 +57,10 @@ function Icon({ children, type }) {
 
   return (
     <span className="flex gap-1">
-      {type === "phone" && <Icons.AiFillPhone className="h-full" />}
-      {type === "email" && <Icons.AiOutlineMail className="h-full" />}
-      {type === "linkedin" && <Icons.AiFillLinkedin className="h-full" />}
-      {type === "github" && <Icons.AiFillGithub className="h-full" />}
+      {type === "phone" && <Icons.RiPhoneFill className="h-full" />}
+      {type === "email" && <Icons.RiMailLine className="h-full" />}
+      {type === "linkedin" && <Icons.RiLinkedinBoxFill className="h-full" />}
+      {type === "github" && <Icons.RiGithubFill className="h-full" />}
       {renderChildren()}
     </span>
   );

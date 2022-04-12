@@ -1,5 +1,5 @@
 // React Icons
-import * as Icons from "react-icons/ai";
+import * as Icons from "react-icons/ri";
 
 // Mantine Components
 import { Text, Title, Accordion, Grid } from "@mantine/core";
@@ -7,7 +7,7 @@ import { Text, Title, Accordion, Grid } from "@mantine/core";
 // Mantine hooks
 import { useMantineTheme } from "@mantine/core";
 
-function SectionItem({ item }) {
+function SectionItem({ item, renderHeader }) {
   const theme = useMantineTheme();
   const dark = theme.colorScheme === "dark";
 
@@ -23,9 +23,9 @@ function SectionItem({ item }) {
           <span className={skill.mark && "text-primary"}>
             {skill.title}
             {skill.mark ? (
-              <Icons.AiOutlineLink className="ml-1 mb-[.1rem] align-text-bottom text-primary" />
+              <Icons.RiExternalLinkFill className="ml-1 mb-[.05rem] align-text-bottom text-primary" />
             ) : (
-              <Icons.AiOutlineLink className="ml-1 mb-[.1rem] align-text-bottom" />
+              <Icons.RiExternalLinkFill className="ml-1 mb-[.05rem] align-text-bottom" />
             )}
           </span>
         </Text>
@@ -62,13 +62,8 @@ function SectionItem({ item }) {
                       border-l-0
                       ${
                         dark
-                          ? "border-darkBorderGray"
-                          : "border-lightBorderGray"
-                      }
-                      ${
-                        dark
-                          ? "bg-darkBackgroundGray"
-                          : "bg-lightBackgroundGray"
+                          ? "bg-darkBackgroundGray border-darkBorderGray"
+                          : "bg-lightBackgroundGray border-lightBorderGray"
                       }
                   `}
             >
@@ -82,18 +77,20 @@ function SectionItem({ item }) {
 
   return (
     <Grid mt="sm" mb="sm" gutter="sm">
-      <Grid.Col
-        className="
+      {renderHeader && (
+        <Grid.Col
+          className="
           flex
           flex-col
           sm:flex-row
           sm:items-center
           sm:justify-between
         "
-      >
-        <Title order={2}> {item.title}</Title>
-        <Text size="sm">{item.date}</Text>
-      </Grid.Col>
+        >
+          <Title order={2}>{item.title}</Title>
+          <Text size="sm">{item.date}</Text>
+        </Grid.Col>
+      )}
       <Grid.Col>{renderCollapsedItems()}</Grid.Col>
     </Grid>
   );

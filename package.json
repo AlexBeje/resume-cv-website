@@ -10,16 +10,13 @@
   "dependencies": {
     "@mantine/core": "^4.1.0",
     "@mantine/hooks": "^4.1.0",
-    "@modulz/radix-icons": "^4.0.0",
     "babel-runtime": "^6.26.0",
     "i18next": "^21.6.13",
     "i18next-browser-languagedetector": "^6.1.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.15.5",
-    "react-icons": "^4.3.1",
-    "tabler-icons-react": "^1.43.0",
-    "usehooks-ts": "^2.4.2"
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",

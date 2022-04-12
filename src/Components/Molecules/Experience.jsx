@@ -1,17 +1,20 @@
 // Components [Atoms]
 import SectionTitle from "/src/Components/Atoms/Section/SectionTitle";
+import SectionItem from "/src/Components/Atoms/Section/SectionItem";
+
+// Components [Utils]
+import useMobile from "/src/Components/Utils/useMobile";
 
 // Mantine Components
-import { useMantineTheme, Timeline, Accordion } from "@mantine/core";
+import { Timeline } from "@mantine/core";
 
 import * as MdIcons from "react-icons/md";
 
 function Experience({ experience }) {
-  const theme = useMantineTheme();
-  const dark = theme.colorScheme === "dark";
+  const isMobile = useMobile();
 
   const renderExperienceTimeline = () => {
-    return (
+    return isMobile ? (
       <Timeline active={0} bulletSize={24} lineWidth={2}>
         {experience.items.map((experience, id) => (
           <Timeline.Item
@@ -32,44 +35,14 @@ function Experience({ experience }) {
             }
             key={id}
           >
-            <Accordion>
-              {experience.projects.map((project, id) => (
-                <Accordion.Item
-                  className="accordion__item"
-                  label={project.title}
-                  key={id}
-                >
-                  <div
-                    className={`
-                      border-solid
-                      border-t-[1px]
-                      border-r-0
-                      border-b-0
-                      border-l-0
-                      ${
-                        dark
-                          ? "border-darkBorderGray"
-                          : "border-lightBorderGray"
-                      }
-                      ${
-                        dark
-                          ? "bg-darkBackgroundGray"
-                          : "bg-lightBackgroundGray"
-                      }
-                    `}
-                  >
-                    <ul className="accordion__ul">
-                      {project.skills.map((skill, id) => (
-                        <li key={id}>{skill.title}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </Accordion.Item>
-              ))}
-            </Accordion>
+            <SectionItem key={id} item={experience} />
           </Timeline.Item>
         ))}
       </Timeline>
+    ) : (
+      experience.items.map((experience, id) => (
+        <SectionItem key={id} item={experience} renderHeader />
+      ))
     );
   };
 

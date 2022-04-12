@@ -18,8 +18,8 @@ import {
   useHotkeys
 } from "@mantine/hooks";
 
-// React Icons
-import { ArrowUpIcon } from "@modulz/radix-icons";
+// Icons
+import * as Icons from "react-icons/ri";
 
 function Theme({ children }) {
   const theme = useMantineTheme();
@@ -95,7 +95,7 @@ function Theme({ children }) {
                   onClick={() => scrollTo({ y: 0 })}
                   title="Use the shortcut Ctrl + I to go to the top of the page"
                 >
-                  <ArrowUpIcon />
+                  <Icons.RiArrowUpSLine />
                 </ActionIcon>
               )}
             </Transition>
