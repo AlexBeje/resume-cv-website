@@ -39,13 +39,21 @@ function LanguageSwticher() {
 
   const selectedController = (lang) => {
     if (lang === language) {
-      if (theme.colorScheme === "dark") {
-        return "bg-primary text-black";
-      } else {
-        return "bg-primary text-white";
-      }
+      return "bg-primary";
     } else {
       return "bg-[transparent]";
+    }
+  };
+
+  const handleTextColor = (lang) => {
+    if (lang === language) {
+      if (theme.colorScheme === "dark") {
+        return theme.white;
+      } else {
+        return theme.black;
+      }
+    } else {
+      return theme.primaryColor;
     }
   };
 
@@ -72,20 +80,22 @@ function LanguageSwticher() {
           <div className="h-2 w-[1px] bg-primary m-auto" />
           <div className="border-solid border-[1px] border-primary rounded-[2px]">
             <div
-              className={`text-primary w-full rounded-tl-[1px] rounded-tr-[1px] cursor-pointer  
+              className={`w-full rounded-tl-[1px] rounded-tr-[1px] cursor-pointer  
               ${hoverController("en")}
               ${selectedController("en")}`}
               onClick={() => handleChangeLanguage("en")}
             >
-              <Text size="sm">EN</Text>
+              <Text size="sm" color={handleTextColor("en")}>EN</Text>
             </div>
             <div
-              className={`text-primary w-full rounded-bl-[1px] rounded-br-[1px] cursor-pointer 
+              className={`w-full rounded-bl-[1px] rounded-br-[1px] cursor-pointer 
               ${hoverController("es")}
               ${selectedController("es")}`}
               onClick={() => handleChangeLanguage("es")}
             >
-              <Text size="sm">ES</Text>
+              <Text size="sm" color={handleTextColor("es")}>
+                ES
+              </Text>
             </div>
           </div>
         </Box>
