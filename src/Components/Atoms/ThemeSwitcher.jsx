@@ -5,7 +5,7 @@ import { ActionIcon, useMantineColorScheme } from "@mantine/core";
 import { useHotkeys } from "@mantine/hooks";
 
 // Icons
-import * as Icons from "react-icons/ri";
+import * as RiIcons from "react-icons/ri";
 
 function ThemeSwitcher() {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
@@ -18,9 +18,8 @@ function ThemeSwitcher() {
       variant="outline"
       color={dark ? "yellow" : "blue"}
       onClick={() => toggleColorScheme()}
-      title="Use the shortcut Ctrl + J to toggle the theme"
     >
-      {dark ? <Icons.RiSunLine /> : <Icons.RiMoonFill />}
+      {dark ? <RiIcons.RiSunLine /> : <RiIcons.RiMoonFill />}
     </ActionIcon>
   );
 }

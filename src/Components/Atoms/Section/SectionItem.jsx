@@ -1,5 +1,5 @@
 // React Icons
-import * as Icons from "react-icons/ri";
+import * as RiIcons from "react-icons/ri";
 
 // Mantine Components
 import { Text, Title, Accordion, Grid } from "@mantine/core";
@@ -23,9 +23,9 @@ function SectionItem({ item, renderHeader }) {
           <span className={skill.mark && "text-primary"}>
             {skill.title}
             {skill.mark ? (
-              <Icons.RiExternalLinkFill className="ml-1 mb-[.05rem] align-text-bottom text-primary" />
+              <RiIcons.RiExternalLinkFill className="ml-1 mb-[.05rem] align-text-bottom text-primary" />
             ) : (
-              <Icons.RiExternalLinkFill className="ml-1 mb-[.05rem] align-text-bottom" />
+              <RiIcons.RiExternalLinkFill className="ml-1 mb-[.05rem] align-text-bottom" />
             )}
           </span>
         </Text>

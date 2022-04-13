@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 // Components [Atoms]
 import ThemeSwitcher from "/src/Components/Atoms/ThemeSwitcher";
 import LanguageSwitcher from "/src/Components/Atoms/LanguageSwitcher";
+import KeyboardShortcuts from "/src/Components/Atoms/KeyboardShortcuts";
 
 // Components [Molecules]
 import Header from "/src/Components/Molecules/Header/Header";
@@ -33,7 +34,14 @@ function Home() {
       <Grid gutter="x">
         <Grid.Col className="flex justify-between">
           <ThemeSwitcher />
-          <LanguageSwitcher />
+          <Grid gutter="xs">
+            <Grid.Col className="flex-1">
+              {/* <KeyboardShortcuts /> */}
+            </Grid.Col>
+            <Grid.Col className="flex-1">
+              <LanguageSwitcher />
+            </Grid.Col>
+          </Grid>
         </Grid.Col>
       </Grid>
 

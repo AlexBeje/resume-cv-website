@@ -78,7 +78,9 @@ function Skill({ skill }) {
           }}
           target={
             <Button
-              onClick={() => setOpened((m) => block.descriptions && !m)}
+              onClick={() =>
+                setOpened(() => block.descriptions && !opened)
+              }
               fullWidth
               variant={block.descriptions ? "filled" : "light"}
               style={

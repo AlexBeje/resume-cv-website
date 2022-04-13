@@ -1,5 +1,5 @@
 // Icons
-import * as Icons from "react-icons/ri";
+import * as RiIcons from "react-icons/ri";
 
 // Mantine Components
 import { Text } from "@mantine/core";
@@ -57,10 +57,10 @@ function Icon({ children, type }) {
 
   return (
     <span className="flex gap-1">
-      {type === "phone" && <Icons.RiPhoneFill className="h-full" />}
-      {type === "email" && <Icons.RiMailLine className="h-full" />}
-      {type === "linkedin" && <Icons.RiLinkedinBoxFill className="h-full" />}
-      {type === "github" && <Icons.RiGithubFill className="h-full" />}
+      {type === "phone" && <RiIcons.RiPhoneFill className="h-full" />}
+      {type === "email" && <RiIcons.RiMailLine className="h-full" />}
+      {type === "linkedin" && <RiIcons.RiLinkedinBoxFill className="h-full" />}
+      {type === "github" && <RiIcons.RiGithubFill className="h-full" />}
       {renderChildren()}
     </span>
   );
