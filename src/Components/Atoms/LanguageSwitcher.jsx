@@ -48,9 +48,9 @@ function LanguageSwticher() {
   const handleTextColor = (lang) => {
     if (lang === language) {
       if (theme.colorScheme === "dark") {
-        return theme.white;
-      } else {
         return theme.black;
+      } else {
+        return theme.white;
       }
     } else {
       return theme.primaryColor;
