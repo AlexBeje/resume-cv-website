@@ -62,7 +62,7 @@ function LanguageSwticher() {
   ]);
 
   return (
-    <>
+    <Box component="div" ref={refBox}>
       <ActionIcon
         variant="outline"
         color={theme.primaryColor}
@@ -72,11 +72,7 @@ function LanguageSwticher() {
         <RiIcons.RiEarthLine />
       </ActionIcon>
       {opened && (
-        <Box
-          component="div"
-          ref={refBox}
-          className="absolute w-[28px] text-center"
-        >
+        <Box component="div" className="absolute w-[28px] text-center">
           <div className="h-2 w-[1px] bg-primary m-auto" />
           <div className="border-solid border-[1px] border-primary rounded-[2px]">
             <div
@@ -85,7 +81,9 @@ function LanguageSwticher() {
               ${selectedController("en")}`}
               onClick={() => handleChangeLanguage("en")}
             >
-              <Text size="sm" color={handleTextColor("en")}>EN</Text>
+              <Text size="sm" color={handleTextColor("en")}>
+                EN
+              </Text>
             </div>
             <div
               className={`w-full rounded-bl-[1px] rounded-br-[1px] cursor-pointer 
@@ -100,7 +98,7 @@ function LanguageSwticher() {
           </div>
         </Box>
       )}
-    </>
+    </Box>
   );
 }
 
