@@ -55,7 +55,7 @@ function Skill({ skill }) {
               background:
                 theme.colorScheme === "dark"
                   ? theme.colors.dark[4]
-                  : theme.colors.gray[1],
+                  : theme.white,
               borderColor:
                 theme.colorScheme === "dark"
                   ? theme.colors.gray[7]
@@ -69,7 +69,7 @@ function Skill({ skill }) {
               background:
                 theme.colorScheme === "dark"
                   ? theme.colors.dark[4]
-                  : theme.colors.gray[1],
+                  : theme.white,
               borderColor:
                 theme.colorScheme === "dark"
                   ? theme.colors.gray[7]
