@@ -32,6 +32,25 @@ function KeyboardShortcuts({ keyboardShortcuts }) {
     setScrollLocked(!scrollLocked);
   };
 
+  const renderOS = () => {
+    switch (os) {
+      case "macos":
+        return "MacOS";
+      case "ios":
+        return "iOS";
+      case "android":
+        return "Android";
+      case "linux":
+        return "Linux";
+      default:
+        return "Windows";
+    }
+  };
+
+  const renderOsKey = () => {
+    return os === "macos" || os === "ios" ? <Kbd>⌘</Kbd> : <Kbd>Ctrl</Kbd>;
+  };
+
   useHotkeys([["escape", () => setOpened(false)]]);
 
   return (
@@ -90,7 +109,7 @@ function KeyboardShortcuts({ keyboardShortcuts }) {
                 {keyboardShortcuts.operatingSystem}:
               </Text>
               <Text component="span" color={theme.primaryColor}>
-                {os === "macos" ? "MacOS" : "Widnows"}
+                {renderOS()}
               </Text>
             </Box>
             <Divider label={keyboardShortcuts.labels[0]} />
@@ -99,9 +118,11 @@ function KeyboardShortcuts({ keyboardShortcuts }) {
               className="flex justify-between items-center"
               mb="sm"
             >
-              <Text component="strong">{keyboardShortcuts.shortcuts[0]}</Text>
-              <Box component="div">
-                {os === "macos" ? <Kbd>⌘</Kbd> : <Kbd>Ctrl</Kbd>} + <Kbd>J</Kbd>
+              <Text component="strong" className="flex-1">
+                {keyboardShortcuts.shortcuts[0]}
+              </Text>
+              <Box component="div" className="flex-1 max-w-fit ml-2">
+                {renderOsKey()} + <Kbd>J</Kbd>
               </Box>
             </Box>
             <Divider label={keyboardShortcuts.labels[1]} />
@@ -110,9 +131,11 @@ function KeyboardShortcuts({ keyboardShortcuts }) {
               className="flex justify-between items-center"
               mb="sm"
             >
-              <Text component="strong">{keyboardShortcuts.shortcuts[1]}</Text>
-              <Box component="div">
-                {os === "macos" ? <Kbd>⌘</Kbd> : <Kbd>Ctrl</Kbd>} + <Kbd>K</Kbd>
+              <Text component="strong" className="flex-1">
+                {keyboardShortcuts.shortcuts[1]}
+              </Text>
+              <Box component="div" className="flex-1 max-w-fit ml-2">
+                {renderOsKey()} + <Kbd>K</Kbd>
               </Box>
             </Box>
             <Divider label={keyboardShortcuts.labels[2]} />
@@ -121,9 +144,11 @@ function KeyboardShortcuts({ keyboardShortcuts }) {
               className="flex justify-between items-center"
               mb="sm"
             >
-              <Text component="strong">{keyboardShortcuts.shortcuts[2]}</Text>
-              <Box component="div">
-                {os === "macos" ? <Kbd>⌘</Kbd> : <Kbd>Ctrl</Kbd>} + <Kbd>I</Kbd>
+              <Text component="strong" className="flex-1">
+                {keyboardShortcuts.shortcuts[2]}
+              </Text>
+              <Box component="div" className="flex-1 max-w-fit ml-2">
+                {renderOsKey()} + <Kbd>I</Kbd>
               </Box>
             </Box>
             <Center mt="lg">

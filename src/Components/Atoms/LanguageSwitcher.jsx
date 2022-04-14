@@ -41,7 +41,11 @@ function LanguageSwticher() {
     if (lang === language) {
       return "bg-primary";
     } else {
-      return "bg-[transparent]";
+      if (theme.colorScheme === "dark") {
+        return "bg-dark";
+      } else {
+        return "bg-white";
+      }
     }
   };
 
