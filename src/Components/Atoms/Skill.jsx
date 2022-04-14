@@ -54,11 +54,11 @@ function Skill({ skill }) {
             body: {
               background:
                 theme.colorScheme === "dark"
-                  ? theme.colors.dark[4]
+                  ? theme.colors.dark[7]
                   : theme.white,
               borderColor:
                 theme.colorScheme === "dark"
-                  ? theme.colors.gray[7]
+                  ? theme.colors.dark[5]
                   : theme.colors.gray[3],
               color:
                 theme.colorScheme === "dark"
@@ -68,11 +68,11 @@ function Skill({ skill }) {
             arrow: {
               background:
                 theme.colorScheme === "dark"
-                  ? theme.colors.dark[4]
+                  ? theme.colors.dark[7]
                   : theme.white,
               borderColor:
                 theme.colorScheme === "dark"
-                  ? theme.colors.gray[7]
+                  ? theme.colors.dark[5]
                   : theme.colors.gray[3],
             },
           }}
