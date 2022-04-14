@@ -1,5 +1,5 @@
 // React Hooks
-import { useState, useRef } from "react";
+import { useState, useEffect } from "react";
 
 // i18n
 import { useTranslation } from "react-i18next";
@@ -36,6 +36,12 @@ function LanguageSwticher() {
       }
     }
   };
+
+  useEffect(() => {
+    language !== "es" && changeLanguage("en");
+    selectedController(language);
+  }, [])
+  
 
   const selectedController = (lang) => {
     if (lang === language) {
