@@ -21,6 +21,9 @@ function Home() {
   let { t } = useTranslation();
 
   t = {
+    keyboardShortcuts: t("keyboardShortcuts", {
+      returnObjects: true,
+    }),
     header: t("header", { returnObjects: true }),
     summary: t("summary", { returnObjects: true }),
     experience: t("experience", { returnObjects: true }),
@@ -36,7 +39,9 @@ function Home() {
           <ThemeSwitcher />
           <Grid gutter="xs">
             <Grid.Col className="flex-1">
-              {/* <KeyboardShortcuts /> */}
+              <KeyboardShortcuts
+                keyboardShortcuts={t.keyboardShortcuts}
+              />
             </Grid.Col>
             <Grid.Col className="flex-1">
               <LanguageSwitcher />

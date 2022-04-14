@@ -1,4 +1,18 @@
 {
+  "keyboardShortcuts": {
+    "title": "Atajos de Teclado",
+    "operatingSystem": "Sistema operativo",
+    "labels": [
+      "Atajos del tema",
+      "Atajos del lenguaje",
+      "Atajos de la navegación"
+    ],
+    "shortcuts": [
+      "Cambiar el Tema",
+      "Cambiar el Lenguaje",
+      "Abrir el Menú"
+    ]
+  },
   "header": {
     "name": "Alexandru",
     "surnames": "Bejenaru",

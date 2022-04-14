@@ -61,6 +61,8 @@ function LanguageSwticher() {
     ["mod+K", () => handleChangeLanguage(language === "es" ? "en" : "es")],
   ]);
 
+  useHotkeys([["escape", () => setOpened(false)]]);
+
   return (
     <Box component="div" ref={refBox}>
       <ActionIcon

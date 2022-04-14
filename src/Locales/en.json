@@ -1,4 +1,18 @@
 {
+  "keyboardShortcuts": {
+    "title": "Keyboard Shortcuts",
+    "operatingSystem": "Operating System",
+    "labels": [
+      "Theme Shortcuts",
+      "Language Shortcuts",
+      "Navigation Shortcuts"
+    ],
+    "shortcuts": [
+      "Toggle theme",
+      "Cambiar idioma a inglés",
+      "Ir al principio de la página"
+    ]
+  },
   "header": {
     "name": "Alexandru",
     "surnames": "Bejenaru",
