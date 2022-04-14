@@ -128,7 +128,7 @@ function KeyboardShortcuts({ keyboardShortcuts }) {
             </Box>
             <Center mt="lg">
               <Button variant="filled" onClick={toggleKeyboardModal}>
-                Done
+                {keyboardShortcuts.done}
               </Button>
             </Center>
           </Box>
