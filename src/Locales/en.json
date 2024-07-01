@@ -2,11 +2,7 @@
   "keyboardShortcuts": {
     "title": "Keyboard Shortcuts",
     "operatingSystem": "Operating System",
-    "labels": [
-      "Theme Shortcuts",
-      "Language Shortcuts",
-      "Navigation Shortcuts"
-    ],
+    "labels": ["Theme Shortcuts", "Language Shortcuts", "Navigation Shortcuts"],
     "shortcuts": [
       "Toggle theme",
       "Toggle spanish language",
@@ -27,7 +23,7 @@
     "section": {
       "title": "Summary"
     },
-    "content": "Web application developer with more than 5 years of experience working with agile technologies to deliver the best quality products. Diplomatic, friendly and expert in handling delicate situations. Highly organized, motivated and competent with the new technologies. Degree in Digital Interaction and Multimedia"
+    "content": "Web application developer with more than 7 years of experience working with agile technologies to deliver the best quality products. Diplomatic, friendly and expert in handling delicate situations. Highly organized, motivated and competent with the new technologies. Degree in Digital Interaction and Multimedia"
   },
   "experience": {
     "section": {
@@ -35,11 +31,43 @@
     },
     "items": [
       {
-        "title": "Accenture PLC",
-        "date": "Jun. 2021 - Present",
+        "id": "1",
+        "title": "Opendit",
+        "date": "Apr. 2023 - May. 2024",
         "projects": [
           {
-            "title": "New Zurich Area (Vue & Jest)",
+            "id": "1",
+            "title": "Pairing portal (Nux3 & Vue Test Utils)",
+            "skills": [
+              {
+                "title": "As a Frontend developer, I used Nuxt 3 framework with Vue 3 composition API."
+              },
+              {
+                "title": "The code has been typed using the Typescript language."
+              },
+              {
+                "title": "Element UI library was used as the design system, together with Figma for wireframing."
+              },
+              {
+                "title": "Tailwind was used to style of the app."
+              },
+              {
+                "title": "The components have been tested using Jest with Vue Test Utils library."
+              },
+              {
+                "title": "We worked in an friendly Agile environment with 2 weeks Sprints and kept track of the task using Notion."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Accenture PLC",
+        "date": "Jun. 2021 - Apr. 2023",
+        "projects": [
+          {
+            "id": "2",
+            "title": "New Zurich Area (Vue2 & Jest)",
             "skills": [
               {
                 "title": "I have been part of the Front team in the implementation of the new Zurich customer portal."
@@ -74,7 +102,8 @@
             ]
           },
           {
-            "title": "Web Component (Vue & Jest)",
+            "id": "2",
+            "title": "Web Component (Vue2 & Jest)",
             "skills": [
               {
                 "title": "As Design Lead, my main tasks in the project have been the complete redesign of the policy contracting application called Zurich Web Component for Volkswagen, the adaptation of the component to the branding of Volkswagen (Seat, Skoda, Audi), and the adaptation of the component to the Zurich agents."
@@ -186,135 +215,6 @@
       }
     ]
   },
-  "skills": {
-    "section": {
-      "title": "Skills"
-    },
-    "skill": [
-      {
-        "id": "1",
-        "title": "Javascript",
-        "blocks": [
-          {
-            "id": "1",
-            "title": "LEVEL 1",
-            "descriptions": [
-              "Knowledge of the Javascript Engine, Runtime and JIT Compiler.",
-              "Knowledge of concepts such as Call Stack, Stack Overflow, Execution Context and Lexical Environment."
-            ]
-          },
-          {
-            "id": "2",
-            "title": "LEVEL 2",
-            "descriptions": [
-              "Master concepts such as Chain Scope, Hoisting, Function Scope and Block Scope, know the difference between Dynamic and Lexical Scope.",
-              "Good understandig of Javascript data types (primitives, objects, functions), know what a Function Closures is, and what Type Coercion means.",
-              "Knowladge that Javascript is a being static language and dynamically typed."
-            ]
-          },
-          {
-            "id": "3",
-            "title": "LEVEL 3",
-            "descriptions": [
-              "Knowledge about OOP and Functional Programming.",
-              "Knowledge about the word this and new.",
-              "ES6 concepts (arrow functions, let and const, destructuring , etc.).",
-              "Understand what Web APIs are, how to create and implement them."
-            ]
-          },
-          {
-            "id": "4",
-            "title": "LEVEL 4",
-            "descriptions": [
-              "Advanced knowledge of functional programming or object oriented programming using the three major frameworks (React, Angular, Vue).",
-              "Knowledge of WebPack, know how to start and configure an application from scratch (configuration of package.json, i18n, CI, vite, vercel, etc.).",
-              "Know how to type the code using the Typescript language.",
-              "Create clean and performance-based code from the Javascript Engine.",
-              "Knowledge of Node.js with Express."
-            ]
-          },
-          {
-            "id": "5"
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "title": "CSS",
-        "blocks": [
-          {
-            "id": "1",
-            "title": "LEVEL 1",
-            "descriptions": [
-              "Know what the Box Model is for the Selectors and what the CSS C word (cascade) means."
-            ]
-          },
-          {
-            "id": "2",
-            "title": "LEVEL 2",
-            "type": "primary",
-            "descriptions": [
-              "Understand the concepts of Specificity, Inheritance Spacing and know how to create a Layout using Flexbox."
-            ]
-          },
-          {
-            "id": "3",
-            "title": "LEVEL 3",
-            "descriptions": [
-              "Know the different types of Sizing Units know the difference between Pseudo-elements and Pseudo-classes, as well as be able to put them into practice.",
-              "Knowledge about Gradients, the SCSS processing language and the BEM methodology"
-            ]
-          },
-          {
-            "id": "4",
-            "title": "LEVEL 4",
-            "descriptions": [
-              "Knowledge about the design of a Layout using the Grid.",
-              "Knowledge about Animations and handling of css frameworks Tailwind CSS, Styled Components.",
-              "Knowledge of Bootstrap componentized frameworks, Material UI, Element UI, Mantis, etc."
-            ]
-          },
-          {
-            "id": "5"
-          }
-        ]
-      },
-      {
-        "id": "3",
-        "title": "Design",
-        "blocks": [
-          {
-            "id": "1",
-            "title": "LEVEL 1",
-            "descriptions": [
-              "Know the basic concepts of design such as Color, which is a Line, Shape, and what Typography is."
-            ]
-          },
-          {
-            "id": "2",
-            "title": "LEVEL 2",
-            "descriptions": [
-              "Keep in mind the design principles: Emphasis, Balance and alignment, Contrast, Repetition, Proportion , Movement, White Space."
-            ]
-          },
-          {
-            "id": "3",
-            "title": "LEVEL 3",
-            "descriptions": [
-              "Understand the difference between UX and UI. Know how to carry out an Investigation to do a Research.",
-              "Create Wireframes in Figma using a design system and dynamic components."
-            ]
-          },
-          {
-            "id": "4"
-          },
-          {
-            "id": "5"
-          }
-        ]
-      }
-    ]
-  },
   "education": {
     "section": {
       "title": "Education"
@@ -322,7 +222,7 @@
     "items": [
       {
         "id": "1",
-        "title": "UOC (Open University of Catalonia)",
+        "title": "UOC",
         "date": "Sep. 2018 - Present",
         "projects": [
           {
@@ -351,7 +251,7 @@
       {
         "id": "2",
         "title": "IES Caparella",
-        "date": "Sep. 2008 - Jun. 2012",
+        "date": "Sep. 2012 - Jun. 2015",
         "projects": [
           {
             "id": "1",
@@ -375,6 +275,225 @@
       }
     ]
   },
+  "skills": {
+    "section": {
+      "title": "Habilidades"
+    },
+    "skill": [
+      {
+        "id": "1",
+        "title": "Typescipt",
+        "blocks": [
+          {
+            "id": "1",
+            "title": "NIVEL 1",
+            "filled": true
+          },
+          {
+            "id": "2",
+            "title": "NIVEL 2",
+            "filled": true
+          },
+          {
+            "id": "3",
+            "title": "NIVEL 3",
+            "filled": true
+          },
+          {
+            "id": "4",
+            "title": "NIVEL 4",
+            "filled": true
+          },
+          {
+            "id": "5",
+            "title": "LEVEL 5",
+            "filled": true
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Vue (2 & 3)",
+        "blocks": [
+          {
+            "id": "1",
+            "title": "NIVEL 1",
+            "filled": true
+          },
+          {
+            "id": "2",
+            "title": "NIVEL 2",
+            "filled": true
+          },
+          {
+            "id": "3",
+            "title": "NIVEL 3",
+            "filled": true
+          },
+          {
+            "id": "4",
+            "title": "NIVEL 4",
+            "filled": true
+          },
+          {
+            "id": "5",
+            "title": "LEVEL 5",
+            "filled": false
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Angular 2 (v18)",
+        "blocks": [
+          {
+            "id": "1",
+            "title": "NIVEL 1",
+            "filled": true
+          },
+          {
+            "id": "2",
+            "title": "NIVEL 2",
+            "filled": true
+          },
+          {
+            "id": "3",
+            "title": "NIVEL 3",
+            "filled": true
+          },
+          {
+            "id": "4",
+            "title": "NIVEL 4",
+            "filled": false
+          },
+          {
+            "id": "5",
+            "title": "LEVEL 5",
+            "filled": false
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "React",
+        "blocks": [
+          {
+            "id": "1",
+            "title": "NIVEL 1",
+            "filled": true
+          },
+          {
+            "id": "2",
+            "title": "NIVEL 2",
+            "filled": true
+          },
+          {
+            "id": "3",
+            "title": "NIVEL 3",
+            "filled": false
+          },
+          {
+            "id": "4",
+            "title": "NIVEL 4",
+            "filled": false
+          },
+          {
+            "id": "5",
+            "title": "LEVEL 5",
+            "filled": false
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Jest",
+        "blocks": [
+          {
+            "id": "1",
+            "title": "NIVEL 1",
+            "filled": true
+          },
+          {
+            "id": "2",
+            "title": "NIVEL 2",
+            "filled": true
+          },
+          {
+            "id": "3",
+            "title": "NIVEL 3",
+            "filled": true
+          },
+          {
+            "id": "4",
+            "title": "NIVEL 4",
+            "filled": false
+          },
+          {
+            "id": "5",
+            "title": "LEVEL 5",
+            "filled": false
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "title": "SCSS / Tailwind",
+        "blocks": [
+          {
+            "id": "1",
+            "title": "NIVEL 1",
+            "filled": true
+          },
+          {
+            "id": "2",
+            "title": "NIVEL 2",
+            "filled": true
+          },
+          {
+            "id": "3",
+            "title": "NIVEL 3",
+            "filled": true
+          },
+          {
+            "id": "4",
+            "title": "NIVEL 4",
+            "filled": true
+          },
+          {
+            "id": "5",
+            "title": "LEVEL 5",
+            "filled": true
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Figma",
+        "blocks": [
+          {
+            "id": "1",
+            "filled": true
+          },
+          {
+            "id": "2",
+            "filled": true
+          },
+          {
+            "id": "3",
+            "filled": true
+          },
+          {
+            "id": "4",
+            "filled": true
+          },
+          {
+            "id": "5",
+            "filled": false
+          }
+        ]
+      }
+    ]
+  },
   "extracurricular": {
     "section": {
       "title": "Extracurricular"
@@ -389,9 +508,8 @@
             "title": "Web Development",
             "skills": [
               {
-                "title": "Currently studying: JavaScript: The Advanced Concepts (2022 Update)",
-                "link": "https://www.udemy.com/course/advanced-javascript-concepts/",
-                "mark": "true"
+                "title": "JavaScript: The Advanced Concepts (2022 Update)",
+                "link": "https://www.udemy.com/course/advanced-javascript-concepts/"
               },
               {
                 "title": "The Complete Node.js Developer Course (3rd Edition)",
@@ -466,9 +584,8 @@
             "title": "React",
             "skills": [
               {
-                "title": "Currently working on: resume-cv-website",
-                "link": "https://github.com/AlexBeje/resume-cv-website",
-                "mark": "true"
+                "title": "resume-cv-website",
+                "link": "https://github.com/AlexBeje/resume-cv-website"
               },
               {
                 "title": "pomodoro",

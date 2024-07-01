@@ -42,13 +42,13 @@ function Skill({ skill }) {
 
   const renderButtons = () => {
     return skill.blocks.map((block, id) => {
-      const [opened, setOpened] = useState(false);
+      // const [opened, setOpened] = useState(false);
       return (
         <Popover
           className="flex-1"
           key={id}
-          onClose={() => setOpened(false)}
-          opened={opened}
+          // onClose={() => setOpened(false)}
+          // opened={opened}
           position="top"
           styles={{
             body: {
@@ -78,11 +78,11 @@ function Skill({ skill }) {
           }}
           target={
             <Button
-              onClick={() =>
-                setOpened(() => block.descriptions && !opened)
-              }
+              // onClick={() =>
+              //   setOpened(() => block.descriptions && !opened)
+              // }
               fullWidth
-              variant={block.descriptions ? "filled" : "light"}
+              variant={block.filled ? "filled" : "light"}
               style={
                 (id === 0 && border.radiusLeft) ||
                 (id === 1 && border.noRadius) ||
@@ -110,7 +110,7 @@ function Skill({ skill }) {
 
   return (
     <div className="flex flex-col sm:flex-row sm:items-center">
-      <h3 className="sm:w-36">{skill.title}</h3>
+      <h3 className="sm:w-48">{skill.title}</h3>
       <div className="w-full flex">{renderButtons()}</div>
     </div>
   );
